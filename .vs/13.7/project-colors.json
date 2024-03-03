@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7f15f562-0b14-4660-a065-406bb47b44db": {
+      "ProjectGuid": "7f15f562-0b14-4660-a065-406bb47b44db",
+      "DisplayName": "STM",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

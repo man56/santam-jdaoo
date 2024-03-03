@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Sample TestingSampleType="Tension/Compression" SampleId="" SampleGS="9.389" SampleGP="-0.271" Type="Circular" Dim1="10" Dim2="" Dim3="" Area="78.53982" />
+  <GetTestParameters TestMethodType="Step" CurrentPostions="28.3" TestStopType="Force" TestStopValue="-19613.300057277702">
+    <Step Ctrl="Extension" Rate="75" Unit="mm/min" LimitType="Force" Limit="-1.9613300057277703" LUnit="Kgf" Action="None" FA="True" FV="0.0" FU="Kgf" EA="False" EV="27" EU="mm" />
+    <Step Ctrl="Extension" Rate="10" Unit="mm/min" LimitType="Force" Limit="-19.6133000572777" LUnit="Kgf" Action="None" FA="False" FV="0.0" FU="Kgf" EA="False" EV="0.0" EU="mm" />
+    <Step Ctrl="Extension" Rate="10" Unit="mm/min" LimitType="Strain" Limit="-0.5" LUnit="%" Action="None" FA="False" FV="0.0" FU="Kgf" EA="True" EV="0.0" EU="mm" />
+    <Step Ctrl="Extension" Rate="1000" Unit="mm/min" LimitType="Extension" Limit="100" LUnit="mm" Action="None" FA="False" FV="0.0" FU="Kgf" EA="False" EV="0" EU="mm" />
+  </GetTestParameters>
+  <HardwareParams Kep="300" Kei="0.1" Ked="0" Etorelance=".1" Ksi="0" Ksp="150" Ksd="0" Storelance="0.001" Kfi=".5" Kfp="20" Kfd="0" Ftorelance="0.01" />
+  <Diagram X="Extension" Y="Force" StartScale="True" MaxX="0.05" MaxY="0.05" ReportFilePath="" />
+</root>

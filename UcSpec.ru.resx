@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbMethodBody.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 18</value>
+  </data>
+  <data name="lbMethodBody.Text" xml:space="preserve">
+    <value>Режим Испытания:</value>
+  </data>
+  <data name="lbGl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 154</value>
+  </data>
+  <data name="lbGl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbGl.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbGs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 124</value>
+  </data>
+  <data name="lbGs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbGs.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 124</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 18</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Расчетная длина:</value>
+  </data>
+  <data name="lbNote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 154</value>
+  </data>
+  <data name="lbNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 47</value>
+  </data>
+  <data name="lbNote.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 154</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 18</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Примечание:</value>
+  </data>
+  <data name="lbDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 124</value>
+  </data>
+  <data name="lbDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbDate.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbDims.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 94</value>
+  </data>
+  <data name="lbDims.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbDims.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 4</value>
+  </data>
+  <data name="lbMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbMode.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 94</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 18</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Размеры образца:</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 4</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 18</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Идентификатор образца:</value>
+  </data>
+  <data name="lbCr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 94</value>
+  </data>
+  <data name="lbCr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbCr.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbSpecimenId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 4</value>
+  </data>
+  <data name="lbSpecimenId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbSpecimenId.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbSpecimenArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 64</value>
+  </data>
+  <data name="lbSpecimenArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbSpecimenArea.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbTestName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 34</value>
+  </data>
+  <data name="lbTestName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbTestName.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 64</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 18</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Площадь образца:</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 34</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 18</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Тип образца:</value>
+  </data>
+  <data name="lbOp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 64</value>
+  </data>
+  <data name="lbOp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbOp.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbSpecimenType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 34</value>
+  </data>
+  <data name="lbSpecimenType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbSpecimenType.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 18</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Имя Испытания:</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Оператор:</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Заказчик:</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 18</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Дата:</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 18</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Длина захвата:</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Образец и информация</value>
+  </data>
+  <data name="lbV12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 154</value>
+  </data>
+  <data name="lbV12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV12.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbP12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 154</value>
+  </data>
+  <data name="lbP12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 18</value>
+  </data>
+  <data name="lbP12.Text" xml:space="preserve">
+    <value>Длина захвата:</value>
+  </data>
+  <data name="lbV10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 124</value>
+  </data>
+  <data name="lbV10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV10.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbP10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 124</value>
+  </data>
+  <data name="lbP10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 18</value>
+  </data>
+  <data name="lbP10.Text" xml:space="preserve">
+    <value>Расчетная длина:</value>
+  </data>
+  <data name="lbV13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 184</value>
+  </data>
+  <data name="lbV13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV13.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbP13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 18</value>
+  </data>
+  <data name="lbP13.Text" xml:space="preserve">
+    <value>Примечание:</value>
+  </data>
+  <data name="lbP9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 18</value>
+  </data>
+  <data name="lbP9.Text" xml:space="preserve">
+    <value>Дата:</value>
+  </data>
+  <data name="lbV9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 124</value>
+  </data>
+  <data name="lbV9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV9.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbV11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 154</value>
+  </data>
+  <data name="lbV11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV11.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbP11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 18</value>
+  </data>
+  <data name="lbP11.Text" xml:space="preserve">
+    <value>Время:</value>
+  </data>
+  <data name="lbV8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 94</value>
+  </data>
+  <data name="lbV8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV8.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbV1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 4</value>
+  </data>
+  <data name="lbV1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV1.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbP8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 94</value>
+  </data>
+  <data name="lbP8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 18</value>
+  </data>
+  <data name="lbP8.Text" xml:space="preserve">
+    <value>Размеры образца:</value>
+  </data>
+  <data name="lbP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 4</value>
+  </data>
+  <data name="lbP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 18</value>
+  </data>
+  <data name="lbP2.Text" xml:space="preserve">
+    <value>Название/Код образца:</value>
+  </data>
+  <data name="lbV7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 94</value>
+  </data>
+  <data name="lbV7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV7.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbV2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 4</value>
+  </data>
+  <data name="lbV2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV2.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbP7.Text" xml:space="preserve">
+    <value>Заказчик:</value>
+  </data>
+  <data name="lbP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 18</value>
+  </data>
+  <data name="lbP3.Text" xml:space="preserve">
+    <value>Имя Испытания:</value>
+  </data>
+  <data name="lbV6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 64</value>
+  </data>
+  <data name="lbV6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV6.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbV3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 34</value>
+  </data>
+  <data name="lbV3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV3.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbP6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 64</value>
+  </data>
+  <data name="lbP6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 18</value>
+  </data>
+  <data name="lbP6.Text" xml:space="preserve">
+    <value>Площадь образца:</value>
+  </data>
+  <data name="lbP4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 34</value>
+  </data>
+  <data name="lbP4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 18</value>
+  </data>
+  <data name="lbP4.Text" xml:space="preserve">
+    <value>Тип образца:</value>
+  </data>
+  <data name="lbV5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 64</value>
+  </data>
+  <data name="lbV5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV5.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbV4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 34</value>
+  </data>
+  <data name="lbV4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 18</value>
+  </data>
+  <data name="lbV4.Text" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="lbP5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="lbP5.Text" xml:space="preserve">
+    <value>Оператор:</value>
+  </data>
+  <data name="lbP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 18</value>
+  </data>
+  <data name="lbP1.Text" xml:space="preserve">
+    <value>Режим Испытания:</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Метод</value>
+  </data>
+</root>

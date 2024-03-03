@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <TableColumns>
+    <col PointType="Break" PointProperty="Time" Name="Break" Label="Time" StepOrCycle="1" Attribute1="n/a" Attribute2="n/a" Attribute3="n/a" Formula="n/a" ExpectedRangeA="n/a" ExpectedRangeB="n/a" ResultYellowRangeA="n/a" ResultYellowRangeB="n/a" ResultRedRangeA="n/a" ResultRedRangeB="n/a" EnableAnalysing="false" />
+  </TableColumns>
+</root>

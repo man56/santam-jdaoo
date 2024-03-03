@@ -1,0 +1,2160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="llSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 18</value>
+  </data>
+  <data name="llSample.Text" xml:space="preserve">
+    <value>Образец</value>
+  </data>
+  <data name="llInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 18</value>
+  </data>
+  <data name="llInformation.Text" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="llMethod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 18</value>
+  </data>
+  <data name="llMethod.Text" xml:space="preserve">
+    <value>Метод</value>
+  </data>
+  <data name="llExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 362</value>
+  </data>
+  <data name="llExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 18</value>
+  </data>
+  <data name="llExport.Text" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="panelNavigation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 486</value>
+  </data>
+  <data name="llStopCondition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 18</value>
+  </data>
+  <data name="llStopCondition.Text" xml:space="preserve">
+    <value>Конечное условие</value>
+  </data>
+  <data name="llcancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 18</value>
+  </data>
+  <data name="llcancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="llSaveDefulat.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="llSaveDefulat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 285</value>
+  </data>
+  <data name="llSaveDefulat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 50</value>
+  </data>
+  <data name="llSaveDefulat.Text" xml:space="preserve">
+    <value>Сохранить испытание по умолч.</value>
+  </data>
+  <data name="llCtr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 18</value>
+  </data>
+  <data name="llCtr.Text" xml:space="preserve">
+    <value>Контроль</value>
+  </data>
+  <data name="llImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 335</value>
+  </data>
+  <data name="llImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 18</value>
+  </data>
+  <data name="llImport.Text" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="llReporting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 18</value>
+  </data>
+  <data name="llReporting.Text" xml:space="preserve">
+    <value>Составление отчетов</value>
+  </data>
+  <data name="llmeasures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 18</value>
+  </data>
+  <data name="llmeasures.Text" xml:space="preserve">
+    <value>Измерения</value>
+  </data>
+  <data name="llLoadDefault.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="llLoadDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 42</value>
+  </data>
+  <data name="llLoadDefault.Text" xml:space="preserve">
+    <value>Загрузить испытание по умолч.</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 132</value>
+  </data>
+  <data name="tpTensile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>798, 357</value>
+  </data>
+  <data name="tpTensile.Text" xml:space="preserve">
+    <value>Растяжение</value>
+  </data>
+  <data name="tpCompressive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>798, 357</value>
+  </data>
+  <data name="tpCompressive.Text" xml:space="preserve">
+    <value>Сжатие</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>798, 357</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Цикл</value>
+  </data>
+  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>798, 357</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Пошаговое</value>
+  </data>
+  <data name="gbCreepTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbCreepPreload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 131</value>
+  </data>
+  <data name="gbCreepPreload.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cboDecimationUnit.Items" xml:space="preserve">
+    <value>Децимация</value>
+  </data>
+  <data name="cboDecimationUnit.Items1" xml:space="preserve">
+    <value>Образец/сек</value>
+  </data>
+  <data name="cboDecimationUnit.Items2" xml:space="preserve">
+    <value>Образец/мин</value>
+  </data>
+  <data name="cboDecimationUnit.Items3" xml:space="preserve">
+    <value>Образец/ч</value>
+  </data>
+  <data name="cboDecimationUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 311</value>
+  </data>
+  <data name="cboDecimationUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 26</value>
+  </data>
+  <data name="cboDecimationUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 279</value>
+  </data>
+  <data name="label82.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label82.Text" xml:space="preserve">
+    <value>ч</value>
+  </data>
+  <data name="label81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 245</value>
+  </data>
+  <data name="label81.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label81.Text" xml:space="preserve">
+    <value>ч</value>
+  </data>
+  <data name="txtCreepTestTimeH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 276</value>
+  </data>
+  <data name="txtCreepTestTimeH.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txtCreepStablizeTimeH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 242</value>
+  </data>
+  <data name="txtCreepStablizeTimeH.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 18</value>
+  </data>
+  <data name="label44.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>Захват образца:</value>
+  </data>
+  <data name="txtCreepSampleDecimation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 24</value>
+  </data>
+  <data name="txtCreepSampleDecimation.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 18</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Тип нагружения в испытании</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Тип скорости:</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 18</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Время стабилизации:</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 18</value>
+  </data>
+  <data name="label33.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Продолжительность испытания:</value>
+  </data>
+  <data name="lbCreepSetPointUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, 206</value>
+  </data>
+  <data name="lbCreepSetPointUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 18</value>
+  </data>
+  <data name="lbCreepSetPointUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lbCreepSetPointUnit.Text" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 206</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 18</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Величина:</value>
+  </data>
+  <data name="cbCreepRateUnit.Items" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbCreepRateUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 92</value>
+  </data>
+  <data name="cbCreepRateUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 96</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Скорость:</value>
+  </data>
+  <data name="cbCreepSetPointType.Items" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbCreepSetPointType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 203</value>
+  </data>
+  <data name="cbCreepSetPointType.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cbCreepSetPointRateControl.Items" xml:space="preserve">
+    <value>Нагрузка(Н)</value>
+  </data>
+  <data name="cbCreepSetPointRateControl.Items1" xml:space="preserve">
+    <value>Напряжение(МПа)</value>
+  </data>
+  <data name="cbCreepSetPointRateControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 93</value>
+  </data>
+  <data name="cbCreepSetPointRateControl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 245</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 279</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="label34.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="cbCreepPlotAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="cbCreepPlotAll.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="cbCreepPlotAll.Text" xml:space="preserve">
+    <value>Распечатать все данные</value>
+  </data>
+  <data name="txtCreepRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 93</value>
+  </data>
+  <data name="txtCreepRate.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtCreepSetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 203</value>
+  </data>
+  <data name="txtCreepSetPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtCreepStablizeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 242</value>
+  </data>
+  <data name="txtCreepStablizeTime.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txtCreepTestTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 276</value>
+  </data>
+  <data name="txtCreepTestTime.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="tpCreep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>798, 357</value>
+  </data>
+  <data name="tpCreep.Text" xml:space="preserve">
+    <value>Ползучесть</value>
+  </data>
+  <data name="tpRelaxation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>798, 357</value>
+  </data>
+  <data name="tpRelaxation.Text" xml:space="preserve">
+    <value>Релаксация</value>
+  </data>
+  <data name="tbTestMethods.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 101</value>
+  </data>
+  <data name="tbTestMethods.Size" type="System.Drawing.Size, System.Drawing">
+    <value>806, 391</value>
+  </data>
+  <data name="tpMethod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 481</value>
+  </data>
+  <data name="tpMethod.Text" xml:space="preserve">
+    <value>Метод</value>
+  </data>
+  <data name="tpSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 481</value>
+  </data>
+  <data name="tpSample.Text" xml:space="preserve">
+    <value>Образец</value>
+  </data>
+  <data name="tpInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 481</value>
+  </data>
+  <data name="tpInformation.Text" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="tpMeasures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 481</value>
+  </data>
+  <data name="tpMeasures.Text" xml:space="preserve">
+    <value>Измерения</value>
+  </data>
+  <data name="tpDiagram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 481</value>
+  </data>
+  <data name="tpDiagram.Text" xml:space="preserve">
+    <value>График</value>
+  </data>
+  <data name="tpCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 481</value>
+  </data>
+  <data name="tpCtrl.Text" xml:space="preserve">
+    <value>Контроль скорости</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 481</value>
+  </data>
+  <data name="tcSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, -4</value>
+  </data>
+  <data name="tcSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>728, 512</value>
+  </data>
+  <data name="label74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="label74.Text" xml:space="preserve">
+    <value>Метод</value>
+  </data>
+  <data name="label63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 18</value>
+  </data>
+  <data name="label63.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label63.Text" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="txtCurPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 72</value>
+  </data>
+  <data name="txtCurPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="label62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 18</value>
+  </data>
+  <data name="label62.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label62.Text" xml:space="preserve">
+    <value>Текущее положение:</value>
+  </data>
+  <data name="cbMethodTestMethod.Items" xml:space="preserve">
+    <value>Растяжение</value>
+  </data>
+  <data name="cbMethodTestMethod.Items1" xml:space="preserve">
+    <value>Сжатие</value>
+  </data>
+  <data name="cbMethodTestMethod.Items2" xml:space="preserve">
+    <value>Релаксация</value>
+  </data>
+  <data name="cbMethodTestMethod.Items3" xml:space="preserve">
+    <value>Ползучесть</value>
+  </data>
+  <data name="cbMethodTestMethod.Items4" xml:space="preserve">
+    <value>Цикл</value>
+  </data>
+  <data name="cbMethodTestMethod.Items5" xml:space="preserve">
+    <value>Пошаговое</value>
+  </data>
+  <data name="cbMethodTestMethod.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 18</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Метод:</value>
+  </data>
+  <data name="cbSpeedUnits.Items" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="cbSpeedUnits.Items1" xml:space="preserve">
+    <value>Нагрузка</value>
+  </data>
+  <data name="cbSpeedUnits.Items2" xml:space="preserve">
+    <value>Деформация</value>
+  </data>
+  <data name="cbSpeedUnits.Items3" xml:space="preserve">
+    <value>Удлинение</value>
+  </data>
+  <data name="cbSpeedUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Скорость:</value>
+  </data>
+  <data name="txtMethodSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="lbAdvanced.Text" xml:space="preserve">
+    <value>Расширенный</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 97</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 18</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Нули</value>
+  </data>
+  <data name="txtBreakCounter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 321</value>
+  </data>
+  <data name="txtBreakCounter.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="txtBreakForceOver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 319</value>
+  </data>
+  <data name="txtBreakForceOver.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="cbTensilePreLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="cbTensilePreLoad.Text" xml:space="preserve">
+    <value>Преднагрузка</value>
+  </data>
+  <data name="label69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 324</value>
+  </data>
+  <data name="label69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 18</value>
+  </data>
+  <data name="label69.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="label69.Text" xml:space="preserve">
+    <value>Циклы</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 18</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Устновить тип точки:</value>
+  </data>
+  <data name="label68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 322</value>
+  </data>
+  <data name="label68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 18</value>
+  </data>
+  <data name="label68.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="label68.Text" xml:space="preserve">
+    <value>После</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 322</value>
+  </data>
+  <data name="label41.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 18</value>
+  </data>
+  <data name="label40.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>Нагрузка при разруш.</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 18</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Устновить тип точки:</value>
+  </data>
+  <data name="cbTensileStoEType.Items" xml:space="preserve">
+    <value>Нагрузка(Н)</value>
+  </data>
+  <data name="cbTensileStoEType.Items1" xml:space="preserve">
+    <value>Напряжение(МПа)</value>
+  </data>
+  <data name="cbTensileStoEType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 254</value>
+  </data>
+  <data name="cbTensileStoEType.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 18</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Изменить режим:</value>
+  </data>
+  <data name="cbTensileStoEChangeMode.Items" xml:space="preserve">
+    <value>Нагрузка(Н)</value>
+  </data>
+  <data name="cbTensileStoEChangeMode.Items1" xml:space="preserve">
+    <value>Напряжение(МПа)</value>
+  </data>
+  <data name="cbTensileStoEChangeMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 284</value>
+  </data>
+  <data name="cbTensileStoEChangeMode.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="cbTensilePreLoadType.Items" xml:space="preserve">
+    <value>Нагрузка(Н)</value>
+  </data>
+  <data name="cbTensilePreLoadType.Items1" xml:space="preserve">
+    <value>Напряжение(МПа)</value>
+  </data>
+  <data name="cbTensilePreLoadType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 64</value>
+  </data>
+  <data name="cbTensilePreLoadType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Скорость:</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 18</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Устновить тип точки:</value>
+  </data>
+  <data name="txtTensilePreLoadSetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 64</value>
+  </data>
+  <data name="txtTensilePreLoadSetPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtTensilePreLoadWait.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 94</value>
+  </data>
+  <data name="txtTensilePreLoadWait.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtTensileSecondSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 189</value>
+  </data>
+  <data name="txtTensileSecondSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="cbTensileEnableStoE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 22</value>
+  </data>
+  <data name="cbTensileEnableStoE.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbTensileEnableStoE.Text" xml:space="preserve">
+    <value>Переключение отслеж.деформации</value>
+  </data>
+  <data name="cbTensileSecSpeedTypeUnit.Items" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbTensileSecSpeedTypeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 158</value>
+  </data>
+  <data name="cbTensileSecSpeedTypeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lbTensileSpeedUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 192</value>
+  </data>
+  <data name="lbTensileSpeedUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 18</value>
+  </data>
+  <data name="lbTensileSpeedUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lbTensileSpeedUnit.Text" xml:space="preserve">
+    <value>мм/мин</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 97</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 18</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>сек</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 162</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 18</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>В точке:</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Items" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Items1" xml:space="preserve">
+    <value>Нагрузка</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Items2" xml:space="preserve">
+    <value>Деформация</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Items3" xml:space="preserve">
+    <value>Удлинение</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 94</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 26</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtTensileSecSpeedSetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 159</value>
+  </data>
+  <data name="txtTensileSecSpeedSetPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 18</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Ожидание:</value>
+  </data>
+  <data name="cbTensileSecSpeedType.Items" xml:space="preserve">
+    <value>Нагрузка(Н)</value>
+  </data>
+  <data name="cbTensileSecSpeedType.Items1" xml:space="preserve">
+    <value>Напряжение(МПа)</value>
+  </data>
+  <data name="cbTensileSecSpeedType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 159</value>
+  </data>
+  <data name="cbTensileSecSpeedType.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 67</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 18</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>В точке:</value>
+  </data>
+  <data name="cbTensileStoEUnit.Items" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbTensileStoEUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 278</value>
+  </data>
+  <data name="cbTensileStoEUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lbTensileS2E.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 254</value>
+  </data>
+  <data name="lbTensileS2E.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 18</value>
+  </data>
+  <data name="lbTensileS2E.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lbTensileS2E.Text" xml:space="preserve">
+    <value>В точке:</value>
+  </data>
+  <data name="txtTensileStoESetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 278</value>
+  </data>
+  <data name="txtTensileStoESetPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="cbPreLoadUnits.Items" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbPreLoadUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 62</value>
+  </data>
+  <data name="cbPreLoadUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cbTensileEnableSecondSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="cbTensileEnableSecondSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cbTensileEnableSecondSpeed.Text" xml:space="preserve">
+    <value>Изменить скорость</value>
+  </data>
+  <data name="txtCyclicDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 162</value>
+  </data>
+  <data name="label79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 165</value>
+  </data>
+  <data name="label79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="label79.Text" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="label78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 18</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>Длительность управления:</value>
+  </data>
+  <data name="lbCyclicLimit2Unit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 135</value>
+  </data>
+  <data name="lbCyclicLimit2Unit.Text" xml:space="preserve">
+    <value>Н</value>
+  </data>
+  <data name="lbCyclicLimit1Unit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 105</value>
+  </data>
+  <data name="lbCyclicLimit1Unit.Text" xml:space="preserve">
+    <value>Н</value>
+  </data>
+  <data name="lbCyclicLimit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 18</value>
+  </data>
+  <data name="lbCyclicLimit2.Text" xml:space="preserve">
+    <value>Предел #2:</value>
+  </data>
+  <data name="lbCyclicLimit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 18</value>
+  </data>
+  <data name="lbCyclicLimit1.Text" xml:space="preserve">
+    <value>Предел #1:</value>
+  </data>
+  <data name="cbCyclicLimitType.Items" xml:space="preserve">
+    <value>Нагрузка(Н)</value>
+  </data>
+  <data name="cbCyclicLimitType.Items1" xml:space="preserve">
+    <value>Напряжение(МПа)</value>
+  </data>
+  <data name="cbCyclicLimitType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 72</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 18</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>Тип предела:</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 18</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Кол-во циклов:</value>
+  </data>
+  <data name="cbCyclicRateUnit.Items" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbCyclicRateUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 42</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 46</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Скорость:</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 18</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>Контроль скорости:</value>
+  </data>
+  <data name="cbCyclicRateControl.Items" xml:space="preserve">
+    <value>Нагрузка(Н)</value>
+  </data>
+  <data name="cbCyclicRateControl.Items1" xml:space="preserve">
+    <value>Напряжение(МПа)</value>
+  </data>
+  <data name="cbCyclicRateControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 42</value>
+  </data>
+  <data name="txtCyclicLimit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 132</value>
+  </data>
+  <data name="txtCyclicLimit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 103</value>
+  </data>
+  <data name="txtCyclicRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 44</value>
+  </data>
+  <data name="txtStepRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 74</value>
+  </data>
+  <data name="lbStepSetExtensionUbit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>649, 48</value>
+  </data>
+  <data name="lbStepSetExtensionUbit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 18</value>
+  </data>
+  <data name="lbStepSetExtensionUbit.Text" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="lbStepForceUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 46</value>
+  </data>
+  <data name="lbStepForceUnit.Text" xml:space="preserve">
+    <value>Н</value>
+  </data>
+  <data name="cbStepSetForce.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="cbStepSetForce.Text" xml:space="preserve">
+    <value>Установить нагрузку</value>
+  </data>
+  <data name="label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 18</value>
+  </data>
+  <data name="label53.Text" xml:space="preserve">
+    <value>При запуске</value>
+  </data>
+  <data name="cbSetPointAction.Items" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="cbSetPointAction.Items1" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="cbSetPointAction.Items2" xml:space="preserve">
+    <value>Задержка</value>
+  </data>
+  <data name="cbSetPointAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 134</value>
+  </data>
+  <data name="llStepUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 137</value>
+  </data>
+  <data name="llStepUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 18</value>
+  </data>
+  <data name="llStepUpdate.Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Контроль скорости</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Ед.изм.</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Тип предела</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Лимит</value>
+  </data>
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>Ед.изм.</value>
+  </data>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>Установить точку действия</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 137</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="label83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 18</value>
+  </data>
+  <data name="label83.Text" xml:space="preserve">
+    <value>Установить действие точки:</value>
+  </data>
+  <data name="llStepAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 137</value>
+  </data>
+  <data name="llStepAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 18</value>
+  </data>
+  <data name="llStepAdd.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="llStepCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>649, 137</value>
+  </data>
+  <data name="llStepCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 18</value>
+  </data>
+  <data name="llStepCancel.Text" xml:space="preserve">
+    <value>Удал.</value>
+  </data>
+  <data name="lbStepSetPointUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 107</value>
+  </data>
+  <data name="lbStepSetPointUnit.Text" xml:space="preserve">
+    <value>Н</value>
+  </data>
+  <data name="label92.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 105</value>
+  </data>
+  <data name="label92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 18</value>
+  </data>
+  <data name="label92.Text" xml:space="preserve">
+    <value>Устан.точка:</value>
+  </data>
+  <data name="cbStepSetPointType.Items" xml:space="preserve">
+    <value>Нагрузка(Н)</value>
+  </data>
+  <data name="cbStepSetPointType.Items1" xml:space="preserve">
+    <value>Напряжение(МПа)</value>
+  </data>
+  <data name="cbStepSetPointType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 102</value>
+  </data>
+  <data name="label93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 18</value>
+  </data>
+  <data name="label93.Text" xml:space="preserve">
+    <value>Устновить тип точки:</value>
+  </data>
+  <data name="cbStepRateUnit.Items" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbStepRateUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 74</value>
+  </data>
+  <data name="label94.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="label94.Text" xml:space="preserve">
+    <value>Скорость:</value>
+  </data>
+  <data name="label95.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="label95.Text" xml:space="preserve">
+    <value>Тип скорости:</value>
+  </data>
+  <data name="cbStepSetPointRateControl.Items" xml:space="preserve">
+    <value>Нагрузка(Н)</value>
+  </data>
+  <data name="cbStepSetPointRateControl.Items1" xml:space="preserve">
+    <value>Напряжение(МПа)</value>
+  </data>
+  <data name="txtStepSetExtension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 45</value>
+  </data>
+  <data name="txtStepSetExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="txtStepSetForce.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 43</value>
+  </data>
+  <data name="txtStepSetPointAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 134</value>
+  </data>
+  <data name="txtStepSetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 104</value>
+  </data>
+  <data name="cbStepSetExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="cbStepSetExtension.Text" xml:space="preserve">
+    <value>Установить удлинение</value>
+  </data>
+  <data name="label67.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtCreepTemperatureOffsetValue.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnCreepApplyTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnCreepApplyTemperature.Text" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 18</value>
+  </data>
+  <data name="label59.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label59.Text" xml:space="preserve">
+    <value>Установ.температура:</value>
+  </data>
+  <data name="label66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 18</value>
+  </data>
+  <data name="label66.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label66.Text" xml:space="preserve">
+    <value>Время преднагрева:</value>
+  </data>
+  <data name="lblCreepTemperatuerUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 47</value>
+  </data>
+  <data name="label70.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label70.Text" xml:space="preserve">
+    <value>ч</value>
+  </data>
+  <data name="label65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 47</value>
+  </data>
+  <data name="label65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="label65.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label65.Text" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="nrPreHeatTimeH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 44</value>
+  </data>
+  <data name="nrPreHeatTimeH.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="nrPreHeatTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 44</value>
+  </data>
+  <data name="nrPreHeatTime.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtCreepTemperatureValue.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkResetExtension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 37</value>
+  </data>
+  <data name="chkResetExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="chkResetExtension.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chkResetExtension.Text" xml:space="preserve">
+    <value>Сбросить знач.удлинения</value>
+  </data>
+  <data name="label64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 18</value>
+  </data>
+  <data name="label64.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label64.Text" xml:space="preserve">
+    <value>Время преднагрузки:</value>
+  </data>
+  <data name="label57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 18</value>
+  </data>
+  <data name="label57.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label57.Text" xml:space="preserve">
+    <value>Тип преднагрузки:</value>
+  </data>
+  <data name="label73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 38</value>
+  </data>
+  <data name="label73.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label73.Text" xml:space="preserve">
+    <value>ч</value>
+  </data>
+  <data name="lblCreep1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 38</value>
+  </data>
+  <data name="lblCreep1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="lblCreep1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblCreep1.Text" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="lblCreepPreloadUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 1</value>
+  </data>
+  <data name="lblCreepPreloadUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="lblCreepPreloadUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblCreepPreloadUnit.Text" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="label60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 4</value>
+  </data>
+  <data name="label60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 18</value>
+  </data>
+  <data name="label60.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label60.Text" xml:space="preserve">
+    <value>Величина:</value>
+  </data>
+  <data name="cbCreepPreloadType.Items" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbCreepPreloadType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 1</value>
+  </data>
+  <data name="cbCreepPreloadType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtCreepPreloadTimeH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 35</value>
+  </data>
+  <data name="txtCreepPreloadTimeH.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtCreepPreloadTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 35</value>
+  </data>
+  <data name="txtCreepPreloadTime.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtCreepPreload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, -2</value>
+  </data>
+  <data name="txtCreepPreload.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 18</value>
+  </data>
+  <data name="label43.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>Децимация образца:</value>
+  </data>
+  <data name="txtRelaxationSampleDecimation.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lbRelaxSetPointUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 45</value>
+  </data>
+  <data name="lbRelaxSetPointUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbRelaxSetPointUnit.Text" xml:space="preserve">
+    <value>Н</value>
+  </data>
+  <data name="label90.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 45</value>
+  </data>
+  <data name="label90.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 18</value>
+  </data>
+  <data name="label90.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label90.Text" xml:space="preserve">
+    <value>Величина:</value>
+  </data>
+  <data name="cbRelaxRateUnit.Items" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbRelaxRateUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>503, 11</value>
+  </data>
+  <data name="cbRelaxRateUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 15</value>
+  </data>
+  <data name="label89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="label89.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label89.Text" xml:space="preserve">
+    <value>Скорость:</value>
+  </data>
+  <data name="cbRelaxSetPointType.Items" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbRelaxSetPointType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 42</value>
+  </data>
+  <data name="cbRelaxSetPointType.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cbRelaxSetPointRateControl.Items" xml:space="preserve">
+    <value>Нагрузка(Н)</value>
+  </data>
+  <data name="cbRelaxSetPointRateControl.Items1" xml:space="preserve">
+    <value>Напряжение(МПа)</value>
+  </data>
+  <data name="cbRelaxSetPointRateControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 12</value>
+  </data>
+  <data name="cbRelaxSetPointRateControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 78</value>
+  </data>
+  <data name="label75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="label75.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label75.Text" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 108</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="lbRelaxCm.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lbRelaxCm.Text" xml:space="preserve">
+    <value>Н</value>
+  </data>
+  <data name="cbRelaxPlotAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="cbRelaxPlotAll.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="cbRelaxPlotAll.Text" xml:space="preserve">
+    <value>Распечатать все данные</value>
+  </data>
+  <data name="label77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 18</value>
+  </data>
+  <data name="label77.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label77.Text" xml:space="preserve">
+    <value>Устновить тип точки:</value>
+  </data>
+  <data name="label80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="label80.Text" xml:space="preserve">
+    <value>Тип скорости:</value>
+  </data>
+  <data name="label76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 18</value>
+  </data>
+  <data name="label76.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label76.Text" xml:space="preserve">
+    <value>Время стабилизации:</value>
+  </data>
+  <data name="txtRelaxationTestDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 18</value>
+  </data>
+  <data name="txtRelaxationTestDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="txtRelaxationTestDuration.Text" xml:space="preserve">
+    <value>Продолжительность испытания:</value>
+  </data>
+  <data name="txtRelaxRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 12</value>
+  </data>
+  <data name="txtRelaxRate.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtRelaxSetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 42</value>
+  </data>
+  <data name="txtRelaxSetPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtRelaxStablizeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 75</value>
+  </data>
+  <data name="txtRelaxStablizeTime.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtRelaxTestTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 105</value>
+  </data>
+  <data name="txtRelaxTestTime.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 18</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Тип Испытания:</value>
+  </data>
+  <data name="cbTestingSampleType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 42</value>
+  </data>
+  <data name="cbTestingSampleType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 26</value>
+  </data>
+  <data name="label71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="label71.Text" xml:space="preserve">
+    <value>Образец</value>
+  </data>
+  <data name="txtSampleGP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 132</value>
+  </data>
+  <data name="lbSampleGP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 18</value>
+  </data>
+  <data name="lbSampleGP.Text" xml:space="preserve">
+    <value>Длина захвата:</value>
+  </data>
+  <data name="label61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 135</value>
+  </data>
+  <data name="label61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 18</value>
+  </data>
+  <data name="label61.Text" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="lbSampleUnit3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 253</value>
+  </data>
+  <data name="lbSampleUnit3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 18</value>
+  </data>
+  <data name="lbSampleUnit3.Text" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cbSampleType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 162</value>
+  </data>
+  <data name="lbSampleDim3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 18</value>
+  </data>
+  <data name="lbSampleDim3.Text" xml:space="preserve">
+    <value>Длина:</value>
+  </data>
+  <data name="lbSampleUnit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 224</value>
+  </data>
+  <data name="lbSampleUnit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 18</value>
+  </data>
+  <data name="lbSampleUnit2.Text" xml:space="preserve">
+    <value>Кг</value>
+  </data>
+  <data name="txtSampleId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 72</value>
+  </data>
+  <data name="lbSampleUnit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 195</value>
+  </data>
+  <data name="lbSampleUnit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 18</value>
+  </data>
+  <data name="lbSampleUnit1.Text" xml:space="preserve">
+    <value>Кг/м3</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 18</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Тип образца:</value>
+  </data>
+  <data name="lbSampleDim2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 18</value>
+  </data>
+  <data name="lbSampleDim2.Text" xml:space="preserve">
+    <value>Вес:</value>
+  </data>
+  <data name="lbAreaInertiaUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 282</value>
+  </data>
+  <data name="lbAreaInertiaUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 18</value>
+  </data>
+  <data name="lbAreaInertiaUnit.Text" xml:space="preserve">
+    <value>мм2</value>
+  </data>
+  <data name="lbSampleDim1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 18</value>
+  </data>
+  <data name="lbSampleDim1.Text" xml:space="preserve">
+    <value>Плотность:</value>
+  </data>
+  <data name="txtSampleGS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 102</value>
+  </data>
+  <data name="txtSampleDim3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 252</value>
+  </data>
+  <data name="lbAreaInertia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 18</value>
+  </data>
+  <data name="lbAreaInertia.Text" xml:space="preserve">
+    <value>Площадь:</value>
+  </data>
+  <data name="txtSampleDim2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 222</value>
+  </data>
+  <data name="txtSampleDim1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 192</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 18</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>ID образца:</value>
+  </data>
+  <data name="txtSampleAreaInertia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 282</value>
+  </data>
+  <data name="lbSampleGS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 18</value>
+  </data>
+  <data name="lbSampleGS.Text" xml:space="preserve">
+    <value>Расчетная длина:</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 105</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 18</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="cboDateCultureFormat.Items" xml:space="preserve">
+    <value>Обычай</value>
+  </data>
+  <data name="cboDateCultureFormat.Items1" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="cboDateCultureFormat.Items2" xml:space="preserve">
+    <value>персидский</value>
+  </data>
+  <data name="label72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="label72.Text" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 18</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Дата:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Заказчик:</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Оператор:</value>
+  </data>
+  <data name="label99.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 18</value>
+  </data>
+  <data name="label99.Text" xml:space="preserve">
+    <value>Метка измерения</value>
+  </data>
+  <data name="label98.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 18</value>
+  </data>
+  <data name="label98.Text" xml:space="preserve">
+    <value>Устройство измерения</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 16</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Измерения</value>
+  </data>
+  <data name="cbM7Tool.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbM7Tool.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbM7Tool.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbM7Tool.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbM6Tool.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbM6Tool.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbM6Tool.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbM6Tool.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbM5Tool.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbM5Tool.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbM5Tool.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbM5Tool.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbM4Tool.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbM4Tool.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbM4Tool.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbM4Tool.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbM3Tool.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbM3Tool.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbM3Tool.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbM3Tool.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbM2Tool.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbM2Tool.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbM2Tool.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbM2Tool.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbM1Tool.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbM1Tool.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbM1Tool.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbM1Tool.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="llMeasuresOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 445</value>
+  </data>
+  <data name="llMeasuresOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 18</value>
+  </data>
+  <data name="llMeasuresOk.Text" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="cbMeasureType7.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbMeasureType7.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbMeasureType7.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbMeasureType7.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbMeasureType6.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbMeasureType6.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbMeasureType6.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbMeasureType6.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbMeasureType5.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbMeasureType5.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbMeasureType5.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbMeasureType5.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbMeasureType4.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbMeasureType4.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbMeasureType4.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbMeasureType4.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbMeasureType3.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbMeasureType3.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbMeasureType3.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbMeasureType3.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbMeasureType2.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbMeasureType2.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbMeasureType2.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbMeasureType2.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="cbMeasureType1.Items" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="cbMeasureType1.Items1" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="cbMeasureType1.Items2" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="cbMeasureType1.Items3" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 18</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>Имя измерения</value>
+  </data>
+  <data name="lbDiagramYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 165</value>
+  </data>
+  <data name="lbDiagramXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 135</value>
+  </data>
+  <data name="txtDiagramYStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 163</value>
+  </data>
+  <data name="txtDiagramXStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 133</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 18</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Нач.значение оси Y</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 18</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>Нач.значение оси X</value>
+  </data>
+  <data name="cbReportFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 290</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 36</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Или
+    Использовать отчет:</value>
+  </data>
+  <data name="cbDefaultReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 22</value>
+  </data>
+  <data name="cbDefaultReport.Text" xml:space="preserve">
+    <value>Использовать отчет по умолч.</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Таблица данных отчета</value>
+  </data>
+  <data name="label55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 18</value>
+  </data>
+  <data name="label55.Text" xml:space="preserve">
+    <value>Y2 оси:</value>
+  </data>
+  <data name="label87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 18</value>
+  </data>
+  <data name="label87.Text" xml:space="preserve">
+    <value>Y ось:</value>
+  </data>
+  <data name="label88.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 18</value>
+  </data>
+  <data name="label88.Text" xml:space="preserve">
+    <value>X ось:</value>
+  </data>
+  <data name="cbDiagramY2Axis.Items" xml:space="preserve">
+    <value>СИ</value>
+  </data>
+  <data name="cbDiagramYAxis.Items" xml:space="preserve">
+    <value>СИ</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 16</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>График</value>
+  </data>
+  <data name="cbDiagramStartUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 22</value>
+  </data>
+  <data name="cbDiagramStartUp.Text" xml:space="preserve">
+    <value>Установить масштаб при запуске испытания</value>
+  </data>
+  <data name="llSpdctrlDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 18</value>
+  </data>
+  <data name="llSpdctrlDefault.Text" xml:space="preserve">
+    <value>Загрузить настройки по умолчанию</value>
+  </data>
+  <data name="cbSpeed.Items" xml:space="preserve">
+    <value>Факторы контроля удлинения</value>
+  </data>
+  <data name="cbSpeed.Items1" xml:space="preserve">
+    <value>Факторы контроля нагрузки</value>
+  </data>
+  <data name="cbSpeed.Items2" xml:space="preserve">
+    <value>Факторы контроля деформации</value>
+  </data>
+  <data name="label96.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 16</value>
+  </data>
+  <data name="label96.Text" xml:space="preserve">
+    <value>Контроль</value>
+  </data>
+  <data name="label97.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 18</value>
+  </data>
+  <data name="label97.Text" xml:space="preserve">
+    <value>Режим:</value>
+  </data>
+  <data name="tcSpeedControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 38</value>
+  </data>
+  <data name="tcSpeedControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>954, 505</value>
+  </data>
+  <data name="tpExtenCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>946, 471</value>
+  </data>
+  <data name="tpExtenCtrl.Text" xml:space="preserve">
+    <value>Удлинение</value>
+  </data>
+  <data name="label101.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 18</value>
+  </data>
+  <data name="label101.Text" xml:space="preserve">
+    <value>мм</value>
+  </data>
+  <data name="label102.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 18</value>
+  </data>
+  <data name="label102.Text" xml:space="preserve">
+    <value>Допуск:</value>
+  </data>
+  <data name="tpForceCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>946, 471</value>
+  </data>
+  <data name="tpForceCtrl.Text" xml:space="preserve">
+    <value>Нагрузка</value>
+  </data>
+  <data name="label107.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 18</value>
+  </data>
+  <data name="label107.Text" xml:space="preserve">
+    <value>Допуск:</value>
+  </data>
+  <data name="tpStrainCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>946, 471</value>
+  </data>
+  <data name="tpStrainCtrl.Text" xml:space="preserve">
+    <value>Деформация</value>
+  </data>
+  <data name="label112.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 18</value>
+  </data>
+  <data name="label112.Text" xml:space="preserve">
+    <value>Допуск:</value>
+  </data>
+  <data name="lbConditionUbit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 105</value>
+  </data>
+  <data name="lbConditionUbit.Text" xml:space="preserve">
+    <value>Н</value>
+  </data>
+  <data name="txtConditionValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 102</value>
+  </data>
+  <data name="txtConditionValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 24</value>
+  </data>
+  <data name="cbConditionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 72</value>
+  </data>
+  <data name="label54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 16</value>
+  </data>
+  <data name="label54.Text" xml:space="preserve">
+    <value>Конечные условия</value>
+  </data>
+  <data name="label56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 18</value>
+  </data>
+  <data name="label56.Text" xml:space="preserve">
+    <value>Величина условия:</value>
+  </data>
+  <data name="label58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 18</value>
+  </data>
+  <data name="label58.Text" xml:space="preserve">
+    <value>Тип условия:</value>
+  </data>
+  <data name="cbStopCondition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="cbStopCondition.Text" xml:space="preserve">
+    <value>Использовать конечное условие</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Настройки испытания</value>
+  </data>
+</root>

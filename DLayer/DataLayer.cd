@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="STM.DLayer.RS232" Collapsed="true">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAEAAAAAAAIAAADgAAAAAAAAAAAA=</HashCode>
+      <FileName>DLayer\RS232.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STM.DLayer.PortParams" Collapsed="true">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAEAAAUAAA=</HashCode>
+      <FileName>DLayer\PortParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STM.DLayer.SerialConnection" Collapsed="true">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAEAAAAAAAAAAAAAAQAAAEAAAAAA=</HashCode>
+      <FileName>DLayer\SerialConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

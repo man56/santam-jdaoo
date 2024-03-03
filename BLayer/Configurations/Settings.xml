@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Languge Lang="en-US" />
+  <User code="SantamR&amp;D" />
+  <forceOffset value = 0/>
+  <sensors>
+    <loadcells>
+      <loadcell id="0" maxCapacity="500" ro="3" />
+      <loadcell id="2" maxCapacity="20" ro="3" />
+    </loadcells>
+    <extensometres>
+     
+    </extensometres>
+  </sensors>
+  <machine>
+    <serialPort name="COM1" readInterval="10" decimationRatio="36000" />
+    <crossHead high="500" low="0.2" increament="25" max="1000" min="0.001" act="true" />
+    <pid p="0.2" i="0.2" d="0.3" />
+    <extension kep="150" kei="0.1" ked="0" torelance="0.0001" />
+    <force kfp="0.01" kfi="0" kfd="0" torelance="0.01" />
+    <strain ksp="150" ksi="0" ksd="0" torelance="0.001" />
+    <motion velocity="1.6" command="1.7" timeout="1.8" />
+    <motor max="3500" step="5" offset="0" gain="0" />
+  </machine>
+  <Report>
+    <ReportLayout left="0" right="0" top="0" bottom="0" information="-1" tabel="-3" diagram="-2" note="-4" />
+    <ReportColors pageSpace="White" background="White" lable="Blue" scale="ff400000" title="ff80ffff" grid="Black" diagram="ff400000" />
+    <Options outputPath="C:\New Folder" maxRecentFiles="20" notifyLoadcellType="false" showGridLines="true" showLanguageForm="false" PrintLogo="false" PrintPlot="true" PrintTestsSpec="true" PrintTestResults="true" ResetMeasuresAtStart="true" />
+    <Logo logoPath="C:\Users\Public\Pictures\Sample Pictures\Chrysanthemum.jpg" company="" description="" detail="" companyFont="Microsoft Sans Serif,14.25,3,False,False,False,False" descriptionFont="Microsoft Sans Serif,14.25,3,False,False,False,False" detailFont="Microsoft Sans Serif,15.75,3,False,False,False,False" LTR="True"></Logo>
+    <TableColumns>
+      <col PointType="Peak" PointProperty="Force" Name="Peak" Label="Force" StepOrCycle="0" Attribute1="n/a" Attribute2="n/a" Attribute3="n/a" Formula="n/a" ExpectedRangeA="n/a" ExpectedRangeB="n/a" ResultYellowRangeA="n/a" ResultYellowRangeB="n/a" ResultRedRangeA="n/a" ResultRedRangeB="n/a" EnableAnalysing="false" />
+      <col PointType="Break" PointProperty="Strain" Name="Break" Label="Strain" StepOrCycle="0" Attribute1="n/a" Attribute2="n/a" Attribute3="n/a" Formula="n/a" ExpectedRangeA="n/a" ExpectedRangeB="n/a" ResultYellowRangeA="n/a" ResultYellowRangeB="n/a" ResultRedRangeA="n/a" ResultRedRangeB="n/a" EnableAnalysing="false" />
+      <col PointType="Yield" PointProperty="Stress" Name="Yield" Label="Stress" StepOrCycle="0" Attribute1="n/a" Attribute2="n/a" Attribute3="n/a" Formula="n/a" ExpectedRangeA="n/a" ExpectedRangeB="n/a" ResultYellowRangeA="n/a" ResultYellowRangeB="n/a" ResultRedRangeA="n/a" ResultRedRangeB="n/a" EnableAnalysing="false" />
+    </TableColumns>
+    <TableOption ElasticModuleMinPercent="20" ElasticModuleMaxPercent="50" ShowAcceptableRange="False" ShowElasticModule="False" ShowMeanRMS="False" UseRegression="True" />
+  </Report>
+  <measures>
+    <measure id="0" label="" type="Force" tool="" unit="N" />
+    <measure id="1" label="" type="Time" tool="" unit="sec" />
+    <measure id="2" label="" type="LFExtension" tool="" unit="mm" />
+  </measures>
+  <units>
+    <Category current="SI"></Category>
+    <SI forceUnit="N" extenUnit="mm" stressUnit="kPa" strainUnit="mm/mm" timeUnit="sec" specStressUnit="N/Denier" lengthStressUnit="N/mm" />
+    <MKS forceUnit="Kgf" extenUnit="mm" stressUnit="kg/cm2" strainUnit="%" timeUnit="sec" specStressUnit="grf/Denier" lengthStressUnit="grf/cm" />
+    <BS forceUnit="lbf" extenUnit="in" stressUnit="psf" strainUnit="yd/yd" timeUnit="sec" specStressUnit="n/a" lengthStressUnit="Ibf/in" />
+  </units>
+  <instrumnet>
+    <force forceRes="0" forceFilter="100" forcePeakNoiseDetection="20" forceMin="-50" forceMax="50" forceBreak="25" />
+    <exten extenRes="3" extenFilter="10" extenGaugeLength="100" extenPeakNoiseDetection="20" extenMin="-200" extenMax="200" useExtensometer="true" />
+    <encoder encoderRes="3" encoderFilter="10" encoderPeakNoiseDetection="20" encoderMin="-500" encoderMax="500" encoderGain="8.6206E-05" />
+    <lExten lExtenRes="3" lExtenFilter="20" lExtenGaugeLength="10" lExtenPeakNoiseDetection="20" lExtenMin="0" lExtenMax="95" />
+  </instrumnet>
+  <test>
+    <def path="Standards\default.stx"></def>
+  </test>
+</root>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Languge Lang="en-US" />
+  <User code="Santam  R&amp;D2-j" />
+  <forceOffset value="8414759" />
+  <extenLongAnalog value="false" />
+  <sensors>
+    <loadcells>
+      <loadcell id="0" maxCapacity="5000" ro="1.9985" />
+    </loadcells>
+    <extensometres>
+      <extensometer id="328" maxCapacity="10" rogain="0.0005" type="1" longAnalog="0" />
+      <extensometer id="335" maxCapacity="10" rogain="0.0005" type="1" longAnalog="0" />
+      <extensometer id="329" maxCapacity="10" rogain="0.0005" type="1" longAnalog="0" />
+      <extensometer id="327" maxCapacity="10" rogain="0.0005" type="1" longAnalog="0" />
+    </extensometres>
+    <temperature>
+      <temperature id="0" maxCapacity="1" ro="10" />
+    </temperature>
+  </sensors>
+  <optiongrants>
+    <TestSettings.Information></TestSettings.Information>
+    <TestSettings.Sample></TestSettings.Sample>
+    <TestSettings.Method></TestSettings.Method>
+    <Menu.MachineSetting></Menu.MachineSetting>
+    <Menu.Calibration></Menu.Calibration>
+    <Menu.Instrument></Menu.Instrument>
+    <Menu.Options></Menu.Options>
+  </optiongrants>
+  <machine>
+    <serialPort name="COM1" readInterval="10" decimationRatio="100" />
+    <TemperaturePort portname="COM3" portinterval="10" portdecimation="1" />
+    <crossHead high="10" low="1" increament="25" max="500" min="0.001" act="true" />
+    <pid p="1" i="0.4" d="0" />
+    <extension kep="150" kei="0.1" ked="0" torelance="0.0001" />
+    <force kfp="0.05" kfi="0" kfd="0" torelance="0.0001" />
+    <strain ksp="150" ksi="0" ksd="0" torelance="0.001" />
+    <motion velocity="1.6" command="1.7" timeout="1.8" />
+    <motor max="3500" step="5" offset="0" gain="0" />
+  </machine>
+  <Report>
+    <ReportLayout left="0" right="0" top="0" bottom="0" information="-1" tabel="-3" diagram="-2" note="-4" />
+    <ReportColors pageSpace="White" background="White" lable="Blue" scale="ff400000" title="ff80ffff" grid="Black" diagram="ff0080ff" diagram2="ffff8000" />
+    <Options outputPath="C:\New Folder" maxRecentFiles="20" notifyLoadcellType="false" showGridLines="true" showLanguageForm="false" PrintLogo="true" PrintPlot="true" PrintTestsSpec="true" PrintTestResults="true" ResetMeasuresAtStart="true" HugeSampleCount="1000000" UseTemperatureCompensation="true" TemperatureCompensationPeriod="5" TemperatureAxisRange="10" SetTemperatureToZeroOnTestStop="true" BreakCounter="50" />
+    <Logo logoPath="" company="j" description="ih" detail="k" companyFont="Microsoft Sans Serif,14.25,3,False,False,False,False" descriptionFont="Microsoft Sans Serif,14.25,3,False,False,False,False" detailFont="Microsoft Sans Serif,15.75,3,True,True,False,False" LTR="True"></Logo>
+    <TableColumns>
+      <col PointType="Break" PointProperty="Time" Name="Break" Label="Time" StepOrCycle="1" Attribute1="n/a" Attribute2="n/a" Attribute3="n/a" Formula="n/a" ExpectedRangeA="n/a" ExpectedRangeB="n/a" ResultYellowRangeA="n/a" ResultYellowRangeB="n/a" ResultRedRangeA="n/a" ResultRedRangeB="n/a" EnableAnalysing="false" />
+    </TableColumns>
+    <TableOption ElasticModuleMinPercent="20" ElasticModuleMaxPercent="50" ShowAcceptableRange="False" ShowElasticModule="False" ShowMeanRMS="False" UseRegression="True" />
+  </Report>
+  <measures>
+    <measure id="0" label="" type="Force" tool="Loadcell(LC)" unit="N" />
+    <measure id="1" label="" type="Stress" tool="Loadcell(LC)" unit="MPa" />
+    <measure id="2" label="" type="ExtenExtension" tool="Extensometer(EX)" unit="mm" />
+    <measure id="3" label="" type="TemperatureUP" tool="Specimen Temp (UP)" unit="°C" />
+    <measure id="4" label="" type="Time" tool="" unit="h" />
+    <measure id="5" label="" type="LFExtension" tool="Loadframe Encoder(LF)" unit="mm" />
+  </measures>
+  <units>
+    <Category current="SI"></Category>
+    <SI forceUnit="N" extenUnit="mm" stressUnit="MPa" strainUnit="%" timeUnit="h" specStressUnit="N/Denier" lengthStressUnit="N/mm" temperatureUnit="°C" />
+    <MKS forceUnit="Kgf" extenUnit="mm" stressUnit="kg/cm2" strainUnit="%" timeUnit="h" specStressUnit="grf/Denier" lengthStressUnit="grf/cm" temperatureUnit="°C" />
+    <BS forceUnit="lbf" extenUnit="in" stressUnit="psf" strainUnit="%" timeUnit="sec" specStressUnit="n/a" lengthStressUnit="Ibf/in" temperatureUnit="°C" />
+  </units>
+  <instrumnet>
+    <force forceRes="2" forceFilter="100" forcePeakNoiseDetection="20" forceMin="-50" forceMax="100" forceBreak="25" />
+    <exten extenRes="4" extenFilter="1" extenGaugeLength="30" extenPeakNoiseDetection="20" extenMin="-15" extenMax="15" useExtensometer="true" />
+    <encoder encoderRes="4" encoderFilter="1" encoderPeakNoiseDetection="20" encoderMin="-500" encoderMax="500" encoderGain="3.24E-05" />
+    <lExten lExtenRes="3" lExtenFilter="20" lExtenGaugeLength="10" lExtenPeakNoiseDetection="20" lExtenMin="0" lExtenMax="95" />
+    <temperature temperatureRes="0" temperatureGain1="1" temperatureGain2="1" temperatureMax="1050" />
+  </instrumnet>
+  <test>
+    <def path="Standards\default.stx"></def>
+  </test>
+</root>

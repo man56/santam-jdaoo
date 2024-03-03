@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Sample TestingSampleType="Tension/Compression" SampleId="19.8-2" SampleGS="508" SampleGP="200" Type="Rectangular" Dim1="38.1" Dim2="19.7" Dim3="" Area="750.57" />
+  <GetTestParameters TestMethodType="Creep" CurrentPostions="0" CreepSetPointRateControl="Force" CreepRate="216000" CreepRateUnit="N/sec" CreepSetPointType="Force" CreepSetPoint="1" CreepStablizeTime="0" CreepTestTime="0" CreepPlotAll="false" Decimation="100" CreepPreloadType="Force" CreepPreload="1" CreepPreloadTime="0" CreepTemperature="0.0" CreepTemperatureOffset="0.0" CreepPreHeatTime="0" ResetExtension="false" TestStopType="0" TestStopValue="0" />
+  <HardwareParams Kep="150" Kei="0.1" Ked="0" Etorelance="0.001" Ksi="0" Ksp="10" Ksd="0" Storelance="0.001" Kfi="0" Kfp="0.01" Kfd="0" Ftorelance="0.01" />
+  <Diagram X="Strain" Y="Stress" Y2="None" StartScale="True" MaxX="0.5" MaxY="0.5" ReportFilePath="" />
+</root>

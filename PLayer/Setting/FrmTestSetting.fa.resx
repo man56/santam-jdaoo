@@ -1,0 +1,2307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCreepApplyTemperature.Text" xml:space="preserve">
+    <value>اعمال</value>
+  </data>
+  <data name="cbCreepPlotAll.Text" xml:space="preserve">
+    <value>رسم دیتای همه مراحل</value>
+  </data>
+  <data name="cbDefaultReport.Text" xml:space="preserve">
+    <value>استفاده از گزارش پیش فرض</value>
+  </data>
+  <data name="cbDiagramStartUp.Text" xml:space="preserve">
+    <value>اندازه محورها در شروع تست</value>
+  </data>
+  <data name="cbRelaxPlotAll.Text" xml:space="preserve">
+    <value>رسم دیتای همه مراحل</value>
+  </data>
+  <data name="cbSetPointAction.Items1" xml:space="preserve">
+    <value>پايان</value>
+  </data>
+  <data name="cbStepSetExtension.Text" xml:space="preserve">
+    <value>تنظیم جابه جایی</value>
+  </data>
+  <data name="cbStepSetForce.Text" xml:space="preserve">
+    <value>تنظيم نیرو</value>
+  </data>
+  <data name="cbTensileEnableSecondSpeed.Text" xml:space="preserve">
+    <value>فعال کردن سرعت دوم</value>
+  </data>
+  <data name="cbTensilePreLoad.Text" xml:space="preserve">
+    <value>پيش بار</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>تنظیمات تست</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>تاریخ:</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>روش:</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>نوع تعویض:</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>سرعت:</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>نوع حد:</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>حد:</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>نوع حد:</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>حد:</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>نوع حد:</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>سرعت:</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>توضیحات:</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>نوع نمونه:</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>صفر کن</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>نمایشگرها</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>حد:</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>نرخ:</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>نوع حد:</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>کنترل نرخ:</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>استبلازیسیون:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>نوع تست:</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>انتظار:</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>گزارش</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>زمان کنترل:</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>نرخ:</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>محور عمودی:</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>کنترل نرخ:</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>تعداد سیکل:</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>نوع حد:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>جدول گزارش</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>شکست نیرو:</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>محور افقی:</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>نوع مانیتور</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>شناسه نمونه:</value>
+  </data>
+  <data name="label53.Text" xml:space="preserve">
+    <value>در آغاز</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>مشتری:</value>
+  </data>
+  <data name="label60.Text" xml:space="preserve">
+    <value>مقدار:</value>
+  </data>
+  <data name="label62.Text" xml:space="preserve">
+    <value>مکان فعلی:</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>اپراتور:</value>
+  </data>
+  <data name="label71.Text" xml:space="preserve">
+    <value>نمونه</value>
+  </data>
+  <data name="label72.Text" xml:space="preserve">
+    <value>اطلاعات</value>
+  </data>
+  <data name="label74.Text" xml:space="preserve">
+    <value>روش تست</value>
+  </data>
+  <data name="label76.Text" xml:space="preserve">
+    <value>مدت تثبیت:</value>
+  </data>
+  <data name="label77.Text" xml:space="preserve">
+    <value>نوع حد:</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>زمان کنترل:</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>یا
+استفاده از گزارش:</value>
+  </data>
+  <data name="label80.Text" xml:space="preserve">
+    <value>کنترل نرخ:</value>
+  </data>
+  <data name="label83.Text" xml:space="preserve">
+    <value>عمل نقطه حد:</value>
+  </data>
+  <data name="label87.Text" xml:space="preserve">
+    <value>محور عمودی:</value>
+  </data>
+  <data name="label88.Text" xml:space="preserve">
+    <value>محور افقی:</value>
+  </data>
+  <data name="label89.Text" xml:space="preserve">
+    <value>نرخ:</value>
+  </data>
+  <data name="label90.Text" xml:space="preserve">
+    <value>حد:</value>
+  </data>
+  <data name="label92.Text" xml:space="preserve">
+    <value>نقطه هدف:</value>
+  </data>
+  <data name="label93.Text" xml:space="preserve">
+    <value>نوع حد:</value>
+  </data>
+  <data name="label94.Text" xml:space="preserve">
+    <value>نرخ:</value>
+  </data>
+  <data name="label95.Text" xml:space="preserve">
+    <value>کنترل نرخ:</value>
+  </data>
+  <data name="label96.Text" xml:space="preserve">
+    <value>کنترل سرعت</value>
+  </data>
+  <data name="label97.Text" xml:space="preserve">
+    <value>نوع:</value>
+  </data>
+  <data name="label98.Text" xml:space="preserve">
+    <value>ابزار اندازه گیری</value>
+  </data>
+  <data name="label99.Text" xml:space="preserve">
+    <value>برچسب نمایشگرها</value>
+  </data>
+  <data name="lbAreaInertia.Text" xml:space="preserve">
+    <value>مساحت:</value>
+  </data>
+  <data name="lbCyclicLimit1.Text" xml:space="preserve">
+    <value>حد #1:</value>
+  </data>
+  <data name="lbCyclicLimit2.Text" xml:space="preserve">
+    <value>حد #2:</value>
+  </data>
+  <data name="lbSampleGP.Text" xml:space="preserve">
+    <value>طول گریپ:</value>
+  </data>
+  <data name="lbSampleGS.Text" xml:space="preserve">
+    <value>طول گیج:</value>
+  </data>
+  <data name="lbTensileS2E.Text" xml:space="preserve">
+    <value>در نقطه:</value>
+  </data>
+  <data name="llcancel.Text" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="llCtr.Text" xml:space="preserve">
+    <value>کنترل سرعت</value>
+  </data>
+  <data name="llExport.Text" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="llImport.Text" xml:space="preserve">
+    <value>بازیابی</value>
+  </data>
+  <data name="llInformation.Text" xml:space="preserve">
+    <value>اطلاعات</value>
+  </data>
+  <data name="llLoadDefault.Text" xml:space="preserve">
+    <value>بازیابی پیش فرض</value>
+  </data>
+  <data name="llmeasures.Text" xml:space="preserve">
+    <value>نمایشگرها</value>
+  </data>
+  <data name="llMeasuresOk.Text" xml:space="preserve">
+    <value>اعمال</value>
+  </data>
+  <data name="llMethod.Text" xml:space="preserve">
+    <value>روش تست</value>
+  </data>
+  <data name="llOk.Text" xml:space="preserve">
+    <value>قبول</value>
+  </data>
+  <data name="llReporting.Text" xml:space="preserve">
+    <value>گزارش</value>
+  </data>
+  <data name="llSample.Text" xml:space="preserve">
+    <value>نمونه</value>
+  </data>
+  <data name="llSaveDefulat.Text" xml:space="preserve">
+    <value>ذخیره تست پیش فرض</value>
+  </data>
+  <data name="llSpdctrlDefault.Text" xml:space="preserve">
+    <value>بازیابی تنظیمات پیش فرض</value>
+  </data>
+  <data name="llStepAdd.Text" xml:space="preserve">
+    <value>افزودن</value>
+  </data>
+  <data name="llStepCancel.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="llStepUpdate.Text" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="tpDiagram.Text" xml:space="preserve">
+    <value>نمودار</value>
+  </data>
+  <data name="tpInformation.Text" xml:space="preserve">
+    <value>اطلاعات</value>
+  </data>
+  <data name="tpMeasures.Text" xml:space="preserve">
+    <value>نمایشگرها</value>
+  </data>
+  <data name="tpMethod.Text" xml:space="preserve">
+    <value>روش تست</value>
+  </data>
+  <data name="tpSample.Text" xml:space="preserve">
+    <value>نمونه</value>
+  </data>
+  <data name="txtRelaxationTestDuration.Text" xml:space="preserve">
+    <value>مدت آزمایش:</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="llSample.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt, style=Bold</value>
+  </data>
+  <data name="llSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 15</value>
+  </data>
+  <data name="llSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="llInformation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llInformation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 45</value>
+  </data>
+  <data name="llInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 22</value>
+  </data>
+  <data name="llMethod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 75</value>
+  </data>
+  <data name="llMethod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="llExport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 317</value>
+  </data>
+  <data name="llExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="llcancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llcancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 442</value>
+  </data>
+  <data name="llcancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 22</value>
+  </data>
+  <data name="llSaveDefulat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llSaveDefulat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 257</value>
+  </data>
+  <data name="llSaveDefulat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="llCtr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llCtr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 165</value>
+  </data>
+  <data name="llCtr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="llImport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 287</value>
+  </data>
+  <data name="llImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="llOk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 412</value>
+  </data>
+  <data name="llOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="llReporting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llReporting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 135</value>
+  </data>
+  <data name="llReporting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 22</value>
+  </data>
+  <data name="llmeasures.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llmeasures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 105</value>
+  </data>
+  <data name="llmeasures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="llLoadDefault.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llLoadDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 227</value>
+  </data>
+  <data name="llLoadDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 50</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 22</value>
+  </data>
+  <data name="cbTestingSampleType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 49</value>
+  </data>
+  <data name="label71.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt, style=Bold</value>
+  </data>
+  <data name="label71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>713, 16</value>
+  </data>
+  <data name="label71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="txtSampleGP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 136</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtSampleGP.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lbSampleGP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="lbSampleGP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 138</value>
+  </data>
+  <data name="lbSampleGP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="label61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 139</value>
+  </data>
+  <data name="lbSampleUnit3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 258</value>
+  </data>
+  <data name="cbSampleType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 165</value>
+  </data>
+  <data name="lbSampleDim3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 258</value>
+  </data>
+  <data name="lbSampleDim3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lbSampleUnit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 228</value>
+  </data>
+  <data name="txtSampleId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 77</value>
+  </data>
+  <data name="lbSampleUnit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 198</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 168</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="lbSampleDim2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 228</value>
+  </data>
+  <data name="lbSampleDim2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lbAreaInertiaUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 290</value>
+  </data>
+  <data name="lbSampleDim1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>657, 198</value>
+  </data>
+  <data name="lbSampleDim1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtSampleGS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 105</value>
+  </data>
+  <data name="txtSampleGS.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtSampleDim3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 255</value>
+  </data>
+  <data name="txtSampleDim3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lbAreaInertia.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="lbAreaInertia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>693, 288</value>
+  </data>
+  <data name="lbAreaInertia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 22</value>
+  </data>
+  <data name="txtSampleDim2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 225</value>
+  </data>
+  <data name="txtSampleDim2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtSampleDim1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>503, 195</value>
+  </data>
+  <data name="txtSampleDim1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 78</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 22</value>
+  </data>
+  <data name="txtSampleAreaInertia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 287</value>
+  </data>
+  <data name="txtSampleAreaInertia.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lbSampleGS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="lbSampleGS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>682, 108</value>
+  </data>
+  <data name="lbSampleGS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 108</value>
+  </data>
+  <data name="label72.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt, style=Bold</value>
+  </data>
+  <data name="label72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 16</value>
+  </data>
+  <data name="label72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 138</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 22</value>
+  </data>
+  <data name="txtInfomationTestDiscription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 139</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 108</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="txtInfomationTestDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 109</value>
+  </data>
+  <data name="txtInfomationOperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 79</value>
+  </data>
+  <data name="txtInfomationCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 49</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 48</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 78</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 22</value>
+  </data>
+  <data name="label74.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt, style=Bold</value>
+  </data>
+  <data name="label74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 16</value>
+  </data>
+  <data name="label74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 22</value>
+  </data>
+  <data name="label63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 78</value>
+  </data>
+  <data name="txtCurPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 75</value>
+  </data>
+  <data name="txtCurPosition.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label62.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>659, 74</value>
+  </data>
+  <data name="label62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="cbMethodTestMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>418, 45</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>689, 44</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 22</value>
+  </data>
+  <data name="cbSpeedUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 12</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="txtMethodSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 13</value>
+  </data>
+  <data name="txtMethodSpeed.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="pnlSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 88</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 0</value>
+  </data>
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 96</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 22</value>
+  </data>
+  <data name="txtBreakForceOver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 321</value>
+  </data>
+  <data name="txtBreakForceOver.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtBreakForceOver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 24</value>
+  </data>
+  <data name="cbTensilePreLoad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="cbTensilePreLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 37</value>
+  </data>
+  <data name="cbTensilePreLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 26</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 255</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 324</value>
+  </data>
+  <data name="label40.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>649, 320</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 22</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 160</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="cbTensileStoEType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 256</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 283</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 22</value>
+  </data>
+  <data name="cbTensileStoEChangeMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 284</value>
+  </data>
+  <data name="cbTensilePreLoadType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 66</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 188</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 65</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="txtTensilePreLoadSetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 66</value>
+  </data>
+  <data name="txtTensilePreLoadSetPoint.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTensilePreLoadSetPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 24</value>
+  </data>
+  <data name="txtTensilePreLoadWait.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 95</value>
+  </data>
+  <data name="txtTensilePreLoadWait.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTensileSecondSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 189</value>
+  </data>
+  <data name="txtTensileSecondSpeed.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cbTensileEnableStoE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 227</value>
+  </data>
+  <data name="cbTensileSecSpeedTypeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 159</value>
+  </data>
+  <data name="lbTensileSpeedUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 192</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 98</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>472, 160</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 22</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 95</value>
+  </data>
+  <data name="txtTensileSecSpeedSetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 159</value>
+  </data>
+  <data name="txtTensileSecSpeedSetPoint.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTensileSecSpeedSetPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 24</value>
+  </data>
+  <data name="label30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>649, 93</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="cbTensileSecSpeedType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 161</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>472, 65</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 22</value>
+  </data>
+  <data name="cbTensileStoEUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 256</value>
+  </data>
+  <data name="lbTensileS2E.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="lbTensileS2E.Location" type="System.Drawing.Point, System.Drawing">
+    <value>472, 255</value>
+  </data>
+  <data name="lbTensileS2E.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 22</value>
+  </data>
+  <data name="txtTensileStoESetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 256</value>
+  </data>
+  <data name="txtTensileStoESetPoint.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTensileStoESetPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 24</value>
+  </data>
+  <data name="cbPreLoadUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 66</value>
+  </data>
+  <data name="cbTensileEnableSecondSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="cbTensileEnableSecondSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 132</value>
+  </data>
+  <data name="cbTensileEnableSecondSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 26</value>
+  </data>
+  <data name="txtCyclicCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 6</value>
+  </data>
+  <data name="txtCyclicCount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtCyclicDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 144</value>
+  </data>
+  <data name="txtCyclicDelay.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 147</value>
+  </data>
+  <data name="label78.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 145</value>
+  </data>
+  <data name="label78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="lbCyclicLimit2Unit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 120</value>
+  </data>
+  <data name="lbCyclicLimit1Unit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 93</value>
+  </data>
+  <data name="lbCyclicLimit2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="lbCyclicLimit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 118</value>
+  </data>
+  <data name="lbCyclicLimit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 22</value>
+  </data>
+  <data name="lbCyclicLimit1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="lbCyclicLimit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 91</value>
+  </data>
+  <data name="lbCyclicLimit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 22</value>
+  </data>
+  <data name="cbCyclicLimitType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 62</value>
+  </data>
+  <data name="label39.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 63</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="label38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>649, 7</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 22</value>
+  </data>
+  <data name="cbCyclicRateUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 34</value>
+  </data>
+  <data name="cbCyclicRateUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 26</value>
+  </data>
+  <data name="label35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 35</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 22</value>
+  </data>
+  <data name="label37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>659, 35</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 22</value>
+  </data>
+  <data name="cbCyclicRateControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 34</value>
+  </data>
+  <data name="txtCyclicLimit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 117</value>
+  </data>
+  <data name="txtCyclicLimit2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtCyclicLimit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 90</value>
+  </data>
+  <data name="txtCyclicLimit1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtCyclicRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 34</value>
+  </data>
+  <data name="txtCyclicRate.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtStepRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 60</value>
+  </data>
+  <data name="txtStepRate.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lbStepSetExtensionUbit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 37</value>
+  </data>
+  <data name="lbStepForceUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 37</value>
+  </data>
+  <data name="cbStepSetForce.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="cbStepSetForce.Location" type="System.Drawing.Point, System.Drawing">
+    <value>633, 31</value>
+  </data>
+  <data name="cbStepSetForce.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 26</value>
+  </data>
+  <data name="label53.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 5</value>
+  </data>
+  <data name="label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 22</value>
+  </data>
+  <data name="cbSetPointAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 116</value>
+  </data>
+  <data name="llStepUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llStepUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 127</value>
+  </data>
+  <data name="llStepUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 22</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 119</value>
+  </data>
+  <data name="label83.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label83.Location" type="System.Drawing.Point, System.Drawing">
+    <value>636, 115</value>
+  </data>
+  <data name="label83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="llStepAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llStepAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 127</value>
+  </data>
+  <data name="llStepAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="llStepCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llStepCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 127</value>
+  </data>
+  <data name="llStepCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="lbStepSetPointUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 91</value>
+  </data>
+  <data name="label92.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label92.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 87</value>
+  </data>
+  <data name="label92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="cbStepSetPointType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 88</value>
+  </data>
+  <data name="label93.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label93.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 87</value>
+  </data>
+  <data name="label93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="cbStepRateUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 60</value>
+  </data>
+  <data name="cbStepRateUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 26</value>
+  </data>
+  <data name="label94.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label94.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 59</value>
+  </data>
+  <data name="label94.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 22</value>
+  </data>
+  <data name="label95.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label95.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 59</value>
+  </data>
+  <data name="label95.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 22</value>
+  </data>
+  <data name="cbStepSetPointRateControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 60</value>
+  </data>
+  <data name="txtStepSetExtension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 34</value>
+  </data>
+  <data name="txtStepSetExtension.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtStepSetForce.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 34</value>
+  </data>
+  <data name="txtStepSetForce.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtStepSetPointAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 116</value>
+  </data>
+  <data name="txtStepSetPointAction.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtStepSetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 88</value>
+  </data>
+  <data name="txtStepSetPoint.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cbStepSetExtension.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="cbStepSetExtension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 35</value>
+  </data>
+  <data name="cbStepSetExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 26</value>
+  </data>
+  <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>677, 35</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 7</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 22</value>
+  </data>
+  <data name="label29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 63</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 22</value>
+  </data>
+  <data name="label33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 91</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="lbCreepSetPointUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 37</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 35</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 22</value>
+  </data>
+  <data name="cbCreepRateUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 4</value>
+  </data>
+  <data name="cbCreepRateUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 26</value>
+  </data>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 7</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 22</value>
+  </data>
+  <data name="cbCreepSetPointType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 33</value>
+  </data>
+  <data name="cbCreepSetPointRateControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 4</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 65</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 94</value>
+  </data>
+  <data name="cbCreepPlotAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="cbCreepPlotAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 118</value>
+  </data>
+  <data name="cbCreepPlotAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 26</value>
+  </data>
+  <data name="txtCreepRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 4</value>
+  </data>
+  <data name="txtCreepRate.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtCreepSetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 34</value>
+  </data>
+  <data name="txtCreepSetPoint.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtCreepStablizeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 62</value>
+  </data>
+  <data name="txtCreepStablizeTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtCreepTestTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 91</value>
+  </data>
+  <data name="txtCreepTestTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lbRelaxSetPointUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 37</value>
+  </data>
+  <data name="label90.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label90.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 35</value>
+  </data>
+  <data name="label90.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 22</value>
+  </data>
+  <data name="cbRelaxRateUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 4</value>
+  </data>
+  <data name="cbRelaxRateUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 26</value>
+  </data>
+  <data name="label89.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 7</value>
+  </data>
+  <data name="label89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 22</value>
+  </data>
+  <data name="cbRelaxSetPointType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 33</value>
+  </data>
+  <data name="cbRelaxSetPointRateControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 4</value>
+  </data>
+  <data name="label75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 65</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 94</value>
+  </data>
+  <data name="lbRelaxCm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 187</value>
+  </data>
+  <data name="cbRelaxPlotAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="cbRelaxPlotAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 118</value>
+  </data>
+  <data name="cbRelaxPlotAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 26</value>
+  </data>
+  <data name="label77.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>677, 35</value>
+  </data>
+  <data name="label77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="label80.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 7</value>
+  </data>
+  <data name="label80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 22</value>
+  </data>
+  <data name="label76.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 63</value>
+  </data>
+  <data name="label76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 22</value>
+  </data>
+  <data name="txtRelaxationTestDuration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="txtRelaxationTestDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 91</value>
+  </data>
+  <data name="txtRelaxationTestDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="txtRelaxRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 4</value>
+  </data>
+  <data name="txtRelaxRate.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtRelaxSetPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 34</value>
+  </data>
+  <data name="txtRelaxSetPoint.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtRelaxStablizeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 62</value>
+  </data>
+  <data name="txtRelaxStablizeTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtRelaxTestTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 91</value>
+  </data>
+  <data name="txtRelaxTestTime.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="tbTestMethods.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 101</value>
+  </data>
+  <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 253</value>
+  </data>
+  <data name="label99.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label99.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 46</value>
+  </data>
+  <data name="label99.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 22</value>
+  </data>
+  <data name="label98.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label98.Location" type="System.Drawing.Point, System.Drawing">
+    <value>414, 46</value>
+  </data>
+  <data name="label98.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt, style=Bold</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>687, 16</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 22</value>
+  </data>
+  <data name="cbM7Tool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 253</value>
+  </data>
+  <data name="cbM6Tool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 223</value>
+  </data>
+  <data name="cbM5Tool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 193</value>
+  </data>
+  <data name="cbM4Tool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 163</value>
+  </data>
+  <data name="cbM3Tool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 133</value>
+  </data>
+  <data name="cbM2Tool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 103</value>
+  </data>
+  <data name="cbM1Tool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 73</value>
+  </data>
+  <data name="llMeasuresOk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llMeasuresOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 413</value>
+  </data>
+  <data name="llMeasuresOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="txtMeasure7Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 255</value>
+  </data>
+  <data name="txtMeasure6Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 225</value>
+  </data>
+  <data name="txtMeasure5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 195</value>
+  </data>
+  <data name="txtMeasure4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 165</value>
+  </data>
+  <data name="txtMeasure3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 135</value>
+  </data>
+  <data name="txtMeasure2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 105</value>
+  </data>
+  <data name="txtMeasure1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 75</value>
+  </data>
+  <data name="cbMeasureType7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 253</value>
+  </data>
+  <data name="cbMeasureType6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 223</value>
+  </data>
+  <data name="cbMeasureType5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 193</value>
+  </data>
+  <data name="cbMeasureType4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 163</value>
+  </data>
+  <data name="cbMeasureType3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 133</value>
+  </data>
+  <data name="cbMeasureType2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 103</value>
+  </data>
+  <data name="cbMeasureType1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 73</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 223</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 193</value>
+  </data>
+  <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 163</value>
+  </data>
+  <data name="label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 133</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 103</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 73</value>
+  </data>
+  <data name="label45.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 46</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 22</value>
+  </data>
+  <data name="lbDiagramYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>534, 187</value>
+  </data>
+  <data name="lbDiagramXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>534, 157</value>
+  </data>
+  <data name="txtDiagramYStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 184</value>
+  </data>
+  <data name="txtDiagramYStop.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtDiagramXStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 154</value>
+  </data>
+  <data name="txtDiagramXStop.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 185</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 22</value>
+  </data>
+  <data name="label42.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 155</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 22</value>
+  </data>
+  <data name="cbReportFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 304</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 273</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 44</value>
+  </data>
+  <data name="cbDefaultReport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="cbDefaultReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 243</value>
+  </data>
+  <data name="cbDefaultReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 26</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 213</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 22</value>
+  </data>
+  <data name="label87.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label87.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 76</value>
+  </data>
+  <data name="label87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 22</value>
+  </data>
+  <data name="label88.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label88.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 46</value>
+  </data>
+  <data name="label88.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 22</value>
+  </data>
+  <data name="cbDiagramYAxis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 75</value>
+  </data>
+  <data name="cbDiagramXAxis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 45</value>
+  </data>
+  <data name="label32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt, style=Bold</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 16</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 22</value>
+  </data>
+  <data name="cbDiagramStartUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="cbDiagramStartUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 107</value>
+  </data>
+  <data name="cbDiagramStartUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="llSpdctrlDefault.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="llSpdctrlDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 46</value>
+  </data>
+  <data name="llSpdctrlDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="cbSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 45</value>
+  </data>
+  <data name="cbSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 26</value>
+  </data>
+  <data name="label96.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt, style=Bold</value>
+  </data>
+  <data name="label96.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 16</value>
+  </data>
+  <data name="label96.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 22</value>
+  </data>
+  <data name="label97.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="label97.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 46</value>
+  </data>
+  <data name="label97.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 22</value>
+  </data>
+  <data name="panleSpeedSettingSelector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>781, 79</value>
+  </data>
+  <data name="label101.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 105</value>
+  </data>
+  <data name="txtExtenTor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 102</value>
+  </data>
+  <data name="txtExtenTor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtKed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 72</value>
+  </data>
+  <data name="txtKed.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtKei.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 42</value>
+  </data>
+  <data name="txtKei.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtKep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 12</value>
+  </data>
+  <data name="txtKep.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label102.Location" type="System.Drawing.Point, System.Drawing">
+    <value>677, 105</value>
+  </data>
+  <data name="label103.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 75</value>
+  </data>
+  <data name="label104.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 45</value>
+  </data>
+  <data name="label105.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 15</value>
+  </data>
+  <data name="label106.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 105</value>
+  </data>
+  <data name="label107.Location" type="System.Drawing.Point, System.Drawing">
+    <value>673, 105</value>
+  </data>
+  <data name="label108.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 75</value>
+  </data>
+  <data name="label109.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 45</value>
+  </data>
+  <data name="label110.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 15</value>
+  </data>
+  <data name="txtForceTor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 102</value>
+  </data>
+  <data name="txtForceTor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtKfd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 72</value>
+  </data>
+  <data name="txtKfd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtKfi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 42</value>
+  </data>
+  <data name="txtKfi.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtKfp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 12</value>
+  </data>
+  <data name="txtKfp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label111.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 105</value>
+  </data>
+  <data name="label112.Location" type="System.Drawing.Point, System.Drawing">
+    <value>677, 105</value>
+  </data>
+  <data name="label113.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 75</value>
+  </data>
+  <data name="label114.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 45</value>
+  </data>
+  <data name="label115.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 15</value>
+  </data>
+  <data name="txtStrainTor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 102</value>
+  </data>
+  <data name="txtStrainTor.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtKsd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 72</value>
+  </data>
+  <data name="txtKsd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtKsi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 42</value>
+  </data>
+  <data name="txtKsi.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtKsp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 12</value>
+  </data>
+  <data name="txtKsp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="tcSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, -4</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="cbCreepSetPointRateControl.Items" xml:space="preserve">
+    <value>نیرو (N)</value>
+  </data>
+  <data name="cbCreepSetPointRateControl.Items1" xml:space="preserve">
+    <value>استرس (MPa)</value>
+  </data>
+  <data name="cbCyclicLimitType.Items" xml:space="preserve">
+    <value>نیرو (N)</value>
+  </data>
+  <data name="cbCyclicLimitType.Items1" xml:space="preserve">
+    <value>استرس (MPa)</value>
+  </data>
+  <data name="cbCyclicRateControl.Items" xml:space="preserve">
+    <value>نیرو (N)</value>
+  </data>
+  <data name="cbCyclicRateControl.Items1" xml:space="preserve">
+    <value>استرس (MPa)</value>
+  </data>
+  <data name="cbM1Tool.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbM1Tool.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbM1Tool.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbM1Tool.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbM2Tool.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbM2Tool.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbM2Tool.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbM2Tool.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbM3Tool.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbM3Tool.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbM3Tool.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbM3Tool.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbM4Tool.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbM4Tool.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbM4Tool.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbM4Tool.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbM5Tool.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbM5Tool.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbM5Tool.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbM5Tool.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbM6Tool.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbM6Tool.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbM6Tool.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbM6Tool.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbM7Tool.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbM7Tool.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbM7Tool.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbM7Tool.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbMeasureType1.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbMeasureType1.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbMeasureType1.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbMeasureType1.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbMeasureType2.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbMeasureType2.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbMeasureType2.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbMeasureType2.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbMeasureType3.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbMeasureType3.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbMeasureType3.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbMeasureType3.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbMeasureType4.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbMeasureType4.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbMeasureType4.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbMeasureType4.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbMeasureType5.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbMeasureType5.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbMeasureType5.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbMeasureType5.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbMeasureType6.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbMeasureType6.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbMeasureType6.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbMeasureType6.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbMeasureType7.Items" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="cbMeasureType7.Items1" xml:space="preserve">
+    <value>مستطیل</value>
+  </data>
+  <data name="cbMeasureType7.Items2" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="cbMeasureType7.Items3" xml:space="preserve">
+    <value>ناحیه</value>
+  </data>
+  <data name="cbMethodTestMethod.Items" xml:space="preserve">
+    <value>کشش</value>
+  </data>
+  <data name="cbMethodTestMethod.Items1" xml:space="preserve">
+    <value>مقاومت فشاری</value>
+  </data>
+  <data name="cbMethodTestMethod.Items2" xml:space="preserve">
+    <value>آرامش</value>
+  </data>
+  <data name="cbMethodTestMethod.Items3" xml:space="preserve">
+    <value>سینه مال رفتن</value>
+  </data>
+  <data name="cbMethodTestMethod.Items4" xml:space="preserve">
+    <value>چرخه‌ای</value>
+  </data>
+  <data name="cbMethodTestMethod.Items5" xml:space="preserve">
+    <value>مرحله</value>
+  </data>
+  <data name="cboDateCultureFormat.Items" xml:space="preserve">
+    <value>سفارشی</value>
+  </data>
+  <data name="cboDateCultureFormat.Items1" xml:space="preserve">
+    <value>سیستم</value>
+  </data>
+  <data name="cboDateCultureFormat.Items2" xml:space="preserve">
+    <value>فارسی</value>
+  </data>
+  <data name="cboDecimationUnit.Items" xml:space="preserve">
+    <value>نادیدگیری</value>
+  </data>
+  <data name="cboDecimationUnit.Items1" xml:space="preserve">
+    <value>نمونه/ثانیه</value>
+  </data>
+  <data name="cboDecimationUnit.Items2" xml:space="preserve">
+    <value>نمونه/دقیقه</value>
+  </data>
+  <data name="cboDecimationUnit.Items3" xml:space="preserve">
+    <value>نمونه/ساعت</value>
+  </data>
+  <data name="cbRelaxSetPointRateControl.Items" xml:space="preserve">
+    <value>نیرو (N)</value>
+  </data>
+  <data name="cbRelaxSetPointRateControl.Items1" xml:space="preserve">
+    <value>استرس (MPa)</value>
+  </data>
+  <data name="cbSetPointAction.Items" xml:space="preserve">
+    <value>هیچکدام</value>
+  </data>
+  <data name="cbSetPointAction.Items2" xml:space="preserve">
+    <value>نگاه داشتن</value>
+  </data>
+  <data name="cbSpeed.Items" xml:space="preserve">
+    <value>عوامل کنترل تغییر مکان</value>
+  </data>
+  <data name="cbSpeed.Items1" xml:space="preserve">
+    <value>عوامل کنترل نیرو</value>
+  </data>
+  <data name="cbSpeed.Items2" xml:space="preserve">
+    <value>عوامل کنترل کرنش</value>
+  </data>
+  <data name="cbSpeedUnits.Items" xml:space="preserve">
+    <value>هیچکدام</value>
+  </data>
+  <data name="cbSpeedUnits.Items1" xml:space="preserve">
+    <value>زور</value>
+  </data>
+  <data name="cbSpeedUnits.Items2" xml:space="preserve">
+    <value>کرنش</value>
+  </data>
+  <data name="cbSpeedUnits.Items3" xml:space="preserve">
+    <value>طول کشید</value>
+  </data>
+  <data name="cbStepSetPointRateControl.Items" xml:space="preserve">
+    <value>نیرو (N)</value>
+  </data>
+  <data name="cbStepSetPointRateControl.Items1" xml:space="preserve">
+    <value>استرس (MPa)</value>
+  </data>
+  <data name="cbStepSetPointType.Items" xml:space="preserve">
+    <value>نیرو (N)</value>
+  </data>
+  <data name="cbStepSetPointType.Items1" xml:space="preserve">
+    <value>استرس (MPa)</value>
+  </data>
+  <data name="cbStopCondition.Text" xml:space="preserve">
+    <value>استفاده از شرط توقف استفاده</value>
+  </data>
+  <data name="cbTensileEnableStoE.Text" xml:space="preserve">
+    <value>تبدیل استرین به اکستنشن</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Items" xml:space="preserve">
+    <value>هیچکدام</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Items1" xml:space="preserve">
+    <value>زور</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Items2" xml:space="preserve">
+    <value>کرنش</value>
+  </data>
+  <data name="cbTensilePreLoadSetZero.Items3" xml:space="preserve">
+    <value>طول کشید</value>
+  </data>
+  <data name="cbTensilePreLoadType.Items" xml:space="preserve">
+    <value>نیرو (N)</value>
+  </data>
+  <data name="cbTensilePreLoadType.Items1" xml:space="preserve">
+    <value>استرس (MPa)</value>
+  </data>
+  <data name="cbTensileSecSpeedType.Items" xml:space="preserve">
+    <value>نیرو (N)</value>
+  </data>
+  <data name="cbTensileSecSpeedType.Items1" xml:space="preserve">
+    <value>استرس (MPa)</value>
+  </data>
+  <data name="cbTensileStoEChangeMode.Items" xml:space="preserve">
+    <value>نیرو (N)</value>
+  </data>
+  <data name="cbTensileStoEChangeMode.Items1" xml:space="preserve">
+    <value>استرس (MPa)</value>
+  </data>
+  <data name="cbTensileStoEType.Items" xml:space="preserve">
+    <value>نیرو (N)</value>
+  </data>
+  <data name="cbTensileStoEType.Items1" xml:space="preserve">
+    <value>استرس (MPa)</value>
+  </data>
+  <data name="chkResetExtension.Text" xml:space="preserve">
+    <value>بازنشانی مکان</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>کنترل نرخ</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>نرخ</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>واحد</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>نوع محدودیت</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>حد</value>
+  </data>
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>واحد</value>
+  </data>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>اقدام در نقطه هدف</value>
+  </data>
+  <data name="label102.Text" xml:space="preserve">
+    <value>تلورانس:</value>
+  </data>
+  <data name="label107.Text" xml:space="preserve">
+    <value>تلورانس:</value>
+  </data>
+  <data name="label112.Text" xml:space="preserve">
+    <value>تلورانس:</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>سرعت نمونه برداری:</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>نمونه برداری:</value>
+  </data>
+  <data name="label54.Text" xml:space="preserve">
+    <value>شرایط توقف</value>
+  </data>
+  <data name="label55.Text" xml:space="preserve">
+    <value>محور عمودی دوم:</value>
+  </data>
+  <data name="label56.Text" xml:space="preserve">
+    <value>مقدار شرط:</value>
+  </data>
+  <data name="label57.Text" xml:space="preserve">
+    <value>نوع پیش بارگذاری:</value>
+  </data>
+  <data name="label58.Text" xml:space="preserve">
+    <value>نوع شرط:</value>
+  </data>
+  <data name="label59.Text" xml:space="preserve">
+    <value>نقطه تنظیم دما:</value>
+  </data>
+  <data name="label64.Text" xml:space="preserve">
+    <value>زمان پیش بارگذاری:</value>
+  </data>
+  <data name="label66.Text" xml:space="preserve">
+    <value>زمان پیش گرمایش:</value>
+  </data>
+  <data name="label68.Text" xml:space="preserve">
+    <value>پس از</value>
+  </data>
+  <data name="label69.Text" xml:space="preserve">
+    <value>چرخه‌ای</value>
+  </data>
+  <data name="lbAdvanced.Text" xml:space="preserve">
+    <value>پیشرفته</value>
+  </data>
+  <data name="lbSampleDim1.Text" xml:space="preserve">
+    <value>چگالی:</value>
+  </data>
+  <data name="lbSampleDim2.Text" xml:space="preserve">
+    <value>وزن:</value>
+  </data>
+  <data name="lbSampleDim3.Text" xml:space="preserve">
+    <value>طول:</value>
+  </data>
+  <data name="llStopCondition.Text" xml:space="preserve">
+    <value>وضعیت توقف</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>چرخه‌ای</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>مرحله‌ای</value>
+  </data>
+  <data name="tpCompressive.Text" xml:space="preserve">
+    <value>مقاومت فشاری</value>
+  </data>
+  <data name="tpCreep.Text" xml:space="preserve">
+    <value>خزش</value>
+  </data>
+  <data name="tpCtrl.Text" xml:space="preserve">
+    <value>کنترل سرعت</value>
+  </data>
+  <data name="tpExtenCtrl.Text" xml:space="preserve">
+    <value>تغییرطول</value>
+  </data>
+  <data name="tpForceCtrl.Text" xml:space="preserve">
+    <value>نیرو</value>
+  </data>
+  <data name="tpRelaxation.Text" xml:space="preserve">
+    <value>خستگی</value>
+  </data>
+  <data name="tpStrainCtrl.Text" xml:space="preserve">
+    <value>کرنش</value>
+  </data>
+  <data name="tpTensile.Text" xml:space="preserve">
+    <value>کشش</value>
+  </data>
+</root>

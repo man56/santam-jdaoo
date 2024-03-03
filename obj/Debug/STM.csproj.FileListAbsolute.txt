@@ -1,0 +1,243 @@
+C:\Jadoo  13.7\bin\Debug\Santam Jadoo.exe.config
+C:\Jadoo  13.7\bin\Debug\Santam Jadoo.exe
+C:\Jadoo  13.7\bin\Debug\Santam Jadoo.pdb
+C:\Jadoo  13.7\bin\Debug\fa-IR\Santam Jadoo.resources.dll
+C:\Jadoo  13.7\bin\Debug\fa\Santam Jadoo.resources.dll
+C:\Jadoo  13.7\bin\Debug\ja\Santam Jadoo.resources.dll
+C:\Jadoo  13.7\obj\Debug\STM.csproj.ResolveComReference.cache
+C:\Jadoo  13.7\obj\Debug\STM.AboutBox.resources
+C:\Jadoo  13.7\obj\Debug\STM.AccessPermissionForm.resources
+C:\Jadoo  13.7\obj\Debug\STM.FrmRegister.resources
+C:\Jadoo  13.7\obj\Debug\STM.LanguageFrm.resources
+C:\Jadoo  13.7\obj\Debug\STM.MainFrm.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Open.ExplorerTree.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Report.FrmReportingOptions.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Open.FrmOpenFileDialog.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Other.CollapsiblePanel.CollapsiblePanel.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Other.InputDialog.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Other.Prompter.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Report.TestTimeReport.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmTestSetting.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmTestSettingsLimited.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmUnitSetting.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.UI.FrmDrwaings.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.UI.FrmFixedScale.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Report.LogoTool.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Report.FrmReporting.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.UI.AuthenticationFrm.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmCalibration.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmInstrument.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.SensorDetectionFrm.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.UI.MeasurementMonitors.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.UI.MeasureMonitor.resources
+C:\Jadoo  13.7\obj\Debug\STM.Properties.Resources.resources
+C:\Jadoo  13.7\obj\Debug\STM.SplashScreen.resources
+C:\Jadoo  13.7\obj\Debug\STM.TemperatureMoreControlForm.resources
+C:\Jadoo  13.7\obj\Debug\STM.UcSpec.resources
+C:\Jadoo  13.7\obj\Debug\STM.MainFrm.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Open.FrmOpenFileDialog.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Report.FrmReporting.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Report.FrmReportingOptions.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Report.LogoTool.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Report.LogoTool.fa.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Report.LogoTool.ja.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmCalibration.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.fa.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmTestSetting.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmTestSetting.fa.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.UI.FrmFixedScale.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.SensorDetectionFrm.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.UI.AuthenticationFrm.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmInstrument.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.fa-IR.resources
+C:\Jadoo  13.7\obj\Debug\STM.csproj.GenerateResource.Cache
+C:\Jadoo  13.7\obj\Debug\fa-IR\Santam Jadoo.resources.dll
+C:\Jadoo  13.7\obj\Debug\fa\Santam Jadoo.resources.dll
+C:\Jadoo  13.7\obj\Debug\ja\Santam Jadoo.resources.dll
+C:\Jadoo  13.7\obj\Debug\Santam Jadoo.exe
+C:\Jadoo  13.7\obj\Debug\Santam Jadoo.pdb
+D:\Shared2VBox\Jadoo  13.7\bin\Debug\Santam Jadoo.exe.config
+D:\Shared2VBox\Jadoo  13.7\bin\Debug\Santam Jadoo.exe
+D:\Shared2VBox\Jadoo  13.7\bin\Debug\Santam Jadoo.pdb
+D:\Shared2VBox\Jadoo  13.7\bin\Debug\fa-IR\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo  13.7\bin\Debug\fa\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo  13.7\bin\Debug\ja\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.csproj.AssemblyReference.cache
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.csproj.ResolveComReference.cache
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.AboutBox.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.AccessPermissionForm.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.FrmRegister.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.LanguageFrm.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.MainFrm.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Open.ExplorerTree.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Report.FrmReportingOptions.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Open.FrmOpenFileDialog.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Other.CollapsiblePanel.CollapsiblePanel.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Other.InputDialog.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Other.Prompter.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Report.TestTimeReport.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmTestSetting.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmTestSettingsLimited.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmUnitSetting.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.UI.FrmDrwaings.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.UI.FrmFixedScale.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Report.LogoTool.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Report.FrmReporting.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.UI.AuthenticationFrm.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmCalibration.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmInstrument.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.SensorDetectionFrm.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.UI.MeasurementMonitors.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.UI.MeasureMonitor.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.Properties.Resources.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.SplashScreen.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.TemperatureMoreControlForm.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.UcSpec.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.MainFrm.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Open.FrmOpenFileDialog.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Report.FrmReporting.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Report.FrmReportingOptions.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Report.LogoTool.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Report.LogoTool.fa.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Report.LogoTool.ja.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmCalibration.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.fa.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmTestSetting.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmTestSetting.fa.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.UI.FrmFixedScale.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.SensorDetectionFrm.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.UI.AuthenticationFrm.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmInstrument.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.fa-IR.resources
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.csproj.GenerateResource.cache
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\STM.csproj.CoreCompileInputs.cache
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\fa-IR\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\fa\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\ja\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\Santam Jadoo.exe
+D:\Shared2VBox\Jadoo  13.7\obj\Debug\Santam Jadoo.pdb
+D:\Shared2VBox\Jadoo 14\bin\Debug\Santam Jadoo.exe.config
+D:\Shared2VBox\Jadoo 14\bin\Debug\Santam Jadoo.exe
+D:\Shared2VBox\Jadoo 14\bin\Debug\Santam Jadoo.pdb
+D:\Shared2VBox\Jadoo 14\bin\Debug\fa-IR\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo 14\bin\Debug\fa\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo 14\bin\Debug\ja\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.csproj.AssemblyReference.cache
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.csproj.ResolveComReference.cache
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.AboutBox.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.AccessPermissionForm.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.FrmRegister.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.LanguageFrm.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.MainFrm.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Open.ExplorerTree.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Report.FrmReportingOptions.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Open.FrmOpenFileDialog.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Other.CollapsiblePanel.CollapsiblePanel.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Other.InputDialog.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Other.Prompter.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Report.TestTimeReport.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmDecimiationSetting.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmTestSetting.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmTestSettingsLimited.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmUnitSetting.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.UI.FrmDrwaings.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.UI.FrmFixedScale.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Report.LogoTool.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Report.FrmReporting.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.UI.AuthenticationFrm.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmCalibration.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmInstrument.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.SensorDetectionFrm.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.UI.MeasurementMonitors.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.UI.MeasureMonitor.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.Properties.Resources.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.SplashScreen.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.TemperatureMoreControlForm.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.UcSpec.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.MainFrm.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Open.FrmOpenFileDialog.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Report.FrmReporting.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Report.FrmReportingOptions.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Report.LogoTool.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Report.LogoTool.fa.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Report.LogoTool.ja.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmCalibration.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.fa.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmTestSetting.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmTestSetting.fa.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.UI.FrmFixedScale.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.SensorDetectionFrm.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.UI.AuthenticationFrm.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmInstrument.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.fa-IR.resources
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.csproj.GenerateResource.cache
+D:\Shared2VBox\Jadoo 14\obj\Debug\STM.csproj.CoreCompileInputs.cache
+D:\Shared2VBox\Jadoo 14\obj\Debug\fa-IR\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo 14\obj\Debug\fa\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo 14\obj\Debug\ja\Santam Jadoo.resources.dll
+D:\Shared2VBox\Jadoo 14\obj\Debug\Santam Jadoo.exe
+D:\Shared2VBox\Jadoo 14\obj\Debug\Santam Jadoo.pdb
+C:\Jadoo 14\bin\Debug\Santam Jadoo.exe.config
+C:\Jadoo 14\bin\Debug\Santam Jadoo.exe
+C:\Jadoo 14\bin\Debug\Santam Jadoo.pdb
+C:\Jadoo 14\bin\Debug\fa-IR\Santam Jadoo.resources.dll
+C:\Jadoo 14\bin\Debug\fa\Santam Jadoo.resources.dll
+C:\Jadoo 14\bin\Debug\ja\Santam Jadoo.resources.dll
+C:\Jadoo 14\obj\Debug\STM.csprojResolveAssemblyReference.cache
+C:\Jadoo 14\obj\Debug\STM.csproj.ResolveComReference.cache
+C:\Jadoo 14\obj\Debug\STM.AboutBox.resources
+C:\Jadoo 14\obj\Debug\STM.AccessPermissionForm.resources
+C:\Jadoo 14\obj\Debug\STM.FrmRegister.resources
+C:\Jadoo 14\obj\Debug\STM.LanguageFrm.resources
+C:\Jadoo 14\obj\Debug\STM.MainFrm.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Open.ExplorerTree.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Report.FrmReportingOptions.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Open.FrmOpenFileDialog.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Other.CollapsiblePanel.CollapsiblePanel.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Other.InputDialog.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Other.Prompter.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Report.TestTimeReport.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmDecimiationSetting.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmTestSetting.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmTestSettingsLimited.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmUnitSetting.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.UI.FrmDrwaings.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.UI.FrmFixedScale.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Report.LogoTool.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Report.FrmReporting.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.UI.AuthenticationFrm.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmCalibration.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmInstrument.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.SensorDetectionFrm.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.UI.MeasurementMonitors.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.UI.MeasureMonitor.resources
+C:\Jadoo 14\obj\Debug\STM.Properties.Resources.resources
+C:\Jadoo 14\obj\Debug\STM.SplashScreen.resources
+C:\Jadoo 14\obj\Debug\STM.TemperatureMoreControlForm.resources
+C:\Jadoo 14\obj\Debug\STM.UcSpec.resources
+C:\Jadoo 14\obj\Debug\STM.MainFrm.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Open.FrmOpenFileDialog.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Report.FrmReporting.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Report.FrmReportingOptions.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Report.LogoTool.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Report.LogoTool.fa.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Report.LogoTool.ja.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmCalibration.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.fa.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmTestSetting.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmTestSetting.fa.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.UI.FrmFixedScale.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.SensorDetectionFrm.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.UI.AuthenticationFrm.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmInstrument.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.PLayer.Setting.FrmMachineSetting.fa-IR.resources
+C:\Jadoo 14\obj\Debug\STM.csproj.GenerateResource.Cache
+C:\Jadoo 14\obj\Debug\fa-IR\Santam Jadoo.resources.dll
+C:\Jadoo 14\obj\Debug\fa\Santam Jadoo.resources.dll
+C:\Jadoo 14\obj\Debug\ja\Santam Jadoo.resources.dll
+C:\Jadoo 14\obj\Debug\Santam Jadoo.exe
+C:\Jadoo 14\obj\Debug\Santam Jadoo.pdb

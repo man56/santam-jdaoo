@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FrmTestSetting_Stop" xml:space="preserve">
+    <value>توقف</value>
+  </data>
+  <data name="FrmTestSetting_Continue" xml:space="preserve">
+    <value>ادامه</value>
+  </data>
+  <data name="FrmTestSetting_Exten_Limit" xml:space="preserve">
+    <value>حد طولی</value>
+  </data>
+  <data name="FrmTestSetting_Time_Limit" xml:space="preserve">
+    <value>حد زمانی</value>
+  </data>
+  <data name="FrmTestSetting_Strain_Limit" xml:space="preserve">
+    <value>حد استرین</value>
+  </data>
+  <data name="User_Click" xml:space="preserve">
+    <value>انتخاب کاربر</value>
+  </data>
+  <data name="Elongation_After_Break" xml:space="preserve">
+    <value>ازدیاد طول پس از شکست</value>
+  </data>
+  <data name="FrmTestSetting_Circular" xml:space="preserve">
+    <value>مدور</value>
+  </data>
+  <data name="FrmTestSetting_Rectangular" xml:space="preserve">
+    <value>مربع</value>
+  </data>
+  <data name="FrmTestSetting_Area" xml:space="preserve">
+    <value>سطح</value>
+  </data>
+  <data name="FrmTestSetting_Weight" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="FrmTestSetting_Pipe" xml:space="preserve">
+    <value>لوله</value>
+  </data>
+  <data name="FrmTestSetting_Oring" xml:space="preserve">
+    <value>مدور تو خالی</value>
+  </data>
+  <data name="FrmTestSetting_Denier" xml:space="preserve">
+    <value>دنیر</value>
+  </data>
+  <data name="FrmTestSetting_Tex" xml:space="preserve">
+    <value>تکس</value>
+  </data>
+  <data name="FrmTestSetting_Tear" xml:space="preserve">
+    <value>اشک</value>
+  </data>
+  <data name="FrmTestSetting_Peak" xml:space="preserve">
+    <value>سقف نیرو</value>
+  </data>
+  <data name="FrmTestSetting_Break" xml:space="preserve">
+    <value>نقطه شکست</value>
+  </data>
+  <data name="FrmTestSetting_Yield" xml:space="preserve">
+    <value>بازده</value>
+  </data>
+  <data name="FrmTestSetting_Yield_Offset" xml:space="preserve">
+    <value>بازده آفست</value>
+  </data>
+  <data name="FrmTestSetting_Upper_Yield" xml:space="preserve">
+    <value>بازده بالا</value>
+  </data>
+  <data name="FrmTestSetting_Lower_Yield" xml:space="preserve">
+    <value>بازده پایین</value>
+  </data>
+  <data name="FrmTestSetting_Mean_Yield" xml:space="preserve">
+    <value>بازده متوسط</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Energy" xml:space="preserve">
+    <value>انرژی</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Force_Rate" xml:space="preserve">
+    <value>نرخ سرعت</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Extension_Rate" xml:space="preserve">
+    <value>نرخ تغییر طول</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Stress_Rate" xml:space="preserve">
+    <value>نرخ تنش</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Strain_Rate" xml:space="preserve">
+    <value>نرخ کرنش</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Relaxation" xml:space="preserve">
+    <value>خستگی</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Force_Loss" xml:space="preserve">
+    <value>جبران نیرو</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Stress_Loss" xml:space="preserve">
+    <value>جبران تنش</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Bending_Stress" xml:space="preserve">
+    <value>تنش خمشی</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Bending_Strain" xml:space="preserve">
+    <value>کرنش خمشی</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Bending_Module" xml:space="preserve">
+    <value>ماژول خمشی</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Force_Per_Length" xml:space="preserve">
+    <value>نیرو بر طول</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Formula" xml:space="preserve">
+    <value>فرمول</value>
+  </data>
+  <data name="FrmTestSetting__3P_Bending" xml:space="preserve">
+    <value>خمش 3 نقطه</value>
+  </data>
+  <data name="FrmTestSetting__4P_Bending" xml:space="preserve">
+    <value>خمش 4 نقطه</value>
+  </data>
+  <data name="FrmTestSetting_Tension_Compression" xml:space="preserve">
+    <value>کشش/فشار</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Secant_Module" xml:space="preserve">
+    <value>ماژول سکانت</value>
+  </data>
+  <data name="ReportingParameters_ReportPropertyAbbrev_Tangent_Module" xml:space="preserve">
+    <value>ماژول تانژانت</value>
+  </data>
+  <data name="AboutX0" xml:space="preserve">
+    <value>درباره {0}</value>
+  </data>
+  <data name="VersionX0" xml:space="preserve">
+    <value>نسخه {0}</value>
+  </data>
+</root>

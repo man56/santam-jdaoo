@@ -1,0 +1,3328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="tpTestSpec.Text" xml:space="preserve">
+    <value>TestSpec</value>
+  </data>
+  <data name="menuToolsZoomIn.Text" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tsbOpen.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bttnStartTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbSpacer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;menTools.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nrMinTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="&gt;&gt;menuToolsZoomIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="printToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tpTestSpec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>810, 237</value>
+  </data>
+  <data name="&gt;&gt;Column5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 6</value>
+  </data>
+  <data name="subMenuNewTest.Text" xml:space="preserve">
+    <value>Define Test</value>
+  </data>
+  <data name="bttnJogUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="lbSpacer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bttnStartTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 6</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="tcTestsTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-5, 7</value>
+  </data>
+  <data name="fitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fit</value>
+  </data>
+  <data name="&gt;&gt;tcTestsTab.Parent" xml:space="preserve">
+    <value>testsPanel</value>
+  </data>
+  <data name="&gt;&gt;menuInstrument.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlContainer.Name" xml:space="preserve">
+    <value>pnlContainer</value>
+  </data>
+  <data name="&gt;&gt;ctxNoXOffset.Name" xml:space="preserve">
+    <value>ctxNoXOffset</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="menuOpenGroup.Text" xml:space="preserve">
+    <value>Open Selected Group</value>
+  </data>
+  <data name="&gt;&gt;bttnJogDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bttnStrainToExten.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;tsbFit.Name" xml:space="preserve">
+    <value>tsbFit</value>
+  </data>
+  <data name="measureMonitors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 55</value>
+  </data>
+  <data name="lbCaption.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;stressLost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;printting.Name" xml:space="preserve">
+    <value>printting</value>
+  </data>
+  <data name="subMenuMKS.Text" xml:space="preserve">
+    <value>MKS</value>
+  </data>
+  <data name="&gt;&gt;ctxCbRecentGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pointSelectionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuPrint.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+P</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Gague/Support Length (mm)</value>
+  </data>
+  <data name="menuRecentGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Cross Head</value>
+  </data>
+  <data name="&gt;&gt;tpTestProgress.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;bttnJogUp.Name" xml:space="preserve">
+    <value>bttnJogUp</value>
+  </data>
+  <data name="&gt;&gt;collapsiblePanel3.Name" xml:space="preserve">
+    <value>collapsiblePanel3</value>
+  </data>
+  <data name="menuMachineSetting.Text" xml:space="preserve">
+    <value>Machine </value>
+  </data>
+  <data name="menuCloseTest.Text" xml:space="preserve">
+    <value>Close Tests</value>
+  </data>
+  <data name="tsbOpen.ToolTipText" xml:space="preserve">
+    <value>Open Test</value>
+  </data>
+  <data name="&gt;&gt;tbOnlineInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="printToolStripButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;menuToolsPan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;specTempUPToolStripMenuItem.Name" xml:space="preserve">
+    <value>specTempUPToolStripMenuItem</value>
+  </data>
+  <data name="testsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>808, 266</value>
+  </data>
+  <data name="&gt;&gt;menuNewTest.Name" xml:space="preserve">
+    <value>menuNewTest</value>
+  </data>
+  <data name="&gt;&gt;rtbTestProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ctxMenuYType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="bttnReturnToZero.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="printToolStripButton1.Text" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <data name="tsbIndicator.Text" xml:space="preserve">
+    <value>Indicator</value>
+  </data>
+  <data name="menuAddToGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;nrMinTemperature.Type" xml:space="preserve">
+    <value>STM.PLayer.NRTextBox, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="measuresToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="lbCaption.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;measureMonitors.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ambientTempToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ambient Temp</value>
+  </data>
+  <data name="&gt;&gt;tpTestProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lengthStressStarinToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Save as Group Test</value>
+  </data>
+  <data name="&gt;&gt;recentFilesToolStripMenuItem.Name" xml:space="preserve">
+    <value>recentFilesToolStripMenuItem</value>
+  </data>
+  <data name="lengthStressStarinToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="&gt;&gt;lbSpacer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuToolsFit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;closeTestToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bttnStartTest.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ctxMenuStrainTime.Text" xml:space="preserve">
+    <value>Strain Time</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="bttnStrainToExten.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="menuDrawingParams.Text" xml:space="preserve">
+    <value>Drawing Properties</value>
+  </data>
+  <data name="dgvReportingResults.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="subMenuUnits.Text" xml:space="preserve">
+    <value>Units System</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 6</value>
+  </data>
+  <data name="tsbOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 16</value>
+  </data>
+  <data name="temperatureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="menuRecentTests.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="tsbIndicator.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;specTempCNTToolStripMenuItem.Name" xml:space="preserve">
+    <value>specTempCNTToolStripMenuItem</value>
+  </data>
+  <data name="specTempCNTToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="&gt;&gt;temperatureToolStripMenuItem.Name" xml:space="preserve">
+    <value>temperatureToolStripMenuItem</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="pnlContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuXType.Name" xml:space="preserve">
+    <value>ctxMenuXType</value>
+  </data>
+  <data name="&gt;&gt;subMenuBS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="viewToolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>View Tools</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bttnStrainToExten.Name" xml:space="preserve">
+    <value>bttnStrainToExten</value>
+  </data>
+  <data name="&gt;&gt;menuShowReportLines.Name" xml:space="preserve">
+    <value>menuShowReportLines</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuXUnit.Name" xml:space="preserve">
+    <value>ctxMenuXUnit</value>
+  </data>
+  <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="subMenuBS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="statusStandard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1025, 22</value>
+  </data>
+  <data name="stressLost.Text" xml:space="preserve">
+    <value>Stress Loss(Relaxation mode)</value>
+  </data>
+  <data name="closeTestToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="&gt;&gt;pnlCtrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpTestProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;images1.Type" xml:space="preserve">
+    <value>STM.DLayer.Images, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="tsbIndicator.ToolTipText" xml:space="preserve">
+    <value>Indicator</value>
+  </data>
+  <data name="nrMaxTemperature.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="button1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ambientTempToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="tsbFit.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="menuStandard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lbSpacer.Text" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="testTimeReportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="specTempUPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 6</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="&gt;&gt;tsbOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuSetting.Name" xml:space="preserve">
+    <value>menuSetting</value>
+  </data>
+  <data name="ctxXOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 22</value>
+  </data>
+  <data name="&gt;&gt;pnlCtrl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ctxMenuReportPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="tbOnlineInfo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="nrMaxTemperature.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;bttnStartTest.Name" xml:space="preserve">
+    <value>bttnStartTest</value>
+  </data>
+  <data name="standardToolbarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Standard toolbar</value>
+  </data>
+  <data name="&gt;&gt;bttnStartTest.Parent" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="tpTestProgress.Text" xml:space="preserve">
+    <value>testProgress</value>
+  </data>
+  <data name="&gt;&gt;panToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuCalibration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="specTempDNToolStripMenuItem.Text" xml:space="preserve">
+    <value>Spec Temp DN</value>
+  </data>
+  <data name="collapsiblePanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 581</value>
+  </data>
+  <data name="ctxMenuFixedScale.Text" xml:space="preserve">
+    <value>Fixed Scale</value>
+  </data>
+  <data name="bttnJogDown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;plot.Type" xml:space="preserve">
+    <value>STM.PLayer.UI.Plot, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="testTimeReportToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;statusStandard.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="subMenuMeasures.Text" xml:space="preserve">
+    <value>Measures Units</value>
+  </data>
+  <data name="bttnReturnToZero.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="plot.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="menuShowReportPoints.Text" xml:space="preserve">
+    <value>Show Report Points</value>
+  </data>
+  <data name="&gt;&gt;subMenuUnits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusbarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="subMenuToolsMeasures.Text" xml:space="preserve">
+    <value>Measures</value>
+  </data>
+  <data name="bttnJogDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;bttnReturnToZero.Parent" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcTestsTab.Name" xml:space="preserve">
+    <value>tcTestsTab</value>
+  </data>
+  <data name="&gt;&gt;printting.Type" xml:space="preserve">
+    <value>STM.PLayer.Print.Printting, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 6</value>
+  </data>
+  <data name="tsbUndo.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainFrm</value>
+  </data>
+  <data name="&gt;&gt;menuRecentTests.Name" xml:space="preserve">
+    <value>menuRecentTests</value>
+  </data>
+  <data name="closeTestToolStripMenuItem.Text" xml:space="preserve">
+    <value>Close Test</value>
+  </data>
+  <data name="&gt;&gt;nrMinTemperature.Name" xml:space="preserve">
+    <value>nrMinTemperature</value>
+  </data>
+  <data name="&gt;&gt;zoneTempCNTToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Name" xml:space="preserve">
+    <value>toolStripSeparator12</value>
+  </data>
+  <data name="tsbPan.ToolTipText" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbOnlineInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 407</value>
+  </data>
+  <data name="&gt;&gt;zoneTempCNTToolStripMenuItem.Name" xml:space="preserve">
+    <value>zoneTempCNTToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;tsbIndicator.Name" xml:space="preserve">
+    <value>tsbIndicator</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="&gt;&gt;temperatureDiagramToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;recentFilesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbUndo.Name" xml:space="preserve">
+    <value>tsbUndo</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
+    <value>toolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;fitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subMenuUnits.Name" xml:space="preserve">
+    <value>subMenuUnits</value>
+  </data>
+  <data name="ctxMenuStressStrain.Text" xml:space="preserve">
+    <value>Stress Strain</value>
+  </data>
+  <data name="&gt;&gt;temperatureDiagramToolStripMenuItem.Name" xml:space="preserve">
+    <value>temperatureDiagramToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tslEncoderSpeed.Name" xml:space="preserve">
+    <value>tslEncoderSpeed</value>
+  </data>
+  <data name="tsbSave.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tcTestsTab.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="menuPrint.Text" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="menuNewTest.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vwAADr8BOAVTJAAAARFJREFUOE+tkNtKAlEYheel7B3qNeyNJC8ivCgjRFAwKFTSKIM8IaITdkJGS9Hx
+        XNN4GGfJHn9xxpk2c+EHi32x1/oufmFvxB5q2E0kVUUoXkLwOoviSwNUdYYN/uMsfI+Do2O+JJoWqW7n
+        JBhH4qm6loiSsyScLFPdju/81hhvQhMrVzcFqttZaEtDshHRxMpF7JnqVnRdh6LO0ekrhsBz6HUWBCKP
+        NLEym2sYjFVI7TFfcBpK0WSLttQxUWZoyb94kwZ8gf8yQbMt6nQBefiH+vcIlXeZL2CfZtjhRj9TNDsT
+        1Op95MW2e4H5cB/NIcqvXWRKX+4F5sOJnz1kKy3c5SR3AvbywhWwTzehyT4QhBXYzPbDF6Dr9QAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="pnlContainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuForceExtension.Name" xml:space="preserve">
+    <value>ctxMenuForceExtension</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menuSetAsDefualt.Text" xml:space="preserve">
+    <value>Set As Defualt</value>
+  </data>
+  <data name="&gt;&gt;pointSelectionToolStripMenuItem.Name" xml:space="preserve">
+    <value>pointSelectionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;subMenuTestReportPoints.Name" xml:space="preserve">
+    <value>subMenuTestReportPoints</value>
+  </data>
+  <data name="menuPrintPreview.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tsbSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plotReportPanel.Name" xml:space="preserve">
+    <value>plotReportPanel</value>
+  </data>
+  <data name="rtbTestProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuExportAsExcel.Name" xml:space="preserve">
+    <value>menuExportAsExcel</value>
+  </data>
+  <data name="pnlCtrl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="ctxMenuYUnit.Text" xml:space="preserve">
+    <value>Y Unit</value>
+  </data>
+  <data name="&gt;&gt;lbCaption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuXType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subMenuToolsStatusBar.Name" xml:space="preserve">
+    <value>subMenuToolsStatusBar</value>
+  </data>
+  <data name="Column0.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="tsbNewTest.ToolTipText" xml:space="preserve">
+    <value>New Test</value>
+  </data>
+  <data name="bttnStartTest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="tsbZoom.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="tpTestSpec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;printToolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvTestNameCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;menuOpenGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpTestProgress.Parent" xml:space="preserve">
+    <value>tcTestsTab</value>
+  </data>
+  <data name="nrMinTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tsbSave.Name" xml:space="preserve">
+    <value>tsbSave</value>
+  </data>
+  <data name="ambientTempToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="pnlContainer.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="tsbUndo.ToolTipText" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="tsbIndicator.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;toolsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuOpenGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="&gt;&gt;lengthStressStarinToolStripMenuItem.Name" xml:space="preserve">
+    <value>lengthStressStarinToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuSetAsDefualt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="subMenuToolsMeasures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="plotReportPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="bttnStopTest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="ctxXOffset.Text" xml:space="preserve">
+    <value>10 px</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuReportPoints.Name" xml:space="preserve">
+    <value>ctxMenuReportPoints</value>
+  </data>
+  <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 6</value>
+  </data>
+  <data name="testsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctxMenuYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="&gt;&gt;toolsToolStripMenuItem.Name" xml:space="preserve">
+    <value>toolsToolStripMenuItem</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 6</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;zoomToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zoneTempUPToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zone Temp UP</value>
+  </data>
+  <data name="bttnReturnToZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="&gt;&gt;menuOpenTest.Name" xml:space="preserve">
+    <value>menuOpenTest</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuShowReportLines.Name" xml:space="preserve">
+    <value>ctxMenuShowReportLines</value>
+  </data>
+  <data name="plotPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ctxMenuExtensionTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="&gt;&gt;tsbFit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbCaption.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tsbUndo.Text" xml:space="preserve">
+    <value>Undo Zoom/Pan</value>
+  </data>
+  <data name="subMenuOptionSetting.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;standardToolbarToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbTestProgress.Parent" xml:space="preserve">
+    <value>tpTestProgress</value>
+  </data>
+  <data name="menuPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vwAADr8BOAVTJAAAAilJREFUOE+1kv9PUlEYxvmnWK2tVlttGmpltrCcEQ1XUjSMaUHJNLIlNcnCragp
+        lBvUoC/okJhZLG8GuSRlSrgJ5ASJEAEV4svTvZdrTNGtrfVs7y/nvM/nOec9h/Vf5PGFYXo7tW0ZhyfB
+        tJaKMo84vNis9K8s/AtLeG4ZQyVPuj3AYP2CtVQGP6Jx2J3TdL20OaA3E3BOBVAn6sDxc21bAz665kBM
+        zDGZBVHJy4kU3LMhGK0OVJy6ArONKAVEYklojASyuTwCwciGdIv9KxyTftQ2KlAjkOO25hXu6SxFiGva
+        R5uHHZ4/qevJwUgSHl8ED/U2+u7yrn48No6i8rSsAHB/C6BbNwSt+TMeGOx48voTurVWtN01QNyuAa9J
+        iUNkc3ldM06cvwFV7wAkCg0O1l8uAO70vUE8maKTNyuTzWGVHCh1knB0FfOLCcg6tWho6SJPwLyEoscE
+        87sJvLA5oTWN4L5uEB3qZ5B29kLUqgb/khLcxnYc5stQdlKCC+RarfA69taICoBWlZ7JK1V8JQ1/cBnj
+        M2F8cIUwQMyDJ76FivoWsMvPFABS5VOmvShyfviZyGDm+wpG3VFwenZC/36RnvxRwTXsqRYWAc03+5DO
+        AGQYosk8FmJ5zIZyGPOuYXA8gX77ElRsNtRDMRpwgCsumilJFI/gJQ3U5t/UBvO6qhvkqOJfBYf8ZWXk
+        c+3nNmHfsYvYfUSIXVVnsYMjoI1bmv9NLNZvAdgvSYonlzMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;subMenuBS.Name" xml:space="preserve">
+    <value>subMenuBS</value>
+  </data>
+  <data name="&gt;&gt;subMenuOptionSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>Open Group Test</value>
+  </data>
+  <data name="subMenuMKS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="bttnStrainToExten.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="plot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="menuShowReportLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="tsbNewTest.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbFit.ToolTipText" xml:space="preserve">
+    <value>Fit Plot</value>
+  </data>
+  <data name="bttnStrainToExten.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tpTestSpec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zoneTempDNToolStripMenuItem.Name" xml:space="preserve">
+    <value>zoneTempDNToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tsbPrintPreview.Name" xml:space="preserve">
+    <value>tsbPrintPreview</value>
+  </data>
+  <data name="bttnJogDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 230</value>
+  </data>
+  <data name="tbOnlineInfo.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctxMenuForceExtension.Text" xml:space="preserve">
+    <value>Force Extension</value>
+  </data>
+  <data name="tpTestSpec.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Column4.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="dgvReportingResults.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="menuPrintPreview.Text" xml:space="preserve">
+    <value>Print Pre&amp;view</value>
+  </data>
+  <data name="closeTs.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tsbPrintPreview.Text" xml:space="preserve">
+    <value>&amp;Print Preview</value>
+  </data>
+  <data name="&gt;&gt;tcTestsTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbNewTest.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;menuOpenTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="&gt;&gt;closeTestToolStripMenuItem.Name" xml:space="preserve">
+    <value>closeTestToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuStressTime.Name" xml:space="preserve">
+    <value>ctxMenuStressTime</value>
+  </data>
+  <data name="&gt;&gt;bttnStrainToExten.Parent" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Recent Files</value>
+  </data>
+  <data name="menuToolsZoomIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuFixedScale.Name" xml:space="preserve">
+    <value>ctxMenuFixedScale</value>
+  </data>
+  <data name="&gt;&gt;lbSpacer.Name" xml:space="preserve">
+    <value>lbSpacer</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="menuStandard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1025, 24</value>
+  </data>
+  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;bttnStopTest.Parent" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="&gt;&gt;measureMonitors.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="closeTs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="exitToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="menuDrawingParams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="&gt;&gt;zoomOutToolStripMenuItem.Name" xml:space="preserve">
+    <value>zoomOutToolStripMenuItem</value>
+  </data>
+  <data name="tsbNewTest.Text" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="&gt;&gt;menuShowReportLabels.Name" xml:space="preserve">
+    <value>menuShowReportLabels</value>
+  </data>
+  <data name="images1.F0" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        JOEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="lbCaption.Text" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="menuNewTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="dgvTestNameCol.HeaderText" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="&gt;&gt;plotReportPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuShowReportPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctxMenuXType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 6</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bttnReturnToZero.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bttnReturnToZero.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt, style=Bold</value>
+  </data>
+  <data name="bttnJogUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 163</value>
+  </data>
+  <data name="tsbPrintPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="menuOpenTest.Text" xml:space="preserve">
+    <value>&amp;Open Test</value>
+  </data>
+  <data name="pnlContainer.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ambientTempToolStripMenuItem.Name" xml:space="preserve">
+    <value>ambientTempToolStripMenuItem</value>
+  </data>
+  <data name="subMenuBS.Text" xml:space="preserve">
+    <value>BS</value>
+  </data>
+  <data name="tbOnlineInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ctxMenuShowReportLines.Text" xml:space="preserve">
+    <value>Show Report Lines</value>
+  </data>
+  <data name="menTools.Text" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="&gt;&gt;testsPanel.Parent" xml:space="preserve">
+    <value>pnlContainer</value>
+  </data>
+  <data name="rtbTestProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>821, 231</value>
+  </data>
+  <data name="plotReportPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tslEncoderSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuReportPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStandard.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panToolStripMenuItem.Name" xml:space="preserve">
+    <value>panToolStripMenuItem</value>
+  </data>
+  <data name="menuPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="&gt;&gt;bttnJogUp.Parent" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="&gt;&gt;tcTestsTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;menuRecentGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bttnStartTest.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextBeforeImage</value>
+  </data>
+  <data name="customeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="&gt;&gt;viewToolsToolStripMenuItem.Name" xml:space="preserve">
+    <value>viewToolsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuInstrument.Text" xml:space="preserve">
+    <value>Instrument</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="dgvTestNameCol.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="bttnStrainToExten.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bttnStopTest.Name" xml:space="preserve">
+    <value>bttnStopTest</value>
+  </data>
+  <data name="collapsiblePanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;menuDrawingParams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plot.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbCaption.Name" xml:space="preserve">
+    <value>lbCaption</value>
+  </data>
+  <data name="menTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="menuToolsZoomOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="&gt;&gt;subMenuNewTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Area(mm2) / Inertia(mm4)</value>
+  </data>
+  <data name="menuSave.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="printToolStripButton1.ToolTipText" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="&gt;&gt;Column5.Name" xml:space="preserve">
+    <value>Column5</value>
+  </data>
+  <data name="standardToolbarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="forceLost.Text" xml:space="preserve">
+    <value>Force Loss(Relaxation mode)</value>
+  </data>
+  <data name="tsbPan.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;fullScreenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 6</value>
+  </data>
+  <data name="menuSave.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="zoneTempCNTToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zone Temp CNT</value>
+  </data>
+  <data name="&gt;&gt;menuShowReportLabels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subMenuTestReportPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 577</value>
+  </data>
+  <data name="tcTestsTab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="forceLost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="&gt;&gt;menuToolsPan.Name" xml:space="preserve">
+    <value>menuToolsPan</value>
+  </data>
+  <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Full screen</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Name" xml:space="preserve">
+    <value>toolStripSeparator</value>
+  </data>
+  <data name="&gt;&gt;subMenuToolsMeasures.Name" xml:space="preserve">
+    <value>subMenuToolsMeasures</value>
+  </data>
+  <data name="closeTs.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="tsbPrintPreview.ToolTipText" xml:space="preserve">
+    <value>Print Preview</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="plot.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ucSpec.Name" xml:space="preserve">
+    <value>ucSpec</value>
+  </data>
+  <data name="&gt;&gt;menuCloseTest.Name" xml:space="preserve">
+    <value>menuCloseTest</value>
+  </data>
+  <data name="&gt;&gt;tsbIndicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newToolStripMenuItem.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="menuPrintPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="&gt;&gt;menuInstrument.Name" xml:space="preserve">
+    <value>menuInstrument</value>
+  </data>
+  <data name="&gt;&gt;collapsiblePanel3.Type" xml:space="preserve">
+    <value>STM.PLayer.Other.CollapsiblePanel.CollapsiblePanel, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbSpacer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.75pt</value>
+  </data>
+  <data name="&gt;&gt;menuRecentTests.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbFit.Text" xml:space="preserve">
+    <value>Fit Plot</value>
+  </data>
+  <data name="lbSpacer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>808, 30</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="tbOnlineInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 161</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuXOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="subMenuTestReportPoints.Text" xml:space="preserve">
+    <value>Report Points</value>
+  </data>
+  <data name="&gt;&gt;bttnStrainToExten.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="testsPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="&gt;&gt;pnlContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="menuShowReportPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="plotReportPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>825, 577</value>
+  </data>
+  <data name="&gt;&gt;Column0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuDeleteGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="&gt;&gt;bttnJogUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbOnlineInfo.Parent" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;menuCreateGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bttnReturnToZero.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuForceTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuPrintPreview.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vwAADr8BOAVTJAAAAYJJREFUOE+dkr1LQlEYxv0XXFvaCpqrqaHAIYO29ggjIshwk4TWlqghikwpSMVE
+        MfzuWmhqQaUhkX0MDaFkkRCEleXXE+fcc9Xb1ZB+8HA58D4/3nO4Mnf0Dr/jDKVg45Iwe85wcZOG7C9I
+        oRVG+xH6lCpYPdHWkr3wNRuXsmbmEDxJ8RJ3pLnEfnDJxqWs7gTQPzJZC6uIsfoTbFxKqVyhEkHEKmJM
+        7lM2Lib9mAMXicOw66Wx+6PIZHNSyZYzxip1yCApu95LcDzxsSSyVHJ7nxFLNm0hVqtj8UVo+aXCn59R
+        oRJhE1blWbcE+akGlk2+mkAIOZMttLoVsYA8UCPk4Yjg8As4r/Jl8iUCWTiPufnF1oJqtYqPQpFeYTb5
+        SSUkQlln9EI9M91a8F0s4/WtgPjVA1yBGJWQolDWaMaxrZU3F5BvY5YMLuyHjul11At6jI5NIWJUAAW9
+        WEKGya/aTpS93chzHVSiUw2IN2mXieEuKiFb/FvS0ymHYnAInGMDP0DfQkjzNgC0AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;collapsiblePanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="temperatureDiagramToolStripMenuItem.Text" xml:space="preserve">
+    <value>Temperature Diagram</value>
+  </data>
+  <data name="ctxMenuStressTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Test Mode</value>
+  </data>
+  <data name="&gt;&gt;saveAsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zoomOutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zoom out</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;menuNewTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;closeTs.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ctxMenuForceTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="&gt;&gt;menuAddToGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbZoom.Name" xml:space="preserve">
+    <value>tsbZoom</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="&gt;&gt;dgvTestNameCol.Name" xml:space="preserve">
+    <value>dgvTestNameCol</value>
+  </data>
+  <data name="&gt;&gt;fullScreenToolStripMenuItem.Name" xml:space="preserve">
+    <value>fullScreenToolStripMenuItem</value>
+  </data>
+  <data name="rtbTestProgress.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tsbNewTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="bttnStartTest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt, style=Bold</value>
+  </data>
+  <data name="lbSpacer.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;rtbTestProgress.Name" xml:space="preserve">
+    <value>rtbTestProgress</value>
+  </data>
+  <data name="tsbZoom.ToolTipText" xml:space="preserve">
+    <value>Zoom in</value>
+  </data>
+  <data name="menuNewTest.Text" xml:space="preserve">
+    <value>&amp;New Test</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="subMenuSI.Text" xml:space="preserve">
+    <value>SI</value>
+  </data>
+  <data name="ctxMenuStrainTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="ctxMenuShowReportLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="stressLost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="&gt;&gt;temperatureControlToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuShowReportLabels.Text" xml:space="preserve">
+    <value>Show Point Labels</value>
+  </data>
+  <data name="customeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Custome</value>
+  </data>
+  <data name="plot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>808, 282</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 6</value>
+  </data>
+  <data name="&gt;&gt;menuStandard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ucSpec.Type" xml:space="preserve">
+    <value>STM.UcSpec, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menTools.Name" xml:space="preserve">
+    <value>menTools</value>
+  </data>
+  <data name="specTempCNTToolStripMenuItem.Text" xml:space="preserve">
+    <value>Spec Temp CNT</value>
+  </data>
+  <data name="ctxMenuForceTime.Text" xml:space="preserve">
+    <value>Force Time</value>
+  </data>
+  <data name="images1.E0" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;newToolStripMenuItem.Name" xml:space="preserve">
+    <value>newToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem1.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem1</value>
+  </data>
+  <data name="Column5.Width" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="statusStandard.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zoneTempUPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="statusbarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Statusbar</value>
+  </data>
+  <data name="measureMonitors.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator17.Name" xml:space="preserve">
+    <value>toolStripSeparator17</value>
+  </data>
+  <data name="menuAddToGroup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="plotReportPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 143</value>
+  </data>
+  <data name="&gt;&gt;plotReportPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuToolsPan.Text" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuTestProperties.Name" xml:space="preserve">
+    <value>ctxMenuTestProperties</value>
+  </data>
+  <data name="menuOpenTest.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="tsbFit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 28</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plot.Parent" xml:space="preserve">
+    <value>plotPanel</value>
+  </data>
+  <data name="&gt;&gt;plotPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpTestProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="subMenuTestReportPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="testTimeReportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Test Time Report</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;customeToolStripMenuItem.Name" xml:space="preserve">
+    <value>customeToolStripMenuItem</value>
+  </data>
+  <data name="menuExportAsExcel.Text" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="menuMachineSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="menuRecentTests.Text" xml:space="preserve">
+    <value>Recent Tests</value>
+  </data>
+  <data name="&gt;&gt;menuSave.Name" xml:space="preserve">
+    <value>menuSave</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuExtensionTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuStressTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;viewToolsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuSaveAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpTestProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 237</value>
+  </data>
+  <data name="&gt;&gt;timer.Name" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="&gt;&gt;specTempDNToolStripMenuItem.Name" xml:space="preserve">
+    <value>specTempDNToolStripMenuItem</value>
+  </data>
+  <data name="massStressStarinToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mass-Stress Strain</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Motor Speed(mm/min)</value>
+  </data>
+  <data name="bttnStopTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="menuAddToGroup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="tsbPan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="tbOnlineInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="menuSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="pnlContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;temperatureToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stressLost.Name" xml:space="preserve">
+    <value>stressLost</value>
+  </data>
+  <data name="&gt;&gt;lbCaption.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlCtrl.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="ctxMenuXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dgvReportingResults.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="subMenuMeasures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="&gt;&gt;newToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbOnlineInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="subMenuUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="&gt;&gt;pnlCtrl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="ctxMenuXUnit.Text" xml:space="preserve">
+    <value>X Unit</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="tpTestSpec.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 6</value>
+  </data>
+  <data name="ctxMenuCurrentTest.Text" xml:space="preserve">
+    <value>Current Test Setting</value>
+  </data>
+  <data name="bttnStopTest.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="&gt;&gt;menuSetAsDefualt.Name" xml:space="preserve">
+    <value>menuSetAsDefualt</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ucSpec.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbCaption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 186</value>
+  </data>
+  <data name="pnlCtrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>828, 143</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="bttnStopTest.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuDiagramType.Name" xml:space="preserve">
+    <value>ctxMenuDiagramType</value>
+  </data>
+  <data name="measuresToolStripMenuItem.Text" xml:space="preserve">
+    <value>Measures</value>
+  </data>
+  <data name="&gt;&gt;menuDeleteGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuRecentGroups.Text" xml:space="preserve">
+    <value>Recent Groups</value>
+  </data>
+  <data name="tsbOpen.Text" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator19.Name" xml:space="preserve">
+    <value>toolStripSeparator19</value>
+  </data>
+  <data name="&gt;&gt;menuSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStandard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="specTempUPToolStripMenuItem.Text" xml:space="preserve">
+    <value>Spec Temp UP</value>
+  </data>
+  <data name="massStressStarinToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="menuAddToGroup.Text" xml:space="preserve">
+    <value>Add Current Test to</value>
+  </data>
+  <data name="&gt;&gt;forceLost.Name" xml:space="preserve">
+    <value>forceLost</value>
+  </data>
+  <data name="relaxLost.Text" xml:space="preserve">
+    <value>Relaxation Loss(Relaxation mode)</value>
+  </data>
+  <data name="measureMonitors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;menuCloseTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="bttnStrainToExten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 343</value>
+  </data>
+  <data name="toolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 6</value>
+  </data>
+  <data name="&gt;&gt;menuShowReportPoints.Name" xml:space="preserve">
+    <value>menuShowReportPoints</value>
+  </data>
+  <data name="tsbPrintPreview.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="menuCreateGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="&gt;&gt;nrMinTemperature.Parent" xml:space="preserve">
+    <value>plotPanel</value>
+  </data>
+  <data name="bttnJogDown.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuYUnit.Name" xml:space="preserve">
+    <value>ctxMenuYUnit</value>
+  </data>
+  <data name="&gt;&gt;pnlCtrl.Name" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="bttnStartTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="&gt;&gt;ctxCbRecentGroups.Name" xml:space="preserve">
+    <value>ctxCbRecentGroups</value>
+  </data>
+  <data name="ctxMenuShowReportLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="&gt;&gt;bttnReturnToZero.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ctxXOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem.Name" xml:space="preserve">
+    <value>openToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tsbZoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuMachineSetting.Name" xml:space="preserve">
+    <value>menuMachineSetting</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 58</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zoomToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="tsbZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="bttnReturnToZero.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="rtbTestProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ctxMenuShowReportPoints.Text" xml:space="preserve">
+    <value>Show Report Points</value>
+  </data>
+  <data name="dgvReportingResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>808, 153</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>996, 25</value>
+  </data>
+  <data name="ctxCbRecentGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuYType.Name" xml:space="preserve">
+    <value>ctxMenuYType</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuStressStrain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="subMenuPlotPoints.Text" xml:space="preserve">
+    <value>Plot Report Options</value>
+  </data>
+  <data name="&gt;&gt;menuCreateGroup.Name" xml:space="preserve">
+    <value>menuCreateGroup</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuStrainTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuShowReportLabels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bttnJogUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuDiagram.Name" xml:space="preserve">
+    <value>ctxMenuDiagram</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="lengthStressStarinToolStripMenuItem.Text" xml:space="preserve">
+    <value>Length-Stress Strain</value>
+  </data>
+  <data name="ctxMenuTestProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 148</value>
+  </data>
+  <data name="&gt;&gt;zoneTempUPToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="menuOpenTest.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="menuSetting.Text" xml:space="preserve">
+    <value>&amp;Settings</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;About...</value>
+  </data>
+  <data name="Column3.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;massStressStarinToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nrMinTemperature.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;nrMaxTemperature.Name" xml:space="preserve">
+    <value>nrMaxTemperature</value>
+  </data>
+  <data name="&gt;&gt;menuTest.Name" xml:space="preserve">
+    <value>menuTest</value>
+  </data>
+  <data name="tsbPan.Text" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="ctxMenuForceExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="&gt;&gt;nrMaxTemperature.Parent" xml:space="preserve">
+    <value>plotPanel</value>
+  </data>
+  <data name="&gt;&gt;menuOpenGroup.Name" xml:space="preserve">
+    <value>menuOpenGroup</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tslEncoderSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="menuDeleteGroup.Text" xml:space="preserve">
+    <value>Delete Selected  Group</value>
+  </data>
+  <data name="&gt;&gt;menuPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem1.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;forceLost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="collapsiblePanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pointSelectionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Point selection</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
+    <value>toolStripSeparator10</value>
+  </data>
+  <data name="&gt;&gt;subMenuMKS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="printToolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="specTempDNToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="&gt;&gt;zoneTempDNToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpTestProgress.Name" xml:space="preserve">
+    <value>tpTestProgress</value>
+  </data>
+  <data name="closeTs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1025, 31</value>
+  </data>
+  <data name="tsbSave.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;bttnJogDown.Name" xml:space="preserve">
+    <value>bttnJogDown</value>
+  </data>
+  <data name="tsbPrintPreview.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menuSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="ctxMenuXOffset.Text" xml:space="preserve">
+    <value>Offset X by</value>
+  </data>
+  <data name="ctxNoXOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 22</value>
+  </data>
+  <data name="&gt;&gt;lbSpacer.Parent" xml:space="preserve">
+    <value>collapsiblePanel3</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="bttnJogDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="menuCreateGroup.Text" xml:space="preserve">
+    <value>Create Group</value>
+  </data>
+  <data name="temperatureDiagramToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="&gt;&gt;dgvReportingResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="testsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;tsbUndo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctxMenuExtensionTime.Text" xml:space="preserve">
+    <value>Extension Time</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuShowReportLines.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 6</value>
+  </data>
+  <data name="&gt;&gt;plotReportPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;testsPanel.Name" xml:space="preserve">
+    <value>testsPanel</value>
+  </data>
+  <data name="&gt;&gt;subMenuToolsStatusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuShowReportLines.Text" xml:space="preserve">
+    <value>Show Report Lines</value>
+  </data>
+  <data name="temperatureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="tsbZoom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;bttnStopTest.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Column0.Name" xml:space="preserve">
+    <value>Column0</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Name" xml:space="preserve">
+    <value>toolStripSeparator9</value>
+  </data>
+  <data name="&gt;&gt;bttnJogDown.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="bttnStopTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 82</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 6</value>
+  </data>
+  <data name="&gt;&gt;menuAddToGroup.Name" xml:space="preserve">
+    <value>menuAddToGroup</value>
+  </data>
+  <data name="bttnJogUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="bttnJogDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="tsbZoom.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsbNewTest.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vwAADr8BOAVTJAAAARFJREFUOE+tkNtKAlEYheel7B3qNeyNJC8ivCgjRFAwKFTSKIM8IaITdkJGS9Hx
+        XNN4GGfJHn9xxpk2c+EHi32x1/oufmFvxB5q2E0kVUUoXkLwOoviSwNUdYYN/uMsfI+Do2O+JJoWqW7n
+        JBhH4qm6loiSsyScLFPdju/81hhvQhMrVzcFqttZaEtDshHRxMpF7JnqVnRdh6LO0ekrhsBz6HUWBCKP
+        NLEym2sYjFVI7TFfcBpK0WSLttQxUWZoyb94kwZ8gf8yQbMt6nQBefiH+vcIlXeZL2CfZtjhRj9TNDsT
+        1Op95MW2e4H5cB/NIcqvXWRKX+4F5sOJnz1kKy3c5SR3AvbywhWwTzehyT4QhBXYzPbDF6Dr9QAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="plotReportPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;nrMinTemperature.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="temperatureControlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="&gt;&gt;menuStandard.Name" xml:space="preserve">
+    <value>menuStandard</value>
+  </data>
+  <data name="&gt;&gt;tsbNewTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 30</value>
+  </data>
+  <data name="&gt;&gt;collapsiblePanel3.Parent" xml:space="preserve">
+    <value>pnlContainer</value>
+  </data>
+  <data name="tsbSave.ToolTipText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="menuNewTest.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;menuPrintPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;zoneTempUPToolStripMenuItem.Name" xml:space="preserve">
+    <value>zoneTempUPToolStripMenuItem</value>
+  </data>
+  <data name="menuSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="ctxMenuDiagramType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="tlsStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 17</value>
+  </data>
+  <data name="&gt;&gt;measuresToolStripMenuItem.Name" xml:space="preserve">
+    <value>measuresToolStripMenuItem</value>
+  </data>
+  <data name="ctxNoXOffset.Text" xml:space="preserve">
+    <value>0 px</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator18.Name" xml:space="preserve">
+    <value>toolStripSeparator18</value>
+  </data>
+  <data name="subMenuSI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="&gt;&gt;plotPanel.Type" xml:space="preserve">
+    <value>STM.PLayer.Other.CollapsiblePanel.CollapsiblePanel, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuFixedScale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subMenuOptionSetting.Name" xml:space="preserve">
+    <value>subMenuOptionSetting</value>
+  </data>
+  <data name="menuToolsZoomOut.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="&gt;&gt;standardToolbarToolStripMenuItem.Name" xml:space="preserve">
+    <value>standardToolbarToolStripMenuItem</value>
+  </data>
+  <data name="exitToolStripMenuItem1.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="menuSaveAs.Text" xml:space="preserve">
+    <value>Save &amp;As</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 6</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="&gt;&gt;statusStandard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nrMaxTemperature.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="plotPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>808, 315</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 214</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuCurrentTest.Name" xml:space="preserve">
+    <value>ctxMenuCurrentTest</value>
+  </data>
+  <data name="menuOpenTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="bttnStrainToExten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="&gt;&gt;subMenuPlotPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctxMenuCurrentTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="dgvReportingResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="bttnStartTest.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;bttnReturnToZero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbPan.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;dgvReportingResults.Parent" xml:space="preserve">
+    <value>collapsiblePanel3</value>
+  </data>
+  <data name="zoneTempDNToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zone Temp DN</value>
+  </data>
+  <data name="&gt;&gt;closeTs.Name" xml:space="preserve">
+    <value>closeTs</value>
+  </data>
+  <data name="ctxMenuUpdate.Text" xml:space="preserve">
+    <value>Update Plot</value>
+  </data>
+  <data name="&gt;&gt;tsbOpen.Name" xml:space="preserve">
+    <value>tsbOpen</value>
+  </data>
+  <data name="menuStandard.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bttnStrainToExten.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bttnReturnToZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 287</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;zoomOutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuStressStrain.Name" xml:space="preserve">
+    <value>ctxMenuStressStrain</value>
+  </data>
+  <data name="menuExportAsExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 742</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuTestProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zoomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="menuShowReportLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="&gt;&gt;subMenuSI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bttnStopTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 51</value>
+  </data>
+  <data name="bttnReturnToZero.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;testTimeReportToolStripMenuItem.Name" xml:space="preserve">
+    <value>testTimeReportToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveAsToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveAsToolStripMenuItem</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuCurrentTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStandard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 720</value>
+  </data>
+  <data name="&gt;&gt;ctxNoXOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 6</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuShowReportLabels.Name" xml:space="preserve">
+    <value>ctxMenuShowReportLabels</value>
+  </data>
+  <data name="&gt;&gt;menuToolsZoomOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbTestProgress.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="collapsiblePanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>808, 294</value>
+  </data>
+  <data name="&gt;&gt;fitToolStripMenuItem.Name" xml:space="preserve">
+    <value>fitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;measureMonitors.Name" xml:space="preserve">
+    <value>measureMonitors</value>
+  </data>
+  <data name="&gt;&gt;lbCaption.Parent" xml:space="preserve">
+    <value>plotPanel</value>
+  </data>
+  <data name="&gt;&gt;menuPrintPreview.Name" xml:space="preserve">
+    <value>menuPrintPreview</value>
+  </data>
+  <data name="Column0.HeaderText" xml:space="preserve">
+    <value>Rw</value>
+  </data>
+  <data name="&gt;&gt;bttnReturnToZero.Name" xml:space="preserve">
+    <value>bttnReturnToZero</value>
+  </data>
+  <data name="&gt;&gt;bttnStartTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsbUndo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ctxMenuShowReportLabels.Text" xml:space="preserve">
+    <value>Show Point Labels</value>
+  </data>
+  <data name="&gt;&gt;images1.Name" xml:space="preserve">
+    <value>images1</value>
+  </data>
+  <data name="ucSpec.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;subMenuMKS.Name" xml:space="preserve">
+    <value>subMenuMKS</value>
+  </data>
+  <data name="&gt;&gt;massStressStarinToolStripMenuItem.Name" xml:space="preserve">
+    <value>massStressStarinToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;subMenuToolsMeasures.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusbarToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fullScreenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="bttnStartTest.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Santam Jadoo Testing Machine</value>
+  </data>
+  <data name="pnlContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>825, 577</value>
+  </data>
+  <data name="&gt;&gt;plot.Name" xml:space="preserve">
+    <value>plot</value>
+  </data>
+  <data name="menuToolsFit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="&gt;&gt;menuSetAsDefualt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuShowReportPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bttnStopTest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Column3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="&gt;&gt;plotPanel.Name" xml:space="preserve">
+    <value>plotPanel</value>
+  </data>
+  <data name="&gt;&gt;tlsStatusLabel.Name" xml:space="preserve">
+    <value>tlsStatusLabel</value>
+  </data>
+  <data name="lbSpacer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;menuToolsZoomIn.Name" xml:space="preserve">
+    <value>menuToolsZoomIn</value>
+  </data>
+  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="bttnJogDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="&gt;&gt;lbSpacer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bttnJogUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="subMenuToolsStandard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="&gt;&gt;dgvReportingResults.Name" xml:space="preserve">
+    <value>dgvReportingResults</value>
+  </data>
+  <data name="plotPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="&gt;&gt;subMenuSI.Name" xml:space="preserve">
+    <value>subMenuSI</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="temperatureControlToolStripMenuItem.Text" xml:space="preserve">
+    <value>Temperature Control</value>
+  </data>
+  <data name="&gt;&gt;testsPanel.Type" xml:space="preserve">
+    <value>STM.PLayer.Other.CollapsiblePanel.CollapsiblePanel, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menuExportAsExcel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuPrint.Name" xml:space="preserve">
+    <value>menuPrint</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator16.Name" xml:space="preserve">
+    <value>toolStripSeparator16</value>
+  </data>
+  <data name="&gt;&gt;tsbPan.Name" xml:space="preserve">
+    <value>tsbPan</value>
+  </data>
+  <data name="&gt;&gt;tbOnlineInfo.Name" xml:space="preserve">
+    <value>tbOnlineInfo</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subMenuPlotPoints.Name" xml:space="preserve">
+    <value>subMenuPlotPoints</value>
+  </data>
+  <data name="menuPrint.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;bttnStopTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>Report Points Defination</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;menuMachineSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subMenuToolsStandard.Name" xml:space="preserve">
+    <value>subMenuToolsStandard</value>
+  </data>
+  <data name="lbCaption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
+    <value>toolStripSeparator11</value>
+  </data>
+  <data name="testsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 315</value>
+  </data>
+  <data name="&gt;&gt;pnlContainer.Parent" xml:space="preserve">
+    <value>plotReportPanel</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tsbOpen.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="plot.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;measureMonitors.Type" xml:space="preserve">
+    <value>STM.PLayer.UI.MeasurementMonitors, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="plot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="ucSpec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuUpdate.Name" xml:space="preserve">
+    <value>ctxMenuUpdate</value>
+  </data>
+  <data name="ctxMenuXOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="zoneTempCNTToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="panToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="&gt;&gt;relaxLost.Name" xml:space="preserve">
+    <value>relaxLost</value>
+  </data>
+  <data name="&gt;&gt;menuRecentGroups.Name" xml:space="preserve">
+    <value>menuRecentGroups</value>
+  </data>
+  <data name="ctxMenuUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuToolsPan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;ctxXOffset.Name" xml:space="preserve">
+    <value>ctxXOffset</value>
+  </data>
+  <data name="&gt;&gt;specTempCNTToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuExtensionTime.Name" xml:space="preserve">
+    <value>ctxMenuExtensionTime</value>
+  </data>
+  <data name="bttnStrainToExten.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;menuSaveAs.Name" xml:space="preserve">
+    <value>menuSaveAs</value>
+  </data>
+  <data name="&gt;&gt;bttnStrainToExten.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuInstrument.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="&gt;&gt;nrMaxTemperature.Type" xml:space="preserve">
+    <value>STM.PLayer.NRTextBox, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tsbUndo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;tsbPan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 16</value>
+  </data>
+  <data name="tsbSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="&gt;&gt;subMenuNewTest.Name" xml:space="preserve">
+    <value>subMenuNewTest</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 134</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuYType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nrMaxTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 6</value>
+  </data>
+  <data name="rtbTestProgress.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;menuDrawingParams.Name" xml:space="preserve">
+    <value>menuDrawingParams</value>
+  </data>
+  <data name="&gt;&gt;temperatureControlToolStripMenuItem.Name" xml:space="preserve">
+    <value>temperatureControlToolStripMenuItem</value>
+  </data>
+  <data name="nrMaxTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 31</value>
+  </data>
+  <data name="subMenuOptionSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="relaxLost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pointSelectionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="subMenuToolsStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="&gt;&gt;relaxLost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subMenuMeasures.Name" xml:space="preserve">
+    <value>subMenuMeasures</value>
+  </data>
+  <data name="&gt;&gt;pnlContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="menuCalibration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="&gt;&gt;Column3.Name" xml:space="preserve">
+    <value>Column3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuToolsFit.Text" xml:space="preserve">
+    <value>Fit</value>
+  </data>
+  <data name="subMenuToolsStandard.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuStrainTime.Name" xml:space="preserve">
+    <value>ctxMenuStrainTime</value>
+  </data>
+  <data name="plotPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="subMenuToolsStatusBar.Text" xml:space="preserve">
+    <value>Status Bar</value>
+  </data>
+  <data name="&gt;&gt;menuStandard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStandard.Name" xml:space="preserve">
+    <value>statusStandard</value>
+  </data>
+  <data name="tsbIndicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuForceTime.Name" xml:space="preserve">
+    <value>ctxMenuForceTime</value>
+  </data>
+  <data name="&gt;&gt;specTempDNToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="subMenuNewTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="tpTestProgress.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuShowReportPoints.Name" xml:space="preserve">
+    <value>ctxMenuShowReportPoints</value>
+  </data>
+  <data name="ucSpec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>804, 231</value>
+  </data>
+  <data name="bttnJogUp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="tslEncoderSpeed.Text" xml:space="preserve">
+    <value>Speed : 0</value>
+  </data>
+  <data name="nrMinTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 263</value>
+  </data>
+  <data name="tcTestsTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 263</value>
+  </data>
+  <data name="menuOpenTest.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vwAADr8BOAVTJAAAAkdJREFUOE/FkF1I02EUxv8XXXRlkRWFUGB54c0gKKK6CCmiUBTLLEjShJofVBgL
+        c360qenm5ubUlS5rm66p00ozCvuQCkUi1NSRZmpWFJViZqjk16+/LtShhHcdeHjhcJ7fec4rLLeUBjuX
+        1FYyjQ7+tpZfETKjmylVhM284bJ8hE99b6m06Repo+XpPzeFxGYTFJ2DMDPc1WZhbKhiVr8H7Uz0m3FY
+        s+lofbYk5EiMjqAoAwHSPISKYh2jg6Vu5qmvBUw44yi9qaakMANzfiqmnBSuaeXkqeLdoWUWDaPfLXPm
+        adFMlxyc0iW1CHCrSMWvL6Y5c22lZlYPHVnU2FXcLcnAYU7DblJiNV7mhiGJQp0coybBBSsxZTD8IXc2
+        dm+9gqpSHVO9SuhLd9d7sdeTCJ0yeBNLa3kotut6BLMxjZ/daviopbosm8ZHWtfQwuivw6EphMkGf8Ye
+        +/GuWIJMGuw6pcig4EeHkr6GZKrsWqZ7FNAe5TK2RorG40w2BjJWd4DhB3sYqNyGMtpHPEfuAhTokhlo
+        S+C2TUPzCzFJZ5wIOA3NYUy/DGb8+SFGavcyWLWdb2W+NF1ZzQl/7/mPNGbJaa9L4Y4tC7pToEWM++oo
+        4/UBjDzxY6hmJ/0OCZ8tW3FqPVFIt3A2+uQ8IDczngqrGue9GJr0wpwatSuoU63kfuoqypPWYY734uqF
+        zYQt3D5T+vSL6BVnyEyIIPHcMc5HBnIqdD+HD+5i324JOyQ++Hp7sWnjWtav8WCDp4c74D+XIPwBF8be
+        aT1+/VgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuDiagram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;closeTs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctxMenuFixedScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="zoomOutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="ctxMenuShowReportPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="bttnJogUp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tlsStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuCloseTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="viewToolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="statusStandard.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;specTempUPToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctxMenuStressStrain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 22</value>
+  </data>
+  <data name="&gt;&gt;tsbPrintPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctxMenuDiagram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 208</value>
+  </data>
+  <data name="&gt;&gt;statusbarToolStripMenuItem.Name" xml:space="preserve">
+    <value>statusbarToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator15.Name" xml:space="preserve">
+    <value>toolStripSeparator15</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuDeleteGroup.Name" xml:space="preserve">
+    <value>menuDeleteGroup</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuToolsFit.Name" xml:space="preserve">
+    <value>menuToolsFit</value>
+  </data>
+  <data name="bttnStopTest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="nrMinTemperature.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;closeTs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctxMenuReportPoints.Text" xml:space="preserve">
+    <value>Report Points Defination</value>
+  </data>
+  <data name="toolStripSeparator18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="menuCalibration.Text" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="menuNewTest.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="&gt;&gt;tpTestSpec.Name" xml:space="preserve">
+    <value>tpTestSpec</value>
+  </data>
+  <data name="&gt;&gt;bttnJogUp.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuForceExtension.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="plotPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ctxMenuStressTime.Text" xml:space="preserve">
+    <value>Stress Time</value>
+  </data>
+  <data name="nrMaxTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="menuSaveAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="menuTest.Text" xml:space="preserve">
+    <value>T&amp;est</value>
+  </data>
+  <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="&gt;&gt;measuresToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="&gt;&gt;menuCalibration.Name" xml:space="preserve">
+    <value>menuCalibration</value>
+  </data>
+  <data name="&gt;&gt;testsPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;menuToolsZoomOut.Name" xml:space="preserve">
+    <value>menuToolsZoomOut</value>
+  </data>
+  <data name="ctxMenuDiagramType.Text" xml:space="preserve">
+    <value>Diagram Type</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpTestSpec.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Name" xml:space="preserve">
+    <value>toolStripSeparator13</value>
+  </data>
+  <data name="&gt;&gt;subMenuToolsStandard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zoneTempDNToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="&gt;&gt;ucSpec.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuDiagramType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbNewTest.Name" xml:space="preserve">
+    <value>tsbNewTest</value>
+  </data>
+  <data name="&gt;&gt;printToolStripButton1.Name" xml:space="preserve">
+    <value>printToolStripButton1</value>
+  </data>
+  <data name="tlsStatusLabel.Text" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="menuSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vwAADr8BOAVTJAAAAjJJREFUOE+tkt9Lk1EYx99/oftugi66rakxnIvV4C3XUJYNw4qwH2+kWZou00TF
+        yjRq/oJshUsnrVaTcFKRP8AUKRFlKlmauaIlDjXFJoLB1/OcvXlcRRfRF56bl/fzOed5ziP9lzx/FgaV
+        r3UJLd5FPHTPo6kxhLuOadTVfoH9VgDXyydRWjKOwoK3yMsdwflzfqi4JBHY1QnU1qzgb1leWYUptQuH
+        Up/yUnFJ8j5Z4ILKim/qr7+H4ND8MnZZXkCjUWA96BEC94M5Ligt+ar+Hp2f8MfgAmLMPhRcmsIBS7MQ
+        OBtmuOCi7YOKiGyEhydC2CZ7kZM9huQkpxDU3w5yQdbZERWL5Fe4zx/EZoMbijIAs9khBDXVn7lAOTWg
+        on+GO/s/YVN8Iw4feYXExDohuFE5hY52sKcEjh1/A+vRXj5tGhj1TNemkyNwN1KsLyHLdiG4UjaBNh/Y
+        DgDNrh/s3b+j/NosHyoNjHrOzPCvw/uTW2E0VgjB5cIxeB4B952rbHHCMKVlR5Ul3Ya0M0UROInB+zww
+        GMqEwJY3ymCguirMTyaIfUaMTsbg+xmMTs5Cyb2KPaYWDut2u6DXFwkBraXjDtavTQKCT+ffxLvAHALT
+        i7hQbEeswcXgJsQm3IMuPl8IMjOGWN9LHN5q9GDLDhmP23rga+9DR3c/el8PYq/ZCo2+AXEM3q6th1ab
+        IwSUkyd6+HrShtGS0DvTU9G0aWDUM51KRfDOuKxowb9FktYATrQ4xbl82G8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;menuShowReportLines.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer.Type" xml:space="preserve">
+    <value>STM.Timer.AccurateTimer, Santam Jadoo, Version=14.2.11.25, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="subMenuPlotPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="measureMonitors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1025, 88</value>
+  </data>
+  <data name="&gt;&gt;plotPanel.Parent" xml:space="preserve">
+    <value>pnlContainer</value>
+  </data>
+  <data name="&gt;&gt;ucSpec.Parent" xml:space="preserve">
+    <value>tpTestSpec</value>
+  </data>
+  <data name="&gt;&gt;bttnJogDown.Parent" xml:space="preserve">
+    <value>pnlCtrl</value>
+  </data>
+  <data name="&gt;&gt;subMenuMeasures.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctxMenuXOffset.Name" xml:space="preserve">
+    <value>ctxMenuXOffset</value>
+  </data>
+  <data name="&gt;&gt;testTimeReportToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpTestSpec.Parent" xml:space="preserve">
+    <value>tcTestsTab</value>
+  </data>
+  <data name="bttnStrainToExten.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;zoomToolStripMenuItem.Name" xml:space="preserve">
+    <value>zoomToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;customeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="bttnJogUp.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="statusStandard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ctxMenuDiagram.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>672, 25</value>
+  </metadata>
+  <metadata name="button1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="plotPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="bttnJogDown.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>607, 22</value>
+  </metadata>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="bttnStrainToExten.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbCaption.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="plot.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="rtbTestProgress.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbSpacer.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ucSpec.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="closeTs.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="closeTs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>816, -3</value>
+  </metadata>
+  <metadata name="tbOnlineInfo.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="testsPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tpTestSpec.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column0.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nrMaxTemperature.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="menuStandard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tcTestsTab.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="measureMonitors.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="collapsiblePanel3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvTestNameCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ctxMenuTestProperties.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>455, 24</value>
+  </metadata>
+  <metadata name="pnlCtrl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru</value>
+  </metadata>
+  <metadata name="menuStandard.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>112, 20</value>
+  </metadata>
+  <metadata name="dgvReportingResults.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="printting.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>365, 23</value>
+  </metadata>
+  <metadata name="images1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="label3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="bttnReturnToZero.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>56</value>
+  </metadata>
+  <metadata name="plotReportPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nrMinTemperature.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="bttnStartTest.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tpTestProgress.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="pnlContainer.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="statusStandard.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>244, 20</value>
+  </metadata>
+  <metadata name="bttnStopTest.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

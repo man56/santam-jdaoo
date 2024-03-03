@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Sample TestingSampleType="Tension/Compression" SampleId="CRM" SampleGS="30" SampleGP="30" Type="Circular" Dim1="6.01" Dim2="" Dim3="" Area="28.36866" />
+  <GetTestParameters TestMethodType="Creep" CurrentPostions="0" CreepSetPointRateControl="Stress" CreepRate="50" CreepRateUnit="MPa/min" CreepSetPointType="Stress" CreepSetPoint="160" CreepStablizeTime="0.1" CreepTestTime="40000" CreepPlotAll="true" Decimation="6000" CreepPreloadType="Stress" CreepPreload="10" CreepPreloadTime=".1" CreepTemperature="600" CreepTemperatureOffset="0" CreepPreHeatTime="180" ResetExtension="true" TestStopType="Extension" TestStopValue="5" />
+  <HardwareParams Kep="150" Kei="0.1" Ked="0" Etorelance="0.0001" Ksi="0" Ksp="150" Ksd="0" Storelance="0.001" Kfi="0.01" Kfp="0.05" Kfd="0" Ftorelance=".0001" />
+  <Diagram X="Time" Y="Extension" Y2="Specimen Temp Up" StartScale="False" MaxX="1" MaxY="0.5" ReportFilePath="" />
+</root>

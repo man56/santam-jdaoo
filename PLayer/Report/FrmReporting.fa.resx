@@ -1,0 +1,798 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbAdvancedEnabled.Text" xml:space="preserve">
+    <value>بررسي بازه های گزارش</value>
+  </data>
+  <data name="cbElsticMode.Items" xml:space="preserve">
+    <value>رگراسيون</value>
+  </data>
+  <data name="cbElsticMode.Items1" xml:space="preserve">
+    <value>نقطه اول و آخر</value>
+  </data>
+  <data name="cbShowAcceptRange.Text" xml:space="preserve">
+    <value>نمایش بازه قابل قبول</value>
+  </data>
+  <data name="cbShowElastic.Text" xml:space="preserve">
+    <value>نمایش ماجول الاسیسیته</value>
+  </data>
+  <data name="cbShowMeanRms.Text" xml:space="preserve">
+    <value>نمايش مقادیر میانگین و انحراف معیار</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>تنظيمات گزارش</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>تعریف نقطه</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>مقدار مورد انتظار از:</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>کليات</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>تا:</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>% نقطه پیک</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>تا:</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>تا:</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>محاسبات ماجول الاسیسته از:</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>مقدار قابل قبول(!) از:</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>نوع:</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>تا:</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>غیر قابل قبول(x) از:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>نام:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>ویژگی:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>فرمول:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>پیش نمايش</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>مرحله/سيکل:</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>برچسب:</value>
+  </data>
+  <data name="lbAtFrom.Text" xml:space="preserve">
+    <value>از:</value>
+  </data>
+  <data name="lbAtTo.Text" xml:space="preserve">
+    <value>تا:</value>
+  </data>
+  <data name="lbPointDef.Text" xml:space="preserve">
+    <value>تعريف نقطه</value>
+  </data>
+  <data name="llAddPoint.Text" xml:space="preserve">
+    <value>+ افزودن</value>
+  </data>
+  <data name="llAdvancedAddPoint.Text" xml:space="preserve">
+    <value>+ افزودن</value>
+  </data>
+  <data name="llCancel.Text" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="llCancelEditPoint.Text" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="llDeletePoint.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="llExport.Text" xml:space="preserve">
+    <value>ذخيره</value>
+  </data>
+  <data name="llGeneral.Text" xml:space="preserve">
+    <value>کلیات</value>
+  </data>
+  <data name="llImport.Text" xml:space="preserve">
+    <value>بازیابي</value>
+  </data>
+  <data name="llLoad.Text" xml:space="preserve">
+    <value>بازيابي پيش فرض</value>
+  </data>
+  <data name="llOk.Text" xml:space="preserve">
+    <value>قبول</value>
+  </data>
+  <data name="llSave.Text" xml:space="preserve">
+    <value>ذخيره پيش فرض</value>
+  </data>
+  <data name="llUpdatePoint.Text" xml:space="preserve">
+    <value>آپديـت</value>
+  </data>
+  <data name="menuDeletePreview.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="menuEditPreview.Text" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="tpOptions.Text" xml:space="preserve">
+    <value>گزینه‌ها</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 15</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 29</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 45</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 26</value>
+  </data>
+  <data name="cbPointType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 46</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 105</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 26</value>
+  </data>
+  <data name="txtPointName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 106</value>
+  </data>
+  <data name="lbAtFrom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="lbAtFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 5</value>
+  </data>
+  <data name="lbAtFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 26</value>
+  </data>
+  <data name="lbPointAtFromUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 5</value>
+  </data>
+  <data name="lbPointToUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 5</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 75</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 26</value>
+  </data>
+  <data name="dgvPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="dgvPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>765, 99</value>
+  </data>
+  <data name="txtlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 136</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 135</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 26</value>
+  </data>
+  <data name="cbProperty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 76</value>
+  </data>
+  <data name="llOk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 460</value>
+  </data>
+  <data name="llOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 26</value>
+  </data>
+  <data name="txtFormula.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 1</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, -3</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 26</value>
+  </data>
+  <data name="pnlFormula.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 89</value>
+  </data>
+  <data name="txtPointTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtPointTo.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lbAtTo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="lbAtTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 4</value>
+  </data>
+  <data name="lbAtTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 26</value>
+  </data>
+  <data name="pnlToSection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 30</value>
+  </data>
+  <data name="txtPointAtFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 2</value>
+  </data>
+  <data name="txtPointAtFrom.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="pnlAtSection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 30</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 41</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 149</value>
+  </data>
+  <data name="llAddPoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llAddPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 157</value>
+  </data>
+  <data name="llAddPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 26</value>
+  </data>
+  <data name="pnlFormulaKeyBoard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 1</value>
+  </data>
+  <data name="pnlFormulaKeyBoard.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="llUpdatePoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llUpdatePoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 118</value>
+  </data>
+  <data name="llUpdatePoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 26</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, -5</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 29</value>
+  </data>
+  <data name="llCancelEditPoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llCancelEditPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>649, 118</value>
+  </data>
+  <data name="llCancelEditPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 26</value>
+  </data>
+  <data name="llDeletePoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llDeletePoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 118</value>
+  </data>
+  <data name="llDeletePoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 26</value>
+  </data>
+  <data name="pnlPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>765, 147</value>
+  </data>
+  <data name="llCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 490</value>
+  </data>
+  <data name="llCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 26</value>
+  </data>
+  <data name="cbElsticMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 73</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 45</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 26</value>
+  </data>
+  <data name="cbShowElastic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbShowElastic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 102</value>
+  </data>
+  <data name="cbShowElastic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 30</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 45</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 26</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 45</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 26</value>
+  </data>
+  <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cbShowMeanRms.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbShowMeanRms.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 162</value>
+  </data>
+  <data name="cbShowMeanRms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 30</value>
+  </data>
+  <data name="cbShowAcceptRange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbShowAcceptRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 132</value>
+  </data>
+  <data name="cbShowAcceptRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 30</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt, style=Bold</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>714, 15</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 29</value>
+  </data>
+  <data name="txtElasticEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 46</value>
+  </data>
+  <data name="txtElasticEnd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtElasticStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 46</value>
+  </data>
+  <data name="txtElasticStart.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="tpOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 609</value>
+  </data>
+  <data name="txtReject2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 161</value>
+  </data>
+  <data name="txtReject2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="llAdvancedUnit6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 164</value>
+  </data>
+  <data name="llAddPoint2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llAddPoint2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 161</value>
+  </data>
+  <data name="llAddPoint2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 26</value>
+  </data>
+  <data name="txtAcceptable2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 131</value>
+  </data>
+  <data name="txtAcceptable2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtReject1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>521, 161</value>
+  </data>
+  <data name="txtReject1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 160</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 26</value>
+  </data>
+  <data name="llAdvancedUnit4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 134</value>
+  </data>
+  <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 160</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 26</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 40</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 26</value>
+  </data>
+  <data name="txtAcceptable1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>521, 131</value>
+  </data>
+  <data name="txtAcceptable1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 130</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 26</value>
+  </data>
+  <data name="llAdvancedUnit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 102</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 130</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 26</value>
+  </data>
+  <data name="txtExpected2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 101</value>
+  </data>
+  <data name="txtExpected2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 100</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 26</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 100</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="txtExpected1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>521, 101</value>
+  </data>
+  <data name="txtExpected1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cbAdvancedEnabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbAdvancedEnabled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 70</value>
+  </data>
+  <data name="cbAdvancedEnabled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="txtCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 39</value>
+  </data>
+  <data name="txtCycle.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="tpDefination.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 609</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, -13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControl1.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>779, 640</value>
+  </data>
+  <data name="llExport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 240</value>
+  </data>
+  <data name="llExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 26</value>
+  </data>
+  <data name="llImport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 210</value>
+  </data>
+  <data name="llImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 26</value>
+  </data>
+  <data name="llLoad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 161</value>
+  </data>
+  <data name="llLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 26</value>
+  </data>
+  <data name="llSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 131</value>
+  </data>
+  <data name="llSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 26</value>
+  </data>
+  <data name="llGeneral.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="llGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 26</value>
+  </data>
+  <data name="lbPointDef.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt, style=Bold</value>
+  </data>
+  <data name="lbPointDef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 45</value>
+  </data>
+  <data name="lbPointDef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 29</value>
+  </data>
+  <data name="pnlNavigation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 559</value>
+  </data>
+  <data name="menuEditPreview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 11pt</value>
+  </data>
+  <data name="menuEditPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 28</value>
+  </data>
+  <data name="menuDeletePreview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 11pt</value>
+  </data>
+  <data name="menuDeletePreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 28</value>
+  </data>
+  <data name="menuPreview.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="menuPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 60</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>909, 559</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bttnShift.Text" xml:space="preserve">
+    <value>شیفت</value>
+  </data>
+  <data name="bttnStrainTrueStrain.Text" xml:space="preserve">
+    <value>استرین</value>
+  </data>
+  <data name="bttnStressTrusStress.Text" xml:space="preserve">
+    <value>استرس</value>
+  </data>
+  <data name="button22.Text" xml:space="preserve">
+    <value>نیرو</value>
+  </data>
+  <data name="button23.Text" xml:space="preserve">
+    <value>تغییر طول</value>
+  </data>
+  <data name="cbShowUtYield.Text" xml:space="preserve">
+    <value>نمایش یوتی/ییلد</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>پیشرفته</value>
+  </data>
+  <data name="llAdvancedUnit2.Text" xml:space="preserve">
+    <value>واحد</value>
+  </data>
+  <data name="llAdvancedUnit4.Text" xml:space="preserve">
+    <value>واحد</value>
+  </data>
+  <data name="llAdvancedUnit6.Text" xml:space="preserve">
+    <value>واحد</value>
+  </data>
+  <data name="tpDefination.Text" xml:space="preserve">
+    <value>تعریف</value>
+  </data>
+  <data name="button10.Text" xml:space="preserve">
+    <value>لگاریتم</value>
+  </data>
+</root>

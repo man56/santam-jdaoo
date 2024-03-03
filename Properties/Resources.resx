@@ -1,0 +1,1964 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<data name="Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="sup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\sup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="sb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\sb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="Start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="fb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\fb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="fup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\fup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="collapse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\collapse.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="collapse_hightlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\collapse_hightlight.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\expand.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="expand_highlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\expand_highlight.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="E0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\E0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="f0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\f0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="SE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\SE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="fit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\fit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="Pan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\Pan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="pp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\pp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="svae" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\svae.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\undo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="us" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+		<value>..\Resources\zoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+	</data>
+	<data name="LanguageFrm_EnglishCulture_en" xml:space="preserve">
+    <value>en</value>
+  </data>
+	<data name="LanguageFrm_PersianCulture_fa" xml:space="preserve">
+    <value>fa</value>
+  </data>
+	<data name="LanguageFrm_RussianCulture_ru" xml:space="preserve">
+    <value>ru</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_gf" xml:space="preserve">
+    <value>gf</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Gram_force" xml:space="preserve">
+    <value>Gram force</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Kgf" xml:space="preserve">
+    <value>Kgf</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Kilo_gram_force" xml:space="preserve">
+    <value>Kilo gram force</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Tonf" xml:space="preserve">
+    <value>Tonf</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Ton_force" xml:space="preserve">
+    <value>Ton force</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_µm" xml:space="preserve">
+    <value>µm</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_mm" xml:space="preserve">
+    <value>mm</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_cm" xml:space="preserve">
+    <value>cm</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_m" xml:space="preserve">
+    <value>m</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_Micro_meter" xml:space="preserve">
+    <value>Micro meter</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_Milimeter" xml:space="preserve">
+    <value>Milimeter</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_Centimeter" xml:space="preserve">
+    <value>Centimeter</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_Meter" xml:space="preserve">
+    <value>Meter</value>
+  </data>
+	<data name="StressConvertor_UnitSet_kg_cm2" xml:space="preserve">
+    <value>kg/cm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_kg_mm2" xml:space="preserve">
+    <value>kg/mm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_kg_m2" xml:space="preserve">
+    <value>kg/m2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Ton_cm2" xml:space="preserve">
+    <value>Ton/cm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Ton_mm2" xml:space="preserve">
+    <value>Ton/mm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Ton_m2" xml:space="preserve">
+    <value>Ton/m2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_kg_cm2_Name" xml:space="preserve">
+    <value>kg/cm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_kg_mm2_Name" xml:space="preserve">
+    <value>kg/mm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_kg_m2_Name" xml:space="preserve">
+    <value>kg/m2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Ton_cm2_Name" xml:space="preserve">
+    <value>Ton/cm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Ton_mm2_Name" xml:space="preserve">
+    <value>Ton/mm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Ton_m2_Name" xml:space="preserve">
+    <value>Ton/m2</value>
+  </data>
+	<data name="LengthStress_UnitSet_grf_mm" xml:space="preserve">
+    <value>grf/mm</value>
+  </data>
+	<data name="LengthStress_UnitSet_kgf_mm" xml:space="preserve">
+    <value>kgf/mm</value>
+  </data>
+	<data name="LengthStress_UnitSet_grf_cm" xml:space="preserve">
+    <value>grf/cm</value>
+  </data>
+	<data name="LengthStress_UnitSet_kgf_cm" xml:space="preserve">
+    <value>kgf/cm</value>
+  </data>
+	<data name="MassStress_UnitSet_grf_Denier" xml:space="preserve">
+    <value>grf/Denier</value>
+  </data>
+	<data name="MassStress_UnitSet_kgf_Denier" xml:space="preserve">
+    <value>kgf/Denier</value>
+  </data>
+	<data name="MassStress_UnitSet_grf_Tex" xml:space="preserve">
+    <value>grf/Tex</value>
+  </data>
+	<data name="MassStress_UnitSet_kgf_Tex" xml:space="preserve">
+    <value>kgf/Tex</value>
+  </data>
+	<data name="MassStressControl_UnitSet__grf_Denier__sec" xml:space="preserve">
+    <value>(grf/Denier)/sec</value>
+  </data>
+	<data name="MassStressControl_UnitSet__grf_Denier__min" xml:space="preserve">
+    <value>(grf/Denier)/min</value>
+  </data>
+	<data name="MassStressControl_UnitSet__kgf_Denier__sec" xml:space="preserve">
+    <value>(kgf/Denier)/sec</value>
+  </data>
+	<data name="MassStressControl_UnitSet__kgf_Denier__min" xml:space="preserve">
+    <value>(kgf/Denier)/min</value>
+  </data>
+	<data name="MassStressControl_UnitSet__grf_Tex__sec" xml:space="preserve">
+    <value>(grf/Tex)/sec</value>
+  </data>
+	<data name="MassStressControl_UnitSet__grf_Tex__min" xml:space="preserve">
+    <value>(grf/Tex)/min</value>
+  </data>
+	<data name="MassStressControl_UnitSet__kgf_Tex__sec" xml:space="preserve">
+    <value>(kgf/Tex)/sec</value>
+  </data>
+	<data name="MassStressControl_UnitSet__kgf_Tex__min" xml:space="preserve">
+    <value>(kgf/Tex)/min</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_Ɛ" xml:space="preserve">
+    <value>Ɛ</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_Ɛ_Name" xml:space="preserve">
+    <value>Ɛ</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_µƐ_Name" xml:space="preserve">
+    <value>µƐ</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_µm_µm" xml:space="preserve">
+    <value>µm/µm</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_µm_µm_Name" xml:space="preserve">
+    <value>µm/µm</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_mm_mm" xml:space="preserve">
+    <value>mm/mm</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_mm_mm_Name" xml:space="preserve">
+    <value>mm/mm</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_cm_cm" xml:space="preserve">
+    <value>cm/cm</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_cm_cm_Name" xml:space="preserve">
+    <value>cm/cm</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_m_m" xml:space="preserve">
+    <value>m/m</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_m_m_Name" xml:space="preserve">
+    <value>m/m</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_Percent" xml:space="preserve">
+    <value>%</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_Percent_Name" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_gf_sec" xml:space="preserve">
+    <value>gf/sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Kgf_sec" xml:space="preserve">
+    <value>Kgf/sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Tonf_sec" xml:space="preserve">
+    <value>Tonf/sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_gf_min" xml:space="preserve">
+    <value>gf/min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Kgf_min" xml:space="preserve">
+    <value>Kgf/min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Tonf_min" xml:space="preserve">
+    <value>Tonf/min</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__grf_mm__sec" xml:space="preserve">
+    <value>(grf/mm)/sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_µm_sec" xml:space="preserve">
+    <value>µm/sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_mm_sec" xml:space="preserve">
+    <value>mm/sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_cm_sec" xml:space="preserve">
+    <value>cm/sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_m_sec" xml:space="preserve">
+    <value>m/sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_µm_min" xml:space="preserve">
+    <value>µm/min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_mm_min" xml:space="preserve">
+    <value>mm/min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_cm_min" xml:space="preserve">
+    <value>cm/min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_m_min" xml:space="preserve">
+    <value>m/min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Micro_meter_per_sec" xml:space="preserve">
+    <value>Micro meter per sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Milimeter_per_sec" xml:space="preserve">
+    <value>Milimeter per sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Centimeter_per_sec" xml:space="preserve">
+    <value>Centimeter per sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Meter_per_sec" xml:space="preserve">
+    <value>Meter per sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Milimeter_per_min" xml:space="preserve">
+    <value>Milimeter per min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Centimeter_per_min" xml:space="preserve">
+    <value>Centimeter per min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Meter_per_min" xml:space="preserve">
+    <value>Meter per min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Micro_meter_per_min" xml:space="preserve">
+    <value>Micro meter per min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Gram_force_per_sec" xml:space="preserve">
+    <value>Gram force per sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Kilo_gram_force_per_sec" xml:space="preserve">
+    <value>Kilo gram force per sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Ton_force_per_sec" xml:space="preserve">
+    <value>Ton force per sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Gram_force_per_min" xml:space="preserve">
+    <value>Gram force per min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Kilo_gram_force_per_min" xml:space="preserve">
+    <value>Kilo gram force per min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Ton_force_per_min" xml:space="preserve">
+    <value>Ton force per min</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__grf_mm__min" xml:space="preserve">
+    <value>(grf/mm)/min</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__kgf_mm__sec" xml:space="preserve">
+    <value>(kgf/mm)/sec</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__kgf_mm__min" xml:space="preserve">
+    <value>(kgf/mm)/min</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__grf_cm__sec" xml:space="preserve">
+    <value>(grf/cm)/sec</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__grf_cm__min" xml:space="preserve">
+    <value>(grf/cm)/min</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__kgf_cm__sec" xml:space="preserve">
+    <value>(kgf/cm)/sec</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__kgf_cm__min" xml:space="preserve">
+    <value>(kgf/cm)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__kg_cm2__sec" xml:space="preserve">
+    <value>(kg/cm2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__kg_mm2__sec" xml:space="preserve">
+    <value>(kg/mm2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__kg_m2__sec" xml:space="preserve">
+    <value>(kg/m2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__Ton_cm2__sec" xml:space="preserve">
+    <value>(Ton/cm2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__Ton_mm2__sec" xml:space="preserve">
+    <value>(Ton/mm2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__Ton_m2__sec" xml:space="preserve">
+    <value>(Ton/m2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__kg_cm2__min" xml:space="preserve">
+    <value>(kg/cm2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__kg_mm2__min" xml:space="preserve">
+    <value>(kg/mm2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__kg_m2__min" xml:space="preserve">
+    <value>(kg/m2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__Ton_cm2__min" xml:space="preserve">
+    <value>(Ton/cm2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__Ton_mm2__min" xml:space="preserve">
+    <value>(Ton/mm2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__Ton_m2__min" xml:space="preserve">
+    <value>(Ton/m2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kg_cm2_per_sec" xml:space="preserve">
+    <value>kg/cm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kg_cm2_per_sec_Name" xml:space="preserve">
+    <value>kg/cm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kg_mm2_per_sec_Name" xml:space="preserve">
+    <value>kg/mm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kg_m2_per_sec_Name" xml:space="preserve">
+    <value>kg/m2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Ton_cm2_per_sec_Name" xml:space="preserve">
+    <value>Ton/cm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Ton_mm2_per_sec_Name" xml:space="preserve">
+    <value>Ton/mm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Ton_m2_per_sec_Name" xml:space="preserve">
+    <value>Ton/m2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kg_cm2_per_min_Name" xml:space="preserve">
+    <value>kg/cm2 per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kg_mm2_per_min_Name" xml:space="preserve">
+    <value>kg/mm2 per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kg_m2_per_min_Name" xml:space="preserve">
+    <value>kg/m2 per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Ton_cm2_per_min_Name" xml:space="preserve">
+    <value>Ton/cm2 per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Ton_mm2_per_min_Name" xml:space="preserve">
+    <value>Ton/mm2 per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Ton_m2_per_min_Name" xml:space="preserve">
+    <value>Ton/m2 per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet___sec" xml:space="preserve">
+    <value>%/sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_Ɛ_sec" xml:space="preserve">
+    <value>Ɛ/sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__mm_mm__sec" xml:space="preserve">
+    <value>(mm/mm)/sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__cm_cm__sec" xml:space="preserve">
+    <value>(cm/cm)/sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__m_m__min" xml:space="preserve">
+    <value>(m/m)/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet___min" xml:space="preserve">
+    <value>%/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_Ɛ_min" xml:space="preserve">
+    <value>Ɛ/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__µm_µm__min" xml:space="preserve">
+    <value>(µm/µm)/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__mm_mm__min" xml:space="preserve">
+    <value>(mm/mm)/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__cm_cm__min" xml:space="preserve">
+    <value>(cm/cm)/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_Percent_per_sec_Name" xml:space="preserve">
+    <value>Percent per sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_Ɛ_per_sec_Name" xml:space="preserve">
+    <value>Ɛ per sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_mm_mm_per_sec_Name" xml:space="preserve">
+    <value>mm/mm per sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_cm_cm_per_sec_Name" xml:space="preserve">
+    <value>cm/cm per sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_m_m_per_min_Name" xml:space="preserve">
+    <value>m/m per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_Percent_per_min_Name" xml:space="preserve">
+    <value>Percent per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_Ɛ_per_min_Name" xml:space="preserve">
+    <value>Ɛ per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_µm_µm_per_min_Name" xml:space="preserve">
+    <value>µm/µm per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_mm_mm_per_min_Name" xml:space="preserve">
+    <value>mm/mm per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_cm_cm_per_min_Name" xml:space="preserve">
+    <value>cm/cm per min</value>
+  </data>
+	<data name="SpeedControlConvertor_UnitSet_mm_per_sec_Name" xml:space="preserve">
+    <value>mm per sec</value>
+  </data>
+	<data name="SpeedControlConvertor_UnitSet_cm_per_sec_Name" xml:space="preserve">
+    <value>cm per sec</value>
+  </data>
+	<data name="SpeedControlConvertor_UnitSet_m_per_sec_Name" xml:space="preserve">
+    <value>m per sec</value>
+  </data>
+	<data name="SpeedControlConvertor_UnitSet_mm_per_min_Name" xml:space="preserve">
+    <value>mm per min</value>
+  </data>
+	<data name="SpeedControlConvertor_UnitSet_cm_per_min_Name" xml:space="preserve">
+    <value>cm per min</value>
+  </data>
+	<data name="SpeedControlConvertor_UnitSet_m_per_min_Name" xml:space="preserve">
+    <value>m per min</value>
+  </data>
+	<data name="TemperatureConvertor_UnitSet_C" xml:space="preserve">
+    <value>C</value>
+  </data>
+	<data name="TemperatureConvertor_UnitSet_Celsius_Name" xml:space="preserve">
+    <value>Celsius</value>
+  </data>
+	<data name="TemperatureConvertor_UnitSet__C" xml:space="preserve">
+    <value>°C</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_ozf" xml:space="preserve">
+    <value>ozf</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_lbf" xml:space="preserve">
+    <value>lbf</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Klbf" xml:space="preserve">
+    <value>Klbf</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Mlbf" xml:space="preserve">
+    <value>Mlbf</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Ounce_force" xml:space="preserve">
+    <value>Ounce force</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Pound_force" xml:space="preserve">
+    <value>Pound force</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Kilo_pound_force" xml:space="preserve">
+    <value>Kilo pound force</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Mega_pound_force" xml:space="preserve">
+    <value>Mega pound force</value>
+  </data>
+	<data name="LengthConvertor_UnitSet__in" xml:space="preserve">
+    <value>in</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_ft" xml:space="preserve">
+    <value>ft</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_yd" xml:space="preserve">
+    <value>yd</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_Inch" xml:space="preserve">
+    <value>Inch</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_Foot" xml:space="preserve">
+    <value>Foot</value>
+  </data>
+	<data name="LengthConvertor_UnitSet_Yard" xml:space="preserve">
+    <value>Yard</value>
+  </data>
+	<data name="StressConvertor_UnitSet_psi" xml:space="preserve">
+    <value>psi</value>
+  </data>
+	<data name="StressConvertor_UnitSet_ksi" xml:space="preserve">
+    <value>ksi</value>
+  </data>
+	<data name="StressConvertor_UnitSet_psf" xml:space="preserve">
+    <value>psf</value>
+  </data>
+	<data name="StressConvertor_UnitSet_tpsi" xml:space="preserve">
+    <value>tpsi</value>
+  </data>
+	<data name="StressConvertor_UnitSet_tpsf" xml:space="preserve">
+    <value>tpsf</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Pound_per_square_inch" xml:space="preserve">
+    <value>Pound per square inch</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Thousand_pounds_per_square_inch" xml:space="preserve">
+    <value>Thousand pounds per square inch</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Pound_per_square_foot" xml:space="preserve">
+    <value>Pound per square foot</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Ton_per_square_inch" xml:space="preserve">
+    <value>Ton per square inch</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Ton_per_square_foot_" xml:space="preserve">
+    <value>Ton per square foot </value>
+  </data>
+	<data name="MassStress_UnitSet_n_a" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+	<data name="LengthStress_UnitSet_lbf_in" xml:space="preserve">
+    <value>lbf/in</value>
+  </data>
+	<data name="LengthStress_UnitSet_Klbf_in" xml:space="preserve">
+    <value>Klbf/in</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_µƐ" xml:space="preserve">
+    <value>µƐ</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_in_in" xml:space="preserve">
+    <value>in/in</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_ft_ft" xml:space="preserve">
+    <value>ft/ft</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_yd_yd" xml:space="preserve">
+    <value>yd/yd</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_in_in_Name" xml:space="preserve">
+    <value>in/in</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_ft_ft_Name" xml:space="preserve">
+    <value>ft/ft</value>
+  </data>
+	<data name="StrainConvertor_UnitSet_yd_yd_Name" xml:space="preserve">
+    <value>yd/yd</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_ozf_sec" xml:space="preserve">
+    <value>ozf/sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_lbf_sec" xml:space="preserve">
+    <value>lbf/sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Klbf_sec" xml:space="preserve">
+    <value>Klbf/sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Mlbf_sec" xml:space="preserve">
+    <value>Mlbf/sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_ozf_min" xml:space="preserve">
+    <value>ozf/min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_lbf_min" xml:space="preserve">
+    <value>lbf/min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Klbf_min" xml:space="preserve">
+    <value>Klbf/min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Mlbf_min" xml:space="preserve">
+    <value>Mlbf/min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Ounce_force_pre_sec_Name" xml:space="preserve">
+    <value>Ounce force pre sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Pound_force_pre_sec_Name" xml:space="preserve">
+    <value>Pound force pre sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Kilo_pound_force_pre_sec_Name" xml:space="preserve">
+    <value>Kilo pound force pre sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Mega_pound_force_pre_sec_Name" xml:space="preserve">
+    <value>Mega pound force pre sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Ounce_force_pre_min_Name" xml:space="preserve">
+    <value>Ounce force pre min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Pound_force_pre_min_Name" xml:space="preserve">
+    <value>Pound force pre min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Kilo_pound_force_pre_min_Name" xml:space="preserve">
+    <value>Kilo pound force pre min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Mega_pound_force_pre_min_Name" xml:space="preserve">
+    <value>Mega pound force pre min</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_N" xml:space="preserve">
+    <value>N</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_dN" xml:space="preserve">
+    <value>dN</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_kN" xml:space="preserve">
+    <value>kN</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_MN" xml:space="preserve">
+    <value>MN</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_GN" xml:space="preserve">
+    <value>GN</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Kilo_newton" xml:space="preserve">
+    <value>Kilo newton</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Newton" xml:space="preserve">
+    <value>Newton</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Deci_Newton" xml:space="preserve">
+    <value>Deci Newton</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Mega_newton" xml:space="preserve">
+    <value>Mega newton</value>
+  </data>
+	<data name="ForceConvertor_UnitSet_Giga_newton" xml:space="preserve">
+    <value>Giga newton</value>
+  </data>
+	<data name="ExtenConvertor_UnitSet_milimeter" xml:space="preserve">
+    <value>milimeter</value>
+  </data>
+	<data name="ExtenConvertor_UnitSet_cantimeter" xml:space="preserve">
+    <value>cantimeter</value>
+  </data>
+	<data name="ExtenConvertor_UnitSet_meter" xml:space="preserve">
+    <value>meter</value>
+  </data>
+	<data name="TimeUnits_UnitSet_sec" xml:space="preserve">
+    <value>sec</value>
+  </data>
+	<data name="TimeUnits_UnitSet_min" xml:space="preserve">
+    <value>min</value>
+  </data>
+	<data name="TimeUnits_UnitSet_h" xml:space="preserve">
+    <value>h</value>
+  </data>
+	<data name="TimeUnits_UnitSet_Minute" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+	<data name="TimeUnits_UnitSet_Second" xml:space="preserve">
+    <value>Second</value>
+  </data>
+	<data name="TimeUnits_UnitSet_Hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+	<data name="FrmTestSetting_Creep" xml:space="preserve">
+    <value>Creep</value>
+  </data>
+	<data name="FrmTestSetting_Relaxation" xml:space="preserve">
+    <value>Relaxation</value>
+  </data>
+	<data name="FrmTestSetting_Compressive" xml:space="preserve">
+    <value>Compressive</value>
+  </data>
+	<data name="FrmTestSetting_Tensile" xml:space="preserve">
+    <value>Tensile</value>
+  </data>
+	<data name="FrmTestSetting_Extension" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+	<data name="FrmTestSetting_Strain" xml:space="preserve">
+    <value>Strain</value>
+  </data>
+	<data name="FrmTestSetting_Cyclic" xml:space="preserve">
+    <value>Cyclic</value>
+  </data>
+	<data name="FrmTestSetting_Step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+	<data name="FrmTestSetting_LoadDefaultTest_Fatal_Error" xml:space="preserve">
+    <value>There is a fatal error in default test settings! Would you want to load the last test settings?</value>
+  </data>
+	<data name="FrmTestSetting_LoadLastTest_Fatal_Error" xml:space="preserve">
+    <value>There is a fatal error in the last test settings! Define new test and save it as Default.</value>
+  </data>
+	<data name="FrmTestSetting_btnCreepApplyTemperature_Click_" xml:space="preserve">
+    <value>DUE TO EXPANTION OF PARTS BECAUSE OF FURNACE TEMPERATURE RISING,
+IF THE SPECIMEN IS INSTALLED TO THE RODS, THIS ACTION WILL DAMAGE YOUR SPECIMEN AND MACHINE PARTS.
+
+Are you sure to apply new temperature set point manually ?</value>
+  </data>
+	<data name="FrmTestSetting_WARNING" xml:space="preserve">
+    <value>WARNING</value>
+  </data>
+	<data name="MeasureTool_Labels_Force_LC_" xml:space="preserve">
+    <value>Force(LC)</value>
+  </data>
+	<data name="MeasureTool_Labels_Extension_Ex_" xml:space="preserve">
+    <value>Extension(Ex)</value>
+  </data>
+	<data name="MeasureTool_Labels_Extension_LF_" xml:space="preserve">
+    <value>Extension(LF)</value>
+  </data>
+	<data name="MeasureTool_Labels_Stress_LC_" xml:space="preserve">
+    <value>Stress(LC)</value>
+  </data>
+	<data name="MeasureTool_Labels_True_Stress_LC_" xml:space="preserve">
+    <value>True Stress(LC)</value>
+  </data>
+	<data name="MeasureTool_Labels_Mass_Stress__LC_" xml:space="preserve">
+    <value>Mass Stress (LC)</value>
+  </data>
+	<data name="MeasureTool_Labels_Length_Stress__LC_" xml:space="preserve">
+    <value>Length Stress (LC)</value>
+  </data>
+	<data name="MeasureTool_Labels_Lateral_Strain_LE_" xml:space="preserve">
+    <value>Lateral Strain(LE)</value>
+  </data>
+	<data name="MeasureTool_Labels_True_Strain_EX_" xml:space="preserve">
+    <value>True Strain(EX)</value>
+  </data>
+	<data name="MeasureTool_Labels_Strain_EX_" xml:space="preserve">
+    <value>Strain(EX)</value>
+  </data>
+	<data name="MeasureTool_Labels_Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+	<data name="MeasureTool_Labels_Spec__Temp_UP" xml:space="preserve">
+    <value>Spec. Temp UP</value>
+  </data>
+	<data name="MeasureTool_Labels_Spec__Temp_CNT" xml:space="preserve">
+    <value>Spec. Temp CNT</value>
+  </data>
+	<data name="MeasureTool_Labels_Spec__Temp_DN" xml:space="preserve">
+    <value>Spec. Temp DN</value>
+  </data>
+	<data name="MeasureTool_Labels_Zone_Temp_UP" xml:space="preserve">
+    <value>Zone Temp UP</value>
+  </data>
+	<data name="MeasureTool_Labels_Ambient_Temp" xml:space="preserve">
+    <value>Ambient Temp</value>
+  </data>
+	<data name="MeasureTool_Labels_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+	<data name="MeasureTool_Labels_Zone_Temp_CNT" xml:space="preserve">
+    <value>Zone Temp CNT</value>
+  </data>
+	<data name="MeasureTool_Labels_Zone_Temp_DN" xml:space="preserve">
+    <value>Zone Temp DN</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Force" xml:space="preserve">
+    <value>Force</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Extension" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Stress" xml:space="preserve">
+    <value>Stress</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_True_Stress" xml:space="preserve">
+    <value>True Stress</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Mass_Stress" xml:space="preserve">
+    <value>Mass Stress</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Length_Stress" xml:space="preserve">
+    <value>Length Stress</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Lateral_Strain" xml:space="preserve">
+    <value>Lateral Strain</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_True_Strain" xml:space="preserve">
+    <value>True Strain</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Strain" xml:space="preserve">
+    <value>Strain</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Spec__Temp_UP" xml:space="preserve">
+    <value>Spec. Temp UP</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Spec__Temp_CNT" xml:space="preserve">
+    <value>Spec. Temp CNT</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Spec__Temp_DN" xml:space="preserve">
+    <value>Spec. Temp DN</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Zone_Temp_UP" xml:space="preserve">
+    <value>Zone Temp UP</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Zone_Temp_CNT" xml:space="preserve">
+    <value>Zone Temp CNT</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Zone_Temp_DN" xml:space="preserve">
+    <value>Zone Temp DN</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Ambient_Temp" xml:space="preserve">
+    <value>Ambient Temp</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Relaxation_Loss" xml:space="preserve">
+    <value>Relaxation Loss</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Force_Loss" xml:space="preserve">
+    <value>Force Loss</value>
+  </data>
+	<data name="MeasureTool_MeasurAbbreviations_Stress_Loss" xml:space="preserve">
+    <value>Stress Loss</value>
+  </data>
+	<data name="MeasureTool_SetExtensionTool_True_Strain_LF_" xml:space="preserve">
+    <value>True Strain(LF)</value>
+  </data>
+	<data name="MeasureTool_SetExtensionTool_Strain_LF_" xml:space="preserve">
+    <value>Strain(LF)</value>
+  </data>
+	<data name="MeasureTool_GetToolNames_Loadcell_LC_" xml:space="preserve">
+    <value>Loadcell(LC)</value>
+  </data>
+	<data name="MeasureTool_GetToolNames_Loadframe_Encoder_LF_" xml:space="preserve">
+    <value>Loadframe Encoder(LF)</value>
+  </data>
+	<data name="MeasureTool_GetToolNames_Extensometer_EX_" xml:space="preserve">
+    <value>Extensometer(EX)</value>
+  </data>
+	<data name="MeasureTool_GetToolNames_Extension_tool" xml:space="preserve">
+    <value>Extension tool</value>
+  </data>
+	<data name="MeasureTool_GetToolNames_Lateral_Extensometer_LE_" xml:space="preserve">
+    <value>Lateral Extensometer(LE)</value>
+  </data>
+	<data name="UcSpec_Compression_Test" xml:space="preserve">
+    <value>Compression Test</value>
+  </data>
+	<data name="UcSpec_Creep_Test" xml:space="preserve">
+    <value>Creep Test</value>
+  </data>
+	<data name="UcSpec_Cyclic_Test" xml:space="preserve">
+    <value>Cyclic Test</value>
+  </data>
+	<data name="UcSpec_Relaxation_Test" xml:space="preserve">
+    <value>Relaxation Test</value>
+  </data>
+	<data name="UcSpec_Step_Test" xml:space="preserve">
+    <value>Step Test</value>
+  </data>
+	<data name="UcSpec_Tension_Test" xml:space="preserve">
+    <value>Tension Test</value>
+  </data>
+	<data name="UcSpec_Preload" xml:space="preserve">
+    <value>Preload:</value>
+  </data>
+	<data name="UcSpec_Speed" xml:space="preserve">
+    <value>Speed:</value>
+  </data>
+	<data name="FrmTestSetting_SetRelaxSetPointUnit___Warning" xml:space="preserve">
+    <value>* Extension will be controlled corresponding to the extension at the selected set point!</value>
+  </data>
+	<data name="FrmTestSetting_Gauge_Length_L__" xml:space="preserve">
+    <value>Gauge Length(L):</value>
+  </data>
+	<data name="FrmTestSetting_Grip_Length_gl__" xml:space="preserve">
+    <value>Grip Length(gl):</value>
+  </data>
+	<data name="FrmTestSetting_Support_Length_L__" xml:space="preserve">
+    <value>Support Length(L):</value>
+  </data>
+	<data name="FrmTestSetting_Position_Length_gl__" xml:space="preserve">
+    <value>Position Length(gl):</value>
+  </data>
+	<data name="FrmTestSetting_3P_Bending" xml:space="preserve">
+    <value>3P Bending</value>
+  </data>
+	<data name="FrmTestSetting_Area_" xml:space="preserve">
+    <value>Area:</value>
+  </data>
+	<data name="FrmTestSetting_mm2" xml:space="preserve">
+    <value>mm2</value>
+  </data>
+	<data name="FrmTestSetting_Inertia_" xml:space="preserve">
+    <value>Inertia:</value>
+  </data>
+	<data name="FrmTestSetting_mm4" xml:space="preserve">
+    <value>mm4</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__lbf_in__sec" xml:space="preserve">
+    <value>(lbf/in)/sec</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__lbf_in__min" xml:space="preserve">
+    <value>(lbf/in)/min</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__Klbf_in__sec" xml:space="preserve">
+    <value>(Klbf/in)/sec</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__Klbf_in__min" xml:space="preserve">
+    <value>(Klbf/in)/min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Inch_per_sec" xml:space="preserve">
+    <value>Inch per sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Foot_per_sec" xml:space="preserve">
+    <value>Foot per sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Yard_per_sec" xml:space="preserve">
+    <value>Yard per sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Inch_per_min" xml:space="preserve">
+    <value>Inch per min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Foot_per_min" xml:space="preserve">
+    <value>Foot per min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_Yard_per_min" xml:space="preserve">
+    <value>Yard per min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_in_sec" xml:space="preserve">
+    <value>in/sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_ft_sec" xml:space="preserve">
+    <value>ft/sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_yd_sec" xml:space="preserve">
+    <value>yd/sec</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_in_min" xml:space="preserve">
+    <value>in/min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_ft_min" xml:space="preserve">
+    <value>ft/min</value>
+  </data>
+	<data name="ExtenControlConvertor_UnitSet_yd_min" xml:space="preserve">
+    <value>yd/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Pound_per_square_inch_per_sec" xml:space="preserve">
+    <value>Pound per square inch per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Thousand_pounds_per_square_inch_per_sec" xml:space="preserve">
+    <value>Thousand pounds per square inch per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Pound_per_square_foot_per_sec" xml:space="preserve">
+    <value>Pound per square foot per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Ton_per_square_inch_per_sec" xml:space="preserve">
+    <value>Ton per square inch per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Ton_per_square_foot_per_sec" xml:space="preserve">
+    <value>Ton per square foot per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Pound_per_square_inch_per_min" xml:space="preserve">
+    <value>Pound per square inch per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Thousand_pounds_per_square_inch_per_min" xml:space="preserve">
+    <value>Thousand pounds per square inch per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Pound_per_square_foot_per_min" xml:space="preserve">
+    <value>Pound per square foot per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Ton_per_square_inch_per_min" xml:space="preserve">
+    <value>Ton per square inch per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Ton_per_square_foot_per_min" xml:space="preserve">
+    <value>Ton per square foot per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_psi_sec" xml:space="preserve">
+    <value>psi/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_ksi_sec" xml:space="preserve">
+    <value>ksi/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_psf_sec" xml:space="preserve">
+    <value>psf/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_tpsi_sec" xml:space="preserve">
+    <value>tpsi/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_tpsf_sec" xml:space="preserve">
+    <value>tpsf/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_psi_min" xml:space="preserve">
+    <value>psi/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_ksi_min" xml:space="preserve">
+    <value>ksi/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_psf_min" xml:space="preserve">
+    <value>psf/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_tpsi_min" xml:space="preserve">
+    <value>tpsi/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_tpsf_min" xml:space="preserve">
+    <value>tpsf/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__in_in__sec" xml:space="preserve">
+    <value>(in/in)/sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__ft_ft__sec" xml:space="preserve">
+    <value>(ft/ft)/sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__yd_yd__sec" xml:space="preserve">
+    <value>(yd/yd)/sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__in_in__min" xml:space="preserve">
+    <value>(in/in)/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__ft_ft__min" xml:space="preserve">
+    <value>(ft/ft)/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__yd_yd__min" xml:space="preserve">
+    <value>(yd/yd)/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_in_in_per_sec" xml:space="preserve">
+    <value>in/in per sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_ft_ft_per_sec" xml:space="preserve">
+    <value>ft/ft per sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_yd_yd_per_sec" xml:space="preserve">
+    <value>yd/yd per sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_in_in_per_min" xml:space="preserve">
+    <value>in/in per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_ft_ft_per_min" xml:space="preserve">
+    <value>ft/ft per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_yd_yd_per_min" xml:space="preserve">
+    <value>yd/yd per min</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Pa" xml:space="preserve">
+    <value>Pa</value>
+  </data>
+	<data name="StressConvertor_UnitSet_kPa" xml:space="preserve">
+    <value>kPa</value>
+  </data>
+	<data name="StressConvertor_UnitSet_GPa" xml:space="preserve">
+    <value>GPa</value>
+  </data>
+	<data name="StressConvertor_UnitSet_MPa" xml:space="preserve">
+    <value>MPa</value>
+  </data>
+	<data name="StressConvertor_UnitSet_N_cm2" xml:space="preserve">
+    <value>N/cm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_N_mm2" xml:space="preserve">
+    <value>N/mm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_kN_cm2" xml:space="preserve">
+    <value>kN/cm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_kN_mm2" xml:space="preserve">
+    <value>kN/mm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_MN_cm2" xml:space="preserve">
+    <value>MN/cm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_MN_mm2" xml:space="preserve">
+    <value>MN/mm2</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Pascal" xml:space="preserve">
+    <value>Pascal</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Kilo_Pascal" xml:space="preserve">
+    <value>Kilo Pascal</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Mega_Passcal" xml:space="preserve">
+    <value>Mega Passcal</value>
+  </data>
+	<data name="StressConvertor_UnitSet_Giga_Passcal" xml:space="preserve">
+    <value>Giga Passcal</value>
+  </data>
+	<data name="MassStress_UnitSet_cN_Denier" xml:space="preserve">
+    <value>cN/Denier</value>
+  </data>
+	<data name="MassStress_UnitSet_dN_Denier" xml:space="preserve">
+    <value>dN/Denier</value>
+  </data>
+	<data name="MassStress_UnitSet_N_Denier" xml:space="preserve">
+    <value>N/Denier</value>
+  </data>
+	<data name="MassStress_UnitSet_cN_Tex" xml:space="preserve">
+    <value>cN/Tex</value>
+  </data>
+	<data name="MassStress_UnitSet_dN_Tex" xml:space="preserve">
+    <value>dN/Tex</value>
+  </data>
+	<data name="MassStress_UnitSet_N_Tex" xml:space="preserve">
+    <value>N/Tex</value>
+  </data>
+	<data name="MassStressControl_UnitSet__cN_Denier__sec" xml:space="preserve">
+    <value>(cN/Denier)/sec</value>
+  </data>
+	<data name="MassStressControl_UnitSet__cN_Denier__min" xml:space="preserve">
+    <value>(cN/Denier)/min</value>
+  </data>
+	<data name="MassStressControl_UnitSet__dN_Denier__sec" xml:space="preserve">
+    <value>(dN/Denier)/sec</value>
+  </data>
+	<data name="MassStressControl_UnitSet__dN_Denier__min" xml:space="preserve">
+    <value>(dN/Denier)/min</value>
+  </data>
+	<data name="MassStressControl_UnitSet__N_Denier__sec" xml:space="preserve">
+    <value>(N/Denier)/sec</value>
+  </data>
+	<data name="MassStressControl_UnitSet__N_Denier__min" xml:space="preserve">
+    <value>(N/Denier)/min</value>
+  </data>
+	<data name="MassStressControl_UnitSet__cN_Tex__sec" xml:space="preserve">
+    <value>(cN/Tex)/sec</value>
+  </data>
+	<data name="MassStressControl_UnitSet__cN_Tex__min" xml:space="preserve">
+    <value>(cN/Tex)/min</value>
+  </data>
+	<data name="MassStressControl_UnitSet__dN_Tex__sec" xml:space="preserve">
+    <value>(dN/Tex)/sec</value>
+  </data>
+	<data name="MassStressControl_UnitSet__N_Tex__min" xml:space="preserve">
+    <value>(N/Tex)/min</value>
+  </data>
+	<data name="LengthStress_UnitSet_N_mm" xml:space="preserve">
+    <value>N/mm</value>
+  </data>
+	<data name="LengthStress_UnitSet_kN_mm" xml:space="preserve">
+    <value>kN/mm</value>
+  </data>
+	<data name="LengthStress_UnitSet_N_cm" xml:space="preserve">
+    <value>N/cm</value>
+  </data>
+	<data name="LengthStress_UnitSet_KN_cm" xml:space="preserve">
+    <value>KN/cm</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__N_mm__sec" xml:space="preserve">
+    <value>(N/mm)/sec</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__N_mm__min" xml:space="preserve">
+    <value>(N/mm)/min</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__kN_mm__sec" xml:space="preserve">
+    <value>(kN/mm)/sec</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__kN_mm__min" xml:space="preserve">
+    <value>(kN/mm)/min</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__N_cm__sec" xml:space="preserve">
+    <value>(N/cm)/sec</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__N_cm__min" xml:space="preserve">
+    <value>(N/cm)/min</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__kN_cm__sec" xml:space="preserve">
+    <value>(kN/cm)/sec</value>
+  </data>
+	<data name="LengthStressControl_UnitSet__kN_cm__min" xml:space="preserve">
+    <value>(kN/cm)/min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Newton_per_sec" xml:space="preserve">
+    <value>Newton per sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Kilo_newton_per_sec" xml:space="preserve">
+    <value>Kilo newton per sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Mega_newton_per_sec" xml:space="preserve">
+    <value>Mega newton per sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Newton_per_min" xml:space="preserve">
+    <value>Newton per min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Kilo_newton_per_min" xml:space="preserve">
+    <value>Kilo newton per min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_Mega_newton_per_min" xml:space="preserve">
+    <value>Mega newton per min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_N_sec" xml:space="preserve">
+    <value>N/sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_kN_sec" xml:space="preserve">
+    <value>kN/sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_MN_sec" xml:space="preserve">
+    <value>MN/sec</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_N_min" xml:space="preserve">
+    <value>N/min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_kN_min" xml:space="preserve">
+    <value>kN/min</value>
+  </data>
+	<data name="ForceControlConvertor_UnitSet_MN_min" xml:space="preserve">
+    <value>MN/min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_mm_per_mm_per_sec_Name" xml:space="preserve">
+    <value>mm per mm per sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_cm_per_cm_per_sec_Name" xml:space="preserve">
+    <value>cm per cm per sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_m_per_m_per_sec_Name" xml:space="preserve">
+    <value>m per m per sec</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_mm_per_mm_per_min_Name" xml:space="preserve">
+    <value>mm per mm per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_cm_per_cm_per_min_Name" xml:space="preserve">
+    <value>cm per cm per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet_m_per_m_per_min_Name" xml:space="preserve">
+    <value>m per m per min</value>
+  </data>
+	<data name="StrainControlConvertor_UnitSet__m_m__sec" xml:space="preserve">
+    <value>(m/m)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Pascal_per_sec_Name" xml:space="preserve">
+    <value>Pascal per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Kilo_pascal_per_sec_Name" xml:space="preserve">
+    <value>Kilo pascal per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Mega_passcal_per_sec_Name" xml:space="preserve">
+    <value>Mega passcal per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Giga_passcal_per_sec_Name" xml:space="preserve">
+    <value>Giga passcal per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_N_cm2_per_sec_Name" xml:space="preserve">
+    <value>N/cm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_N_mm2_per_sec_Name" xml:space="preserve">
+    <value>N/mm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kN_cm2_per_sec_Name" xml:space="preserve">
+    <value>kN/cm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kN_mm2_per_sec_Name" xml:space="preserve">
+    <value>kN/mm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_MN_cm2_per_sec_Name" xml:space="preserve">
+    <value>MN/cm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_MN_mm2_per_sec_Name" xml:space="preserve">
+    <value>MN/mm2 per sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Pa_sec" xml:space="preserve">
+    <value>Pa/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kPa_sec" xml:space="preserve">
+    <value>kPa/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_MPa_sec" xml:space="preserve">
+    <value>MPa/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_GPa_sec" xml:space="preserve">
+    <value>GPa/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__N_cm2__sec" xml:space="preserve">
+    <value>(N/cm2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__N_mm2__sec" xml:space="preserve">
+    <value>(N/mm2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__kN_cm2__sec" xml:space="preserve">
+    <value>(kN/cm2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__kN_mm2__sec" xml:space="preserve">
+    <value>(kN/mm2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__MN_cm2__sec" xml:space="preserve">
+    <value>(MN/cm2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__MN_mm2__sec" xml:space="preserve">
+    <value>(MN/mm2)/sec</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Pascal_per_min" xml:space="preserve">
+    <value>Pascal per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Kilo_pascal_per_min" xml:space="preserve">
+    <value>Kilo pascal per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Mega_passcal_per_min" xml:space="preserve">
+    <value>Mega passcal per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Giga_passcal_per_min" xml:space="preserve">
+    <value>Giga passcal per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_N_cm2_per_min" xml:space="preserve">
+    <value>N/cm2 per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_N_mm2_per_min" xml:space="preserve">
+    <value>N/mm2 per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kN_cm2_per_min" xml:space="preserve">
+    <value>kN/cm2 per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kN_mm2_per_min" xml:space="preserve">
+    <value>kN/mm2 per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_MN_cm2_per_min" xml:space="preserve">
+    <value>MN/cm2 per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_MN_mm2r_per_min" xml:space="preserve">
+    <value>MN/mm2r per min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_Pa_min" xml:space="preserve">
+    <value>Pa/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_kPa_min" xml:space="preserve">
+    <value>kPa/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_MPa_min" xml:space="preserve">
+    <value>MPa/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet_GPa_min" xml:space="preserve">
+    <value>GPa/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__N_cm2__min" xml:space="preserve">
+    <value>(N/cm2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__N_mm2__min" xml:space="preserve">
+    <value>(N/mm2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__kN_cm2__min" xml:space="preserve">
+    <value>(kN/cm2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__kN_mm2__min" xml:space="preserve">
+    <value>(kN/mm2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__MN_cm2__min" xml:space="preserve">
+    <value>(MN/cm2)/min</value>
+  </data>
+	<data name="StressControlConvertor_UnitSet__MN_mm2__min" xml:space="preserve">
+    <value>(MN/mm2)/min</value>
+  </data>
+	<data name="FrmTestSetting_Diameter_d__" xml:space="preserve">
+    <value>Diameter(d):</value>
+  </data>
+	<data name="FrmTestSetting_Inner_Diameter_di__" xml:space="preserve">
+    <value>Inner Diameter(di):</value>
+  </data>
+	<data name="FrmTestSetting_Thickness_t_" xml:space="preserve">
+    <value>Thickness(t)</value>
+  </data>
+	<data name="FrmTestSetting_Width_w__" xml:space="preserve">
+    <value>Width(w):</value>
+  </data>
+	<data name="FrmTestSetting_Width_" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+	<data name="FrmTestSetting_Density_" xml:space="preserve">
+    <value>Density:</value>
+  </data>
+	<data name="FrmTestSetting_Weight_" xml:space="preserve">
+    <value>Weight:</value>
+  </data>
+	<data name="FrmTestSetting_Length_" xml:space="preserve">
+    <value>Length:</value>
+  </data>
+	<data name="FrmTestSetting_Kg_m3" xml:space="preserve">
+    <value>Kg/m3</value>
+  </data>
+	<data name="FrmTestSetting_Kg" xml:space="preserve">
+    <value>Kg</value>
+  </data>
+	<data name="FrmTestSetting_Tex_" xml:space="preserve">
+    <value>Tex:</value>
+  </data>
+	<data name="FrmTestSetting_gr_1000m" xml:space="preserve">
+    <value>gr/1000m</value>
+  </data>
+	<data name="FrmTestSetting_gr_cm3" xml:space="preserve">
+    <value>gr/cm3</value>
+  </data>
+	<data name="FrmTestSetting_Denier_" xml:space="preserve">
+    <value>Denier:</value>
+  </data>
+	<data name="FrmTestSetting_At_Point_" xml:space="preserve">
+    <value>At Point:</value>
+  </data>
+	<data name="FrmTestSetting_After_Strain_" xml:space="preserve">
+    <value>After Strain:</value>
+  </data>
+	<data name="AccessPermissionForm_AcceptCommand_Click" xml:space="preserve">
+    <value>Password was incorrect, please check your input and try again.</value>
+  </data>
+	<data name="AccessPermissionForm_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+	<data name="ExplorerTree_ExploreMyComputer_Error" xml:space="preserve">
+    <value>Error while Filling the Explorer:</value>
+  </data>
+	<data name="AuthenticationFrm_Invalid_password_" xml:space="preserve">
+    <value>Invalid password!</value>
+  </data>
+	<data name="Lock_Check_Invalid_register_code_" xml:space="preserve">
+    <value>Invalid register code!</value>
+  </data>
+	<data name="Lock_CheckUser_Insert_usb_lock_" xml:space="preserve">
+    <value>Insert usb lock!</value>
+  </data>
+	<data name="Lock_CheckUser_Error__can_not_open_the_usb_lock_" xml:space="preserve">
+    <value>Error: can not open the usb lock!</value>
+  </data>
+	<data name="MainFrm_PrepareStopTest_" xml:space="preserve">
+    <value>Furnace has been turned Off &amp; Force control at ZERO is in progress.
+
+By selecting 'Yes', the test will stop completely.
+
+Due to expansion of the rods, You have to REMOVE the PIN of the LOWER ROD in order to avoid any apply force to the specimen.
+
+Is the PIN removed ?</value>
+  </data>
+	<data name="MainFrm_PrepareStopTest_2" xml:space="preserve">
+    <value>By selecting 'Yes', test will STOP,
+also furnace will turn off and load reaches to ZERO.
+(Until temperature becomes below 50°C or 24 hours passed).
+
+Are you sure to STOP the test ?</value>
+  </data>
+	<data name="MainFrm_CheckModification_Save_changes_" xml:space="preserve">
+    <value>Save changes?</value>
+  </data>
+	<data name="MainFrm_InitilizeTest_Error_in_test_setting" xml:space="preserve">
+    <value>Error in test setting</value>
+  </data>
+	<data name="MainFrm_InitilizeTest_Test_conditions_confirmation" xml:space="preserve">
+    <value>Test conditions confirmation</value>
+  </data>
+	<data name="Program_LoadDefaults_Error_in_the_config_file_" xml:space="preserve">
+    <value>Error in the config file!</value>
+  </data>
+	<data name="RS232_AutoDiscovery_Error_on_serial_port" xml:space="preserve">
+    <value>Error on serial port</value>
+  </data>
+	<data name="RS485_AutoDiscovery_Error_on_RS485_port" xml:space="preserve">
+    <value>Error on RS485 port</value>
+  </data>
+	<data name="Status_ParseStatus_Loadcell_Disconnected_" xml:space="preserve">
+    <value>Loadcell Disconnected!</value>
+  </data>
+	<data name="Status_ParseStatus_Extensometer_Disconnected_" xml:space="preserve">
+    <value>Extensometer Disconnected!</value>
+  </data>
+	<data name="Status_ParseStatus_LF_Encoder_Disconnected_" xml:space="preserve">
+    <value>LF Encoder Disconnected!</value>
+  </data>
+	<data name="Status_ParseStatus_Driver_Disconnected_" xml:space="preserve">
+    <value>Driver Disconnected!</value>
+  </data>
+	<data name="Status_ParseStatus_Up_Micro_Switch_Hitted_" xml:space="preserve">
+    <value>Up Micro Switch Hitted!</value>
+  </data>
+	<data name="Status_ParseStatus_Down_Micro_Switch_Hitted_" xml:space="preserve">
+    <value>Down Micro Switch Hitted!</value>
+  </data>
+	<data name="Test_CheckTestStopCustomCriterin_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+	<data name="Test_CheckTestStopCustomCriterin_Test_stopped_due_to_protection" xml:space="preserve">
+    <value>Test stopped due to protection</value>
+  </data>
+	<data name="Test_CheckStopCriterian_Force_exceeds_lower_limit" xml:space="preserve">
+    <value>Force exceeds lower limit</value>
+  </data>
+	<data name="Test_CheckStopCriterian_Force_exceeds_upper_limit" xml:space="preserve">
+    <value>Force exceeds upper limit</value>
+  </data>
+	<data name="Test_CheckStopCriterian_Extension__extensometer__exceeds_lower_limit" xml:space="preserve">
+    <value>Extension (extensometer) exceeds lower limit</value>
+  </data>
+	<data name="Test_CheckStopCriterian_Extension__extensometer__exceeds_upper_limit" xml:space="preserve">
+    <value>Extension (extensometer) exceeds upper limit</value>
+  </data>
+	<data name="Test_CheckStopCriterian_Extension__encoder__exceeds_lower_limit" xml:space="preserve">
+    <value>Extension (encoder) exceeds lower limit</value>
+  </data>
+	<data name="Test_CheckStopCriterian_Temperature_Overheat_limit" xml:space="preserve">
+    <value>Temperature Overheat limit</value>
+  </data>
+	<data name="Test_ProcessSdbData_Test_stopped_due_to_fatal_error_in_data" xml:space="preserve">
+    <value>Test stopped due to fatal error in data</value>
+  </data>
+	<data name="Test_CheckTestStopCustomCriterin_Force_reaches_stop_condition" xml:space="preserve">
+    <value>Force reaches stop condition</value>
+  </data>
+	<data name="Test_CheckTestStopCustomCriterin_Force_reaches_75__stop_condition" xml:space="preserve">
+    <value>Force reaches 75% stop condition</value>
+  </data>
+	<data name="Test_CheckTestStopCustomCriterin_Strees_reaches_stop_condition" xml:space="preserve">
+    <value>Strees reaches stop condition</value>
+  </data>
+	<data name="Test_CheckTestStopCustomCriterin_Strees_reaches_75__stop_condition" xml:space="preserve">
+    <value>Strees reaches 75% stop condition</value>
+  </data>
+	<data name="Test_CheckTestStopCustomCriterin_Extension_reaches_stop_condition" xml:space="preserve">
+    <value>Extension reaches stop condition</value>
+  </data>
+	<data name="Test_CheckTestStopCustomCriterin_Extension_reaches_75__stop_condition" xml:space="preserve">
+    <value>Extension reaches 75% stop condition</value>
+  </data>
+	<data name="Test_CheckTestStopCustomCriterin_Strain_reaches_stop_condition" xml:space="preserve">
+    <value>Strain reaches stop condition</value>
+  </data>
+	<data name="Test_CheckTestStopCustomCriterin_Strain_reaches_75__stop_condition" xml:space="preserve">
+    <value>Strain reaches 75% stop condition</value>
+  </data>
+	<data name="FrmTestSetting_Peak" xml:space="preserve">
+    <value>Peak</value>
+  </data>
+	<data name="FrmTestSetting_Break" xml:space="preserve">
+    <value>Break</value>
+  </data>
+	<data name="FrmTestSetting_Yield" xml:space="preserve">
+    <value>Yield</value>
+  </data>
+	<data name="FrmTestSetting_Yield_Offset" xml:space="preserve">
+    <value>Yield Offset</value>
+  </data>
+	<data name="FrmTestSetting_Upper_Yield" xml:space="preserve">
+    <value>Upper Yield</value>
+  </data>
+	<data name="FrmTestSetting_Lower_Yield" xml:space="preserve">
+    <value>Lower Yield</value>
+  </data>
+	<data name="FrmTestSetting_Mean_Yield" xml:space="preserve">
+    <value>Mean Yield</value>
+  </data>
+	<data name="FrmTestSetting_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+	<data name="FrmTestSetting_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+	<data name="FrmTestSetting_Exten_Limit" xml:space="preserve">
+    <value>Exten Limit</value>
+  </data>
+	<data name="FrmTestSetting_Time_Limit" xml:space="preserve">
+    <value>Time Limit</value>
+  </data>
+	<data name="FrmTestSetting_Strain_Limit" xml:space="preserve">
+    <value>Strain Limit</value>
+  </data>
+	<data name="User_Click" xml:space="preserve">
+    <value>User Click</value>
+  </data>
+	<data name="Elongation_After_Break" xml:space="preserve">
+    <value>Elongation After Break</value>
+  </data>
+	<data name="FrmTestSetting_Circular" xml:space="preserve">
+	  <value>Circular</value>
+  </data>
+	<data name="FrmTestSetting_Rectangular" xml:space="preserve">
+	  <value>Rectangular</value>
+  </data>
+	<data name="FrmTestSetting_Area" xml:space="preserve">
+	  <value>Area</value>
+  </data>
+	<data name="FrmTestSetting_Weight" xml:space="preserve">
+	  <value>Weight</value>
+  </data>
+	<data name="FrmTestSetting_Pipe" xml:space="preserve">
+	  <value>Pipe</value>
+  </data>
+	<data name="FrmTestSetting_Oring" xml:space="preserve">
+	  <value>Oring</value>
+  </data>
+	<data name="FrmTestSetting_Denier" xml:space="preserve">
+	  <value>Denier</value>
+  </data>
+	<data name="FrmTestSetting_Tex" xml:space="preserve">
+	  <value>Tex</value>
+  </data>
+	<data name="FrmTestSetting_Tear" xml:space="preserve">
+	  <value>Tear</value>
+  </data>
+	<data name="FrmTestSetting__4P_Bending" xml:space="preserve">
+	  <value>4P Bending</value>
+  </data>
+	<data name="FrmTestSetting__3P_Bending" xml:space="preserve">
+	  <value>3P Bending</value>
+  </data>
+	<data name="FrmTestSetting_Tension_Compression" xml:space="preserve">
+	  <value>Tension/Compression</value>
+  </data>
+	<data name="MainFrm_InitilizeTest_" xml:space="preserve">
+	  <value>Specimen will reach to {0:F1} ({1}) for {2:F2} ({3}) as preload
+and furnace will reach to {4:F0} {5}.
+and specimen will reach to {6:F1} ({7}) for {8:F2} ({9}) as main load
+and test will stop at limit {10} ({11}).</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Secant_Module" xml:space="preserve">
+	  <value>Secant Module</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Tangent_Module" xml:space="preserve">
+	  <value>Tangent Module</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Energy" xml:space="preserve">
+	  <value>Energy</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Force_Rate" xml:space="preserve">
+	  <value>Force Rate</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Extension_Rate" xml:space="preserve">
+	  <value>Extension Rate</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Stress_Rate" xml:space="preserve">
+	  <value>Stress Rate</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Strain_Rate" xml:space="preserve">
+	  <value>Strain Rate</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Relaxation" xml:space="preserve">
+	  <value>Relaxation</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Force_Loss" xml:space="preserve">
+	  <value>Force Loss</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Stress_Loss" xml:space="preserve">
+	  <value>Stress Loss</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Bending_Stress" xml:space="preserve">
+	  <value>Bending Stress</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Bending_Strain" xml:space="preserve">
+	  <value>Bending Strain</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Bending_Module" xml:space="preserve">
+	  <value>Bending Module</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_A_A0" xml:space="preserve">
+	  <value>A/A0</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Force_Per_Length" xml:space="preserve">
+	  <value>Force Per Length</value>
+  </data>
+	<data name="ReportingParameters_ReportPropertyAbbrev_Formula" xml:space="preserve">
+	  <value>Formula</value>
+  </data>
+	<data name="MeasureMonitor_LoadUnitMenu_Unit_Systems" xml:space="preserve">
+	  <value>Unit Systems</value>
+  </data>
+	<data name="MainFrm_ConfigStartTest_Test_Progress" xml:space="preserve">
+	  <value>Test Progress</value>
+  </data>
+	<data name="MainFrm_SetReportResultGridView_Elastic_Module" xml:space="preserve">
+	  <value>Elastic Module</value>
+  </data>
+	<data name="MainFrm_SetReportResultGridView_Acc_From" xml:space="preserve">
+	  <value>Acc From</value>
+  </data>
+	<data name="MainFrm_SetReportResultGridView_Acc_To" xml:space="preserve">
+	  <value>Acc To</value>
+  </data>
+	<data name="MainFrm_SetReportResultGridView_Avg_" xml:space="preserve">
+	  <value>Avg.</value>
+  </data>
+	<data name="MainFrm_SetReportResultGridView_RMS" xml:space="preserve">
+	  <value>RMS</value>
+  </data>
+	<data name="MainFrm_SetReportResultGridView_Delta" xml:space="preserve">
+	  <value>Delta</value>
+  </data>
+	<data name="MainFrm_menuCreateGroup_Click_New_Group" xml:space="preserve">
+	  <value>New Group</value>
+  </data>
+	<data name="MainFrm_menuCreateGroup_Click_Enter_Group_Name_" xml:space="preserve">
+	  <value>Enter Group Name:</value>
+  </data>
+	<data name="MainFrm_ConfigStartTest_Test_Progress" xml:space="preserve">
+    <value></value>
+  </data>
+	<data name="MainFrm_GetPrintData_Test_Specifications" xml:space="preserve">
+	  <value>Test Specifications</value>
+  </data>
+	<data name="MainFrm_GetPrintData_Tests_Results" xml:space="preserve">
+	  <value>Tests Results</value>
+  </data>
+  <data name="AboutX0" xml:space="preserve">
+    <value>About {0}</value>
+  </data>
+  <data name="VersionX0" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="FrmTestSetting_SetXml_File_error" xml:space="preserve">
+	  <value>File error</value>
+  </data>
+  <data name="FrmTestSetting_SetXml_Report_files" xml:space="preserve">
+	  <value>Report files</value>
+  </data>
+  <data name="FrmTestSetting_SetXml_not_found_" xml:space="preserve">
+	  <value>not found!</value>
+  </data>
+  <data name="MainFrm_NotifyNewLoadCellAthentication_Loadcell_Identification" xml:space="preserve">
+	  <value>Loadcell Identification</value>
+  </data>
+  <data name="MainFrm_NotifyNewTemperatureSensorAthentication_Temperature_Sensor_Identification" xml:space="preserve">
+	  <value>Temperature Sensor Identification</value>
+  </data>
+  <data name="MainFrm_NotifyNewLoadCellDetection_New_loadcell_is_detected" xml:space="preserve">
+	  <value>New loadcell is detected</value>
+  </data>
+  <data name="MainFrm_NotifyNewExtensometerDetection_New_extensometer_is_detected" xml:space="preserve">
+	  <value>New extensometer is detected</value>
+  </data>
+  <data name="MainFrm_OnTestOnOnStopTestS2E_Strain_to_switching" xml:space="preserve">
+	  <value>Strain to switching</value>
+  </data>
+  <data name="MainFrm_OnTestOnOnStopTestS2E_Remove_Extensometer_" xml:space="preserve">
+	  <value>Remove Extensometer!</value>
+  </data>
+  <data name="MainFrm_CheckFialures_Up_Micro_Switch" xml:space="preserve">
+	  <value>Up Micro Switch</value>
+  </data>
+  <data name="MainFrm_CheckFialures_Down_Micro_Switch" xml:space="preserve">
+	  <value>Down Micro Switch</value>
+  </data>
+  <data name="FrmTestSetting_ImportAndConvert_Width__w__" xml:space="preserve">
+	  <value>Width (w):</value>
+  </data>
+  <data name="FrmTestSetting_ImportAndConvert_Thickness__t_" xml:space="preserve">
+	  <value>Thickness (t)</value>
+  </data>
+  <data name="MainFrm_LoadPlotUnitsMenuItems_Offset__0__by" xml:space="preserve">
+	  <value>Offset {0} by</value>
+  </data>
+  <data name="MainFrm_LoadPlotUnitsMenuItems__0__Units" xml:space="preserve">
+	  <value>{0} Units</value>
+  </data>
+  <data name="MeasureMonitor_LoadMeasureTypeMenu_Remove" xml:space="preserve">
+	  <value>Remove</value>
+  </data>
+  <data name="n_a" xml:space="preserve">
+	  <value>n/a</value>
+  </data>
+  <data name="UcSpec_SetCyclicFields_No__Cycle_" xml:space="preserve">
+	  <value>No. Cycle:</value>
+  </data>
+  <data name="UcSpec_SetCyclicFields_Limit_1_" xml:space="preserve">
+	  <value>Limit 1:</value>
+  </data>
+  <data name="UcSpec_SetCyclicFields_Limit_Type_" xml:space="preserve">
+	  <value>Limit Type:</value>
+  </data>
+  <data name="UcSpec_SetCyclicFields_Limit_2_" xml:space="preserve">
+	  <value>Limit 2:</value>
+  </data>
+  <data name="UcSpec_SetCyclicFields_Limit_Time_" xml:space="preserve">
+	  <value>Limit Time:</value>
+  </data>
+  <data name="UcSpec_SetTensileFields_S_to_E" xml:space="preserve">
+	  <value>S to E</value>
+  </data>
+  <data name="UcSpec_SetTensileFields_Speed_2_condition_" xml:space="preserve">
+	  <value>Speed 2 condition:</value>
+  </data>
+  <data name="UcSpec_SetTensileFields_Speed_2_" xml:space="preserve">
+	  <value>Speed 2:</value>
+  </data>
+  <data name="UcSpec_SetStepFields_Step__j___1__" xml:space="preserve">
+	  <value>Step {j + 1}:</value>
+  </data>
+  <data name="UcSpec_SetStepFields_Limit___0___1__" xml:space="preserve">
+	  <value>Limit: {0}({1})</value>
+  </data>
+  <data name="UcSpec_SetStepFields_Speed___0___1__" xml:space="preserve">
+	  <value>Speed: {0}({1})</value>
+  </data>
+  <data name="UcSpec_SetStepFields_Action___0_" xml:space="preserve">
+	  <value>Action: {0}</value>
+  </data>
+</root>

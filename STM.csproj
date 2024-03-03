@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F15F562-0B14-4660-A065-406BB47B44DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>STM</RootNamespace>
+    <AssemblyName>Santam Jadoo</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>STM.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>santam.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLayer\StmTest\ModbusPort.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BLayer\StmTest\ModbusPortParameters.cs" />
+    <Compile Include="DLayer\TMPR485.cs" />
+    <Compile Include="DLayer\RS485.cs" />
+    <Compile Include="PLayer\Other\AccessPermissionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Other\AccessPermissionForm.designer.cs">
+      <DependentUpon>AccessPermissionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLayer\StmTest\TemperaturePortParameters.cs" />
+    <Compile Include="BLayer\StmTest\SerialPortParameters.cs" />
+    <Compile Include="BLayer\StmTest\SampleFilteringParameters.cs" />
+    <Compile Include="BLayer\StmTest\SpeedControlParameters.cs" />
+    <Compile Include="BLayer\Reporting\Calculator.cs" />
+    <Compile Include="BLayer\Reporting\PointProperty.cs" />
+    <Compile Include="BLayer\Reporting\PointType.cs" />
+    <Compile Include="BLayer\Reporting\ReportingDataSource.cs" />
+    <Compile Include="BLayer\Reporting\ReportingParameters.cs" />
+    <Compile Include="BLayer\StmTest\TestDataSource.cs" />
+    <Compile Include="BLayer\StmTest\BendingSampleType.cs" />
+    <Compile Include="BLayer\StmTest\TesnionCompressionSampleType.cs" />
+    <Compile Include="BLayer\StmTest\TestingSample.cs" />
+    <Compile Include="BLayer\StmTest\Filter.cs" />
+    <Compile Include="BLayer\Enums.cs" />
+    <Compile Include="BLayer\Configurations\Configuer.cs" />
+    <Compile Include="BLayer\Status.cs" />
+    <Compile Include="BLayer\StmTest\TestInformation.cs" />
+    <Compile Include="BLayer\StmTest\TestInitializer.cs" />
+    <Compile Include="BLayer\StmTest\DataSample.cs" />
+    <Compile Include="BLayer\StmTest\TestStage.cs" />
+    <Compile Include="BLayer\Units\Unit.cs" />
+    <Compile Include="BLayer\Units\UnitBS.cs" />
+    <Compile Include="BLayer\Units\UnitKMS.cs" />
+    <Compile Include="BLayer\Units\UnitSI.cs" />
+    <Compile Include="BLayer\Units\UnitTime.cs" />
+    <Compile Include="DLayer\Images.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DLayer\Images.Designer.cs">
+      <DependentUpon>Images.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DLayer\TMPR232.cs" />
+    <Compile Include="DLayer\TestOpenSaveStatus.cs" />
+    <Compile Include="DLayer\Delay.cs" />
+    <Compile Include="DLayer\TestLoader.cs" />
+    <Compile Include="DLayer\TestOpenSave.cs" />
+    <Compile Include="PLayer\Other\FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Other\FrmRegister.designer.cs">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Other\Language.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Other\Language.Designer.cs">
+      <DependentUpon>Language.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lock.cs" />
+    <Compile Include="PLayer\Open\ExplorerTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PLayer\Report\FrmReportingOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Report\FrmReportingOptions.designer.cs">
+      <DependentUpon>FrmReportingOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\IUnit.cs" />
+    <Compile Include="PLayer\Open\FileHistory.cs" />
+    <Compile Include="PLayer\Open\FrmOpenFileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Open\FrmOpenFileDialog.Designer.cs">
+      <DependentUpon>FrmOpenFileDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Other\CollapsiblePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PLayer\Other\CollapsiblePanel.designer.cs">
+      <DependentUpon>CollapsiblePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Other\CollapsiblePanelActionList.cs" />
+    <Compile Include="PLayer\Other\CollapsiblePanelDesigner.cs" />
+    <Compile Include="PLayer\Other\InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Other\InputDialog.Designer.cs">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Other\Prompter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Other\Prompter.Designer.cs">
+      <DependentUpon>Prompter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Report\ColorPreviewEventArgs.Designer.cs" />
+    <Compile Include="PLayer\Report\ColorSection.cs" />
+    <Compile Include="PLayer\Report\TestTimeReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Report\TestTimeReport.Designer.cs">
+      <DependentUpon>TestTimeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmDecimiationSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmDecimiationSetting.Designer.cs">
+      <DependentUpon>FrmDecimiationSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmTestSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmTestSetting.Designer.cs">
+      <DependentUpon>FrmTestSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmTestSettingsLimited.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmTestSettingsLimited.Designer.cs">
+      <DependentUpon>FrmTestSettingsLimited.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmUnitSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmUnitSetting.Designer.cs">
+      <DependentUpon>FrmUnitSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\UI\FrmDrawing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\UI\FrmFixedScale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\UI\FrmFixedScale.Designer.cs">
+      <DependentUpon>FrmFixedScale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\UI\PlotAligner.cs" />
+    <Compile Include="PLayer\UI\PointEventArgs.cs" />
+    <Compile Include="PLayer\Print\Print.cs" />
+    <Compile Include="PLayer\Report\FrmReporting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Report\FrmReporting.Designer.cs">
+      <DependentUpon>FrmReporting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Report\Logo.cs" />
+    <Compile Include="PLayer\Report\ExcelReport.cs" />
+    <Compile Include="PLayer\Report\LogoTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PLayer\Report\LogoTool.designer.cs">
+      <DependentUpon>LogoTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLayer\Reporting\ReportingResult.cs" />
+    <Compile Include="PLayer\Setting\FrmCalibration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmCalibration.Designer.cs">
+      <DependentUpon>FrmCalibration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmInstrument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmInstrument.Designer.cs">
+      <DependentUpon>FrmInstrument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLayer\StmTest\InstrumentParameters.cs" />
+    <Compile Include="PLayer\UI\MeasureTool.cs" />
+    <Compile Include="PLayer\UI\Plot.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PLayer\UI\PlotDataSource.cs" />
+    <Compile Include="PLayer\UI\Sample.cs" />
+    <Compile Include="PLayer\UI\ZoomFrame.cs" />
+    <Compile Include="Sensor\Enums.cs" />
+    <Compile Include="Sensor\ExtensoMeter.cs" />
+    <Compile Include="Sensor\TemeratureSensor.cs" />
+    <Compile Include="Sensor\LoadCell.cs" />
+    <Compile Include="Sensor\MotorEncoder.cs" />
+    <Compile Include="Sensor\Sensor.cs" />
+    <Compile Include="BLayer\MeasuredParams.cs" />
+    <Compile Include="BLayer\StmTest\Test.cs" />
+    <Compile Include="BLayer\StmTest\TestParameters.cs" />
+    <Compile Include="BLayer\Configurations\SettingLoader.cs" />
+    <Compile Include="DLayer\Enums.cs" />
+    <Compile Include="Extensions\Extention.cs" />
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLayer\StmTest\Options.cs" />
+    <Compile Include="PLayer\Setting\FrmAuthentication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmAuthentication.Designer.cs">
+      <DependentUpon>FrmAuthentication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmMachineSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Setting\FrmMachineSetting.Designer.cs">
+      <DependentUpon>FrmMachineSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLayer\StmTest\CrossHeadParameters.cs" />
+    <Compile Include="PLayer\SensorDetectionFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\SensorDetectionFrm.Designer.cs">
+      <DependentUpon>SensorDetectionFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Tools.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PLayer\UI\MeasureType.cs" />
+    <Compile Include="PLayer\UI\MeasuremenMonitors.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PLayer\UI\MeasuremenMonitors.Designer.cs">
+      <DependentUpon>MeasuremenMonitors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\UI\MeasureMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PLayer\UI\MeasureMonitor.Designer.cs">
+      <DependentUpon>MeasureMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DLayer\RS232.cs" />
+    <Compile Include="Sensor\Statistics.cs" />
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLayer\Setting\TemperatureMoreControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLayer\Setting\TemperatureMoreControlForm.Designer.cs">
+      <DependentUpon>TemperatureMoreControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Timer\Timer.cs" />
+    <Compile Include="UcSpec.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcSpec.Designer.cs">
+      <DependentUpon>UcSpec.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox1.fa.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.ru.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.fa.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.ru.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Open\ExplorerTree.ru.resx">
+      <DependentUpon>ExplorerTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Open\FrmOpenFileDialog.fa.resx">
+      <DependentUpon>FrmOpenFileDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Open\FrmOpenFileDialog.ru.resx">
+      <DependentUpon>FrmOpenFileDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\AccessPermissionForm.fa.resx">
+      <DependentUpon>AccessPermissionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\AccessPermissionForm.resx">
+      <DependentUpon>AccessPermissionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\AccessPermissionForm.ru.resx">
+      <DependentUpon>AccessPermissionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\CollapsiblePanel.ru.resx">
+      <DependentUpon>CollapsiblePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\FrmRegister.fa.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\FrmRegister.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\FrmRegister.ru.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\InputDialog.fa.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\InputDialog.ru.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\Language.fa.resx">
+      <DependentUpon>Language.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\Language.resx">
+      <DependentUpon>Language.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Open\ExplorerTree.resx">
+      <DependentUpon>ExplorerTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\Language.ru.resx">
+      <DependentUpon>Language.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\Prompter.fa.resx">
+      <DependentUpon>Prompter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\Prompter.ru.resx">
+      <DependentUpon>Prompter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\FrmReporting.fa.resx">
+      <DependentUpon>FrmReporting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\FrmReporting.ru.resx">
+      <DependentUpon>FrmReporting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\FrmReportingOptions.fa.resx">
+      <DependentUpon>FrmReportingOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\FrmReportingOptions.resx">
+      <DependentUpon>FrmReportingOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Open\FrmOpenFileDialog.resx">
+      <DependentUpon>FrmOpenFileDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\CollapsiblePanel.resx">
+      <DependentUpon>CollapsiblePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\InputDialog.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Other\Prompter.resx">
+      <DependentUpon>Prompter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\FrmReportingOptions.ru.resx">
+      <DependentUpon>FrmReportingOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\LogoTool.fa.resx">
+      <DependentUpon>LogoTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\LogoTool.ru.resx">
+      <DependentUpon>LogoTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\TestTimeReport.fa.resx">
+      <DependentUpon>TestTimeReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\TestTimeReport.resx">
+      <DependentUpon>TestTimeReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\TestTimeReport.ru.resx">
+      <DependentUpon>TestTimeReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\SensorDetectionFrm.fa.resx">
+      <DependentUpon>SensorDetectionFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\SensorDetectionFrm.ru.resx">
+      <DependentUpon>SensorDetectionFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmAuthentication.ru.resx">
+      <DependentUpon>FrmAuthentication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmCalibration.fa.resx">
+      <DependentUpon>FrmCalibration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmCalibration.ru.resx">
+      <DependentUpon>FrmCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmDecimiationSetting.fa.resx">
+      <DependentUpon>FrmDecimiationSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmDecimiationSetting.resx">
+      <DependentUpon>FrmDecimiationSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmDecimiationSetting.ru.resx">
+      <DependentUpon>FrmDecimiationSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmInstrument.fa.resx">
+      <DependentUpon>FrmInstrument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmInstrument.ru.resx">
+      <DependentUpon>FrmInstrument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmMachineSetting.fa.resx">
+      <DependentUpon>FrmMachineSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmMachineSetting.ru.resx">
+      <DependentUpon>FrmMachineSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmTestSetting.fa.resx">
+      <DependentUpon>FrmTestSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmTestSetting.resx">
+      <DependentUpon>FrmTestSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmTestSetting.ru.resx">
+      <DependentUpon>FrmTestSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmTestSettingsLimited.fa.resx">
+      <DependentUpon>FrmTestSettingsLimited.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmTestSettingsLimited.resx">
+      <DependentUpon>FrmTestSettingsLimited.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmTestSettingsLimited.ru.resx">
+      <DependentUpon>FrmTestSettingsLimited.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmUnitSetting.fa.resx">
+      <DependentUpon>FrmUnitSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmUnitSetting.resx">
+      <DependentUpon>FrmUnitSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmUnitSetting.ru.resx">
+      <DependentUpon>FrmUnitSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\TemperatureMoreControlForm.fa.resx">
+      <DependentUpon>TemperatureMoreControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\TemperatureMoreControlForm.ru.resx">
+      <DependentUpon>TemperatureMoreControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\FrmDrawing.fa.resx">
+      <DependentUpon>FrmDrawing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\FrmDrawing.resx">
+      <DependentUpon>FrmDrawing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\FrmDrawing.ru.resx">
+      <DependentUpon>FrmDrawing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\FrmFixedScale.fa.resx">
+      <DependentUpon>FrmFixedScale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\FrmFixedScale.resx">
+      <DependentUpon>FrmFixedScale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\LogoTool.resx">
+      <DependentUpon>LogoTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Report\FrmReporting.resx">
+      <DependentUpon>FrmReporting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmAuthentication.fa.resx">
+      <DependentUpon>FrmAuthentication.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmAuthentication.resx">
+      <DependentUpon>FrmAuthentication.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmCalibration.resx">
+      <DependentUpon>FrmCalibration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmInstrument.resx">
+      <DependentUpon>FrmInstrument.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\FrmMachineSetting.resx">
+      <DependentUpon>FrmMachineSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\SensorDetectionFrm.resx">
+      <DependentUpon>SensorDetectionFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\FrmFixedScale.ru.resx">
+      <DependentUpon>FrmFixedScale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\MeasuremenMonitors.fa.resx">
+      <DependentUpon>MeasuremenMonitors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\MeasuremenMonitors.resx">
+      <DependentUpon>MeasuremenMonitors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\MeasuremenMonitors.ru.resx">
+      <DependentUpon>MeasuremenMonitors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\MeasureMonitor.fa.resx">
+      <DependentUpon>MeasureMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\MeasureMonitor.resx">
+      <DependentUpon>MeasureMonitor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\UI\MeasureMonitor.ru.resx">
+      <DependentUpon>MeasureMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.fa.resx">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.fa.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayer\Setting\TemperatureMoreControlForm.resx">
+      <DependentUpon>TemperatureMoreControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.ru.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcSpec.fa.resx">
+      <DependentUpon>UcSpec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcSpec.resx">
+      <DependentUpon>UcSpec.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcSpec.ru.resx">
+      <DependentUpon>UcSpec.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="DLayer\DataLayer.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="santam.ico" />
+    <None Include="Resources\zoom.png" />
+    <None Include="Resources\us.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\svae.png" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\pp.png" />
+    <None Include="Resources\open.png" />
+    <None Include="Resources\fit.png" />
+    <None Include="Resources\Pan.png" />
+    <None Include="Resources\SE.png" />
+    <None Include="Resources\f0.png" />
+    <None Include="Resources\E0.png" />
+    <None Include="Resources\expand_highlight.gif" />
+    <None Include="Resources\collapse.gif" />
+    <None Include="Resources\collapse_hightlight.gif" />
+    <None Include="Resources\expand.gif" />
+    <None Include="Resources\Info.png" />
+    <None Include="Resources\sup.png" />
+    <None Include="Resources\sb.png" />
+    <None Include="Resources\fb.png" />
+    <None Include="Resources\fup.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\Stop.png" />
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

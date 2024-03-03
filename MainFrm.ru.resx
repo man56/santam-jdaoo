@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Файл</value>
+  </data>
+  <data name="menuTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="menuTest.Text" xml:space="preserve">
+    <value>Тест</value>
+  </data>
+  <data name="menTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="menTools.Text" xml:space="preserve">
+    <value>&amp;Устройства</value>
+  </data>
+  <data name="menuSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="menuSetting.Text" xml:space="preserve">
+    <value>&amp;Настройки</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Помощь</value>
+  </data>
+  <data name="menuNewTest.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVDhPrZDbSgJRGIXnpewd6jXsjSQvIrwoI0RQMChU
+        0iiDPCGiE3ZCRkvR8VzTeBhnyR5/ccaZNnPhB4t9sdf6Ln5hb8QeathNJFVFKF5C8DqL4ksDVHWGDf7j
+        LHyPg6NjviSaFqlu5yQYR+KpupaIkrMknCxT3Y7v/NYYb0ITK1c3BarbWWhLQ7IR0cTKReyZ6lZ0XYei
+        ztHpK4bAc+h1FgQijzSxMptrGIxVSO0xX3AaStFki7bUMVFmaMm/eJMGfIH/MkGzLep0AXn4h/r3CJV3
+        mS9gn2bY4UY/UzQ7E9TqfeTFtnuB+XAfzSHKr11kSl/uBebDiZ89ZCst3OUkdwL28sIVsE83ock+EIQV
+        2Mz2wxeg6/UAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="menuNewTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuNewTest.Text" xml:space="preserve">
+    <value>&amp;Новое испытание</value>
+  </data>
+  <data name="menuOpenTest.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJHSURBVDhPxZBdSNNhFMb/F110ZZEVhVBgeeHNICiiuggp
+        olAUyyxI0oSaH1QYC3N+tKnp5ubm1JUua5uuqdNKMwr7kApFItTUkWZqVhSVYmao5Nevvy7UoYR3HXh4
+        4XCe33nOKyy3lAY7l9RWMo0O/raWXxEyo5spVYTNvOGyfIRPfW+ptOkXqaPl6T83hcRmExSdgzAz3NVm
+        YWyoYla/B+1M9JtxWLPpaH22JORIjI6gKAMB0jyEimIdo4OlbuaprwVMOOMovammpDADc34qppwUrmnl
+        5Kni3aFlFg2j3y1z5mnRTJccnNIltQhwq0jFry+mOXNtpWZWDx1Z1NhV3C3JwGFOw25SYjVe5oYhiUKd
+        HKMmwQUrMWUw/CF3NnZvvYKqUh1TvUroS3fXe7HXkwidMngTS2t5KLbregSzMY2f3Wr4qKW6LJvGR1rX
+        0MLor8OhKYTJBn/GHvvxrliCTBrsOqXIoOBHh5K+hmSq7FqmexTQHuUytkaKxuNMNgYyVneA4Qd7GKjc
+        hjLaRzxH7gIU6JIZaEvgtk1D8wsxSWecCDgNzWFMvwxm/PkhRmr3Mli1nW9lvjRdWc0Jf+/5jzRmyWmv
+        S+GOLQu6U6BFjPvqKOP1AYw88WOoZif9DgmfLVtxaj1RSLdwNvrkPCA3M54KqxrnvRia9MKcGrUrqFOt
+        5H7qKsqT1mGO9+Lqhc2ELdw+U/r0i+gVZ8hMiCDx3DHORwZyKnQ/hw/uYt9uCTskPvh6e7Fp41rWr/Fg
+        g6eHO+A/lyD8ARfG3mk9fv1YAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="menuOpenTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuOpenTest.Text" xml:space="preserve">
+    <value>&amp;Открыть испытание</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 6</value>
+  </data>
+  <data name="menuSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIySURBVDhPrZLfS5NRGMfff6H7boIuuq2pMZyL1eAt11CW
+        DcOKsB9vpFmaLtNExco0av6CbIVLJ61Wk3BSkT/AFCkRZSpZmrmiJQ41xSaCwdfznL15XEUX0Reem5f3
+        8znnec4j/Zc8fxYGla91CS3eRTx0z6OpMYS7jmnU1X6B/VYA18snUVoyjsKCt8jLHcH5c36ouCQR2NUJ
+        1Nas4G9ZXlmFKbULh1Kf8lJxSfI+WeCCyopv6q+/h+DQ/DJ2WV5Ao1FgPegRAveDOS4oLfmq/h6dn/DH
+        4AJizD4UXJrCAUuzEDgbZrjgou2DiohshIcnQtgme5GTPYbkJKcQ1N8OckHW2REVi+RXuM8fxGaDG4oy
+        ALPZIQQ11Z+5QDk1oKJ/hjv7P2FTfCMOH3mFxMQ6IbhROYWOdrCnBI4dfwPr0V4+bRoY9UzXppMjcDdS
+        rC8hy3YhuFI2gTYf2A4Aza4f7N2/o/zaLB8qDYx6zszwr8P7k1thNFYIweXCMXgeAfedq2xxwjClZUeV
+        Jd2GtDNFETiJwfs8MBjKhMCWN8pgoLoqzE8miH1GjE7G4PsZjE7OQsm9ij2mFg7rdrug1xcJAa2l4w7W
+        r00Cgk/n38S7wBwC04u4UGxHrMHF4CbEJtyDLj5fCDIzhljfSxzeavRgyw4Zj9t64GvvQ0d3P3pfD2Kv
+        2QqNvgFxDN6urYdWmyMElJMnevh60obRktA701PRtGlg1DOdSkXwzrisaMG/RZLWAE60OMW5fNhvAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="menuSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuSave.Text" xml:space="preserve">
+    <value>&amp;Сохранить</value>
+  </data>
+  <data name="menuSaveAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuSaveAs.Text" xml:space="preserve">
+    <value>Сохранить как</value>
+  </data>
+  <data name="menuCreateGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuCreateGroup.Text" xml:space="preserve">
+    <value>Создать группу</value>
+  </data>
+  <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 6</value>
+  </data>
+  <data name="menuRecentTests.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuRecentTests.Text" xml:space="preserve">
+    <value>Последние испытания</value>
+  </data>
+  <data name="menuRecentGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuRecentGroups.Text" xml:space="preserve">
+    <value>Последние группы</value>
+  </data>
+  <data name="menuOpenGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="menuOpenGroup.Text" xml:space="preserve">
+    <value>Открыть выбранную группу</value>
+  </data>
+  <data name="menuDeleteGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="menuDeleteGroup.Text" xml:space="preserve">
+    <value>Удалить выбранную группу</value>
+  </data>
+  <data name="menuAddToGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuAddToGroup.Text" xml:space="preserve">
+    <value>Добавить текущ.испытание к</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 6</value>
+  </data>
+  <data name="menuPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIpSURBVDhPtZL/T1JRGMb5p1itrVZbbRpqZbawnBENV1I0
+        jGlByTSyJTXJwq2oKZQb1KAv6JCYWSxvBrkkZUq4CeQEiRABFeLL072Xa0zRra31bO8v57zP5znnPYf1
+        X+TxhWF6O7VtGYcnwbSWijKPOLzYrPSvLPwLS3huGUMlT7o9wGD9grVUBj+icdid03S9tDmgNxNwTgVQ
+        J+rA8XNtWwM+uuZATMwxmQVRycuJFNyzIRitDlScugKzjSgFRGJJaIwEsrk8AsHIhnSL/Ssck37UNipQ
+        I5DjtuYV7uksRYhr2kebhx2eP6nrycFIEh5fBA/1Nvru8q5+PDaOovK0rABwfwugWzcErfkzHhjsePL6
+        E7q1VrTdNUDcrgGvSYlDZHN5XTNOnL8BVe8AJAoNDtZfLgDu9L1BPJmikzcrk81hlRwodZJwdBXziwnI
+        OrVoaOkiT8C8hKLHBPO7CbywOaE1jeC+bhAd6meQdvZC1KoG/5IS3MZ2HObLUHZSggvkWq3wOvbWiAqA
+        VpWeyStVfCUNf3AZ4zNhfHCFMEDMgye+hYr6FrDLzxQAUuVTpr0ocn74mchg5vsKRt1RcHp2Qv9+kZ78
+        UcE17KkWFgHNN/uQzgBkGKLJPBZiecyGchjzrmFwPIF++xJUbDbUQzEacIArLpopSRSP4CUN1Obf1Abz
+        uqob5KjiXwWH/GVl5HPt5zZh37GL2H1EiF1VZ7GDI6CNW5r/TSzWbwHYL0mKJ5czAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="menuPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuPrint.Text" xml:space="preserve">
+    <value>&amp;Печать</value>
+  </data>
+  <data name="menuPrintPreview.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGCSURBVDhPnZK9S0JRGMb9F1xb2gqaq6mhwCGDtvYIIyLI
+        cJOE1paoIYpMKUjFRDH87lpoakGlIZF9DA2hZJEQhJXl1xPn3HPV29WQfvBwOfA+P95zuDJ39A6/4wyl
+        YOOSMHvOcHGThuwvSKEVRvsR+pQqWD3R1pK98DUbl7Jm5hA8SfESd6S5xH5wycalrO4E0D8yWQuriLH6
+        E2xcSqlcoRJBxCpiTO5TNi4m/ZgDF4nDsOulsfujyGRzUsmWM8YqdcggKbveS3A88bEkslRye58RSzZt
+        IVarY/FFaPmlwp+fUaESYRNW5Vm3BPmpBpZNvppACDmTLbS6FbGAPFAj5OGI4PALOK/yZfIlAlk4j7n5
+        xdaCarWKj0KRXmE2+UklJEJZZ/RCPTPdWvBdLOP1rYD41QNcgRiVkKJQ1mjGsa2VNxeQb2OWDC7sh47p
+        ddQLeoyOTSFiVAAFvVhChsmv2k6Uvd3Icx1UolMNiDdpl4nhLiohW/xb0tMph2JwCJxjAz9A30JI8zYA
+        tAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="menuPrintPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuPrintPreview.Text" xml:space="preserve">
+    <value>Печать и Предпросмотр</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 6</value>
+  </data>
+  <data name="menuCloseTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="menuCloseTest.Text" xml:space="preserve">
+    <value>Закрыть испытания</value>
+  </data>
+  <data name="exitToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Выход</value>
+  </data>
+  <data name="subMenuNewTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="subMenuNewTest.Text" xml:space="preserve">
+    <value>Определить испытание</value>
+  </data>
+  <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 6</value>
+  </data>
+  <data name="subMenuTestReportPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="subMenuTestReportPoints.Text" xml:space="preserve">
+    <value>Точки отчета</value>
+  </data>
+  <data name="testTimeReportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="testTimeReportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отчет о времени испытания</value>
+  </data>
+  <data name="subMenuToolsStandard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="subMenuToolsStandard.Text" xml:space="preserve">
+    <value>Стандарт</value>
+  </data>
+  <data name="subMenuToolsStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="subMenuToolsStatusBar.Text" xml:space="preserve">
+    <value>Строка состояния</value>
+  </data>
+  <data name="subMenuToolsMeasures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="subMenuToolsMeasures.Text" xml:space="preserve">
+    <value>Измерения</value>
+  </data>
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 6</value>
+  </data>
+  <data name="menuToolsZoomIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="menuToolsZoomIn.Text" xml:space="preserve">
+    <value>Приблизить</value>
+  </data>
+  <data name="menuToolsZoomOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="menuToolsZoomOut.Text" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="menuToolsFit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="menuToolsFit.Text" xml:space="preserve">
+    <value>Соответствие</value>
+  </data>
+  <data name="menuToolsPan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="menuToolsPan.Text" xml:space="preserve">
+    <value>Панорама</value>
+  </data>
+  <data name="subMenuPlotPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="subMenuPlotPoints.Text" xml:space="preserve">
+    <value>Параметры отчета на графике</value>
+  </data>
+  <data name="menuShowReportPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="menuShowReportPoints.Text" xml:space="preserve">
+    <value>Показать точки отчета</value>
+  </data>
+  <data name="menuShowReportLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="menuShowReportLabels.Text" xml:space="preserve">
+    <value>Показать метки точек</value>
+  </data>
+  <data name="menuShowReportLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="menuShowReportLines.Text" xml:space="preserve">
+    <value>Показать строки отчета</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 6</value>
+  </data>
+  <data name="subMenuUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="subMenuUnits.Text" xml:space="preserve">
+    <value>Система измерения</value>
+  </data>
+  <data name="subMenuSI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="subMenuBS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="subMenuMKS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 6</value>
+  </data>
+  <data name="subMenuMeasures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="subMenuMeasures.Text" xml:space="preserve">
+    <value>Ед.измерения</value>
+  </data>
+  <data name="menuMachineSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="menuMachineSetting.Text" xml:space="preserve">
+    <value>Машина </value>
+  </data>
+  <data name="menuCalibration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="menuCalibration.Text" xml:space="preserve">
+    <value>Калибровка</value>
+  </data>
+  <data name="menuInstrument.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="menuInstrument.Text" xml:space="preserve">
+    <value>Инструмент</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 6</value>
+  </data>
+  <data name="subMenuOptionSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="subMenuOptionSetting.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 6</value>
+  </data>
+  <data name="temperatureControlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="temperatureControlToolStripMenuItem.Text" xml:space="preserve">
+    <value>Контроль температуры</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Об...</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="newToolStripMenuItem.Text" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 6</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить как</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>Экспорт в excel</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 6</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>Открыть группу испытаний</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Сохранить как группу испытаний</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 6</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Недавние файлы</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="viewToolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Просмотр инструментов</value>
+  </data>
+  <data name="zoomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="zoomToolStripMenuItem.Text" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="zoomOutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="zoomOutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="fitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="fitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Соответствие</value>
+  </data>
+  <data name="panToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="panToolStripMenuItem.Text" xml:space="preserve">
+    <value>Панорама</value>
+  </data>
+  <data name="pointSelectionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="pointSelectionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выбор точки</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Инструменты</value>
+  </data>
+  <data name="standardToolbarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="standardToolbarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Стандартная панель инструментов</value>
+  </data>
+  <data name="measuresToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="measuresToolStripMenuItem.Text" xml:space="preserve">
+    <value>измерения</value>
+  </data>
+  <data name="statusbarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="statusbarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Строка состояния</value>
+  </data>
+  <data name="fullScreenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 22</value>
+  </data>
+  <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Полноэкранный</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 16</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Траверса</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="bttnReturnToZero.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="tpTestSpec.Text" xml:space="preserve">
+    <value>Специф.Испытания</value>
+  </data>
+  <data name="dgvTestNameCol.HeaderText" xml:space="preserve">
+    <value>Имя Испытания</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Режим Испытания</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Площадь(мм2) / Инерция(мм4)</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Калибр/длина опоры (мм)</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="ctxMenuTestProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 148</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>Определение точек отчета</value>
+  </data>
+  <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 6</value>
+  </data>
+  <data name="ctxMenuCurrentTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="ctxMenuCurrentTest.Text" xml:space="preserve">
+    <value>Текущ. Настройки Испытания</value>
+  </data>
+  <data name="menuSetAsDefualt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="menuSetAsDefualt.Text" xml:space="preserve">
+    <value>Установить по умолчанию</value>
+  </data>
+  <data name="menuDrawingParams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="menuDrawingParams.Text" xml:space="preserve">
+    <value>Свойства графика</value>
+  </data>
+  <data name="menuExportAsExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="menuExportAsExcel.Text" xml:space="preserve">
+    <value>Экспорт в excel</value>
+  </data>
+  <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 6</value>
+  </data>
+  <data name="closeTestToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="closeTestToolStripMenuItem.Text" xml:space="preserve">
+    <value>Закрыть испытание</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Скорость двигателя(мм/мин)</value>
+  </data>
+  <data name="tslEncoderSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="tslEncoderSpeed.Text" xml:space="preserve">
+    <value>Скорость : 0</value>
+  </data>
+  <data name="ctxMenuDiagram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 208</value>
+  </data>
+  <data name="ctxMenuDiagramType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="ctxMenuDiagramType.Text" xml:space="preserve">
+    <value>Тип графика</value>
+  </data>
+  <data name="ctxMenuForceExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="ctxMenuForceExtension.Text" xml:space="preserve">
+    <value>Нагрузка-Удлинение</value>
+  </data>
+  <data name="ctxMenuStressStrain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="ctxMenuStressStrain.Text" xml:space="preserve">
+    <value>Напряжение-Деформация</value>
+  </data>
+  <data name="massStressStarinToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="massStressStarinToolStripMenuItem.Text" xml:space="preserve">
+    <value>Напряж.мас. - Деформация</value>
+  </data>
+  <data name="lengthStressStarinToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="lengthStressStarinToolStripMenuItem.Text" xml:space="preserve">
+    <value>Напряж.длин. - Деформация</value>
+  </data>
+  <data name="ctxMenuForceTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="ctxMenuForceTime.Text" xml:space="preserve">
+    <value>Нагрузка-Время</value>
+  </data>
+  <data name="ctxMenuExtensionTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="ctxMenuExtensionTime.Text" xml:space="preserve">
+    <value>Время удлинения</value>
+  </data>
+  <data name="ctxMenuStressTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="ctxMenuStressTime.Text" xml:space="preserve">
+    <value>Напряжение-Время</value>
+  </data>
+  <data name="ctxMenuStrainTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="ctxMenuStrainTime.Text" xml:space="preserve">
+    <value>Деформация-Время</value>
+  </data>
+  <data name="relaxLost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="relaxLost.Text" xml:space="preserve">
+    <value>Спад релаксации (режим релакс.)</value>
+  </data>
+  <data name="forceLost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="forceLost.Text" xml:space="preserve">
+    <value>Спад нагрузки(режим релакс.)</value>
+  </data>
+  <data name="stressLost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="stressLost.Text" xml:space="preserve">
+    <value>Спад напряжения(Режим релакс.)</value>
+  </data>
+  <data name="customeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="customeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Пользовательский</value>
+  </data>
+  <data name="ctxMenuUpdate.Text" xml:space="preserve">
+    <value>Обновить график</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 6</value>
+  </data>
+  <data name="temperatureDiagramToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="temperatureDiagramToolStripMenuItem.Text" xml:space="preserve">
+    <value>График температуры</value>
+  </data>
+  <data name="temperatureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="temperatureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Температура</value>
+  </data>
+  <data name="specTempUPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="specTempUPToolStripMenuItem.Text" xml:space="preserve">
+    <value>Спец.темп. ВЕРХ</value>
+  </data>
+  <data name="specTempCNTToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="specTempCNTToolStripMenuItem.Text" xml:space="preserve">
+    <value>Спец.темп. ЦЕНТР</value>
+  </data>
+  <data name="specTempDNToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="specTempDNToolStripMenuItem.Text" xml:space="preserve">
+    <value>Спец.темп. НИЗ</value>
+  </data>
+  <data name="zoneTempUPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="zoneTempUPToolStripMenuItem.Text" xml:space="preserve">
+    <value>Темп.зоны ВЕРХ</value>
+  </data>
+  <data name="zoneTempCNTToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="zoneTempCNTToolStripMenuItem.Text" xml:space="preserve">
+    <value>Темп.зоны ЦЕНТР</value>
+  </data>
+  <data name="zoneTempDNToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="zoneTempDNToolStripMenuItem.Text" xml:space="preserve">
+    <value>Темп.зоны НИЗ</value>
+  </data>
+  <data name="ambientTempToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="ambientTempToolStripMenuItem.Text" xml:space="preserve">
+    <value>Темп.окр.среды</value>
+  </data>
+  <data name="ctxMenuXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="ctxMenuXUnit.Text" xml:space="preserve">
+    <value>X Ед.изм</value>
+  </data>
+  <data name="ctxMenuYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="ctxMenuYUnit.Text" xml:space="preserve">
+    <value>Y Ед.изм</value>
+  </data>
+  <data name="ctxMenuFixedScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="ctxMenuFixedScale.Text" xml:space="preserve">
+    <value>Фиксированная шкала</value>
+  </data>
+  <data name="ctxMenuXOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="ctxMenuXOffset.Text" xml:space="preserve">
+    <value>Смещение X по</value>
+  </data>
+  <data name="toolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 6</value>
+  </data>
+  <data name="ctxMenuReportPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="ctxMenuReportPoints.Text" xml:space="preserve">
+    <value>Определение точек отчета</value>
+  </data>
+  <data name="ctxMenuShowReportPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="ctxMenuShowReportPoints.Text" xml:space="preserve">
+    <value>Показать точки отчета</value>
+  </data>
+  <data name="ctxMenuShowReportLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="ctxMenuShowReportLabels.Text" xml:space="preserve">
+    <value>Показать метки точек</value>
+  </data>
+  <data name="ctxMenuShowReportLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="ctxMenuShowReportLines.Text" xml:space="preserve">
+    <value>Показать строки отчета</value>
+  </data>
+  <data name="tsbNewTest.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVDhPrZDbSgJRGIXnpewd6jXsjSQvIrwoI0RQMChU
+        0iiDPCGiE3ZCRkvR8VzTeBhnyR5/ccaZNnPhB4t9sdf6Ln5hb8QeathNJFVFKF5C8DqL4ksDVHWGDf7j
+        LHyPg6NjviSaFqlu5yQYR+KpupaIkrMknCxT3Y7v/NYYb0ITK1c3BarbWWhLQ7IR0cTKReyZ6lZ0XYei
+        ztHpK4bAc+h1FgQijzSxMptrGIxVSO0xX3AaStFki7bUMVFmaMm/eJMGfIH/MkGzLep0AXn4h/r3CJV3
+        mS9gn2bY4UY/UzQ7E9TqfeTFtnuB+XAfzSHKr11kSl/uBebDiZ89ZCst3OUkdwL28sIVsE83ock+EIQV
+        2Mz2wxeg6/UAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tsbNewTest.Text" xml:space="preserve">
+    <value>&amp;Новый</value>
+  </data>
+  <data name="tsbNewTest.ToolTipText" xml:space="preserve">
+    <value>Новое Испытание</value>
+  </data>
+  <data name="tsbOpen.Text" xml:space="preserve">
+    <value>&amp;Открыть</value>
+  </data>
+  <data name="tsbOpen.ToolTipText" xml:space="preserve">
+    <value>Открыть Испытание</value>
+  </data>
+  <data name="tsbSave.Text" xml:space="preserve">
+    <value>&amp;Сохранить</value>
+  </data>
+  <data name="tsbSave.ToolTipText" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="tsbPrintPreview.Text" xml:space="preserve">
+    <value>&amp;Просмотр перед печатью</value>
+  </data>
+  <data name="tsbPrintPreview.ToolTipText" xml:space="preserve">
+    <value>Просмотр перед печатью</value>
+  </data>
+  <data name="printToolStripButton1.Text" xml:space="preserve">
+    <value>&amp;Печать</value>
+  </data>
+  <data name="printToolStripButton1.ToolTipText" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="tsbZoom.Text" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="tsbZoom.ToolTipText" xml:space="preserve">
+    <value>Приблизить</value>
+  </data>
+  <data name="tsbUndo.Text" xml:space="preserve">
+    <value>Отменить масштабирование</value>
+  </data>
+  <data name="tsbUndo.ToolTipText" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="tsbFit.Text" xml:space="preserve">
+    <value>Подходящий участов</value>
+  </data>
+  <data name="tsbFit.ToolTipText" xml:space="preserve">
+    <value>Подходящий участов</value>
+  </data>
+  <data name="tsbIndicator.Text" xml:space="preserve">
+    <value>Индикатор</value>
+  </data>
+  <data name="tsbIndicator.ToolTipText" xml:space="preserve">
+    <value>Индикатор</value>
+  </data>
+  <data name="tsbPan.Text" xml:space="preserve">
+    <value>Панорама</value>
+  </data>
+  <data name="tsbPan.ToolTipText" xml:space="preserve">
+    <value>Панорама</value>
+  </data>
+  <data name="images1.E0" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="images1.F0" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        JOEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Santam Jadoo Испытательная Машина </value>
+  </data>
+</root>

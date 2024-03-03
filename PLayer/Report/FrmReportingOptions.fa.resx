@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbGeneralShowLanguage.Text" xml:space="preserve">
+    <value>نمايش پنجره انتخاب زبان</value>
+  </data>
+  <data name="cbPlotGridLines.Text" xml:space="preserve">
+    <value>نمايش خطوط گراف</value>
+  </data>
+  <data name="cbPrintLogo.Text" xml:space="preserve">
+    <value>چاپ لوگو</value>
+  </data>
+  <data name="cbPrintPlot.Text" xml:space="preserve">
+    <value>چاپ گراف</value>
+  </data>
+  <data name="cbPrintTestsResults.Text" xml:space="preserve">
+    <value>چاپ نتایج تست</value>
+  </data>
+  <data name="cbPrintTestsSpec.Text" xml:space="preserve">
+    <value>چاپ مشخصات تست</value>
+  </data>
+  <data name="cbResetMeasures.Text" xml:space="preserve">
+    <value>ریست کردن نیرو و جابجایی در ابتدای تست</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>آپشن</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>رنگ ها</value>
+  </data>
+  <data name="label100.Text" xml:space="preserve">
+    <value>نمودار</value>
+  </data>
+  <data name="label102.Text" xml:space="preserve">
+    <value>نمودار دوم</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>چاپ</value>
+  </data>
+  <data name="label200.Text" xml:space="preserve">
+    <value>رنگها</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>درجه ها:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>پوشه تست ها:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>فضای صفحه:</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>زمينه:</value>
+  </data>
+  <data name="label71.Text" xml:space="preserve">
+    <value>کليات</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>تیتر:</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>توری نمودار:</value>
+  </data>
+  <data name="lbBrowse.Text" xml:space="preserve">
+    <value>مرور</value>
+  </data>
+  <data name="lbColors.Text" xml:space="preserve">
+    <value>رنگ ها</value>
+  </data>
+  <data name="lbSampleDim1.Text" xml:space="preserve">
+    <value>تعداد تست های اخير:</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="llApply.Text" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="llColorPreview.Text" xml:space="preserve">
+    <value>پیش نمایش</value>
+  </data>
+  <data name="llGeneral.Text" xml:space="preserve">
+    <value>کليات</value>
+  </data>
+  <data name="llLogo.Text" xml:space="preserve">
+    <value>لوگو</value>
+  </data>
+  <data name="llPrint.Text" xml:space="preserve">
+    <value>چاپ</value>
+  </data>
+  <data name="tpColors.Text" xml:space="preserve">
+    <value>رنگ ها</value>
+  </data>
+  <data name="tpGeneral.Text" xml:space="preserve">
+    <value>کليات</value>
+  </data>
+  <data name="tpLogo.Text" xml:space="preserve">
+    <value>لوگو</value>
+  </data>
+  <data name="tpPrint.Text" xml:space="preserve">
+    <value>چاپ</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="llGeneral.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt, style=Bold</value>
+  </data>
+  <data name="llGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 15</value>
+  </data>
+  <data name="llGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 29</value>
+  </data>
+  <data name="lbColors.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="lbColors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 45</value>
+  </data>
+  <data name="lbColors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 26</value>
+  </data>
+  <data name="pnlNavigation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 308</value>
+  </data>
+  <data name="llPrint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 105</value>
+  </data>
+  <data name="llPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 26</value>
+  </data>
+  <data name="llLogo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 75</value>
+  </data>
+  <data name="llLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 26</value>
+  </data>
+  <data name="llApply.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 242</value>
+  </data>
+  <data name="llApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 26</value>
+  </data>
+  <data name="linkLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 272</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 26</value>
+  </data>
+  <data name="cbResetMeasures.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbResetMeasures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 165</value>
+  </data>
+  <data name="cbResetMeasures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 30</value>
+  </data>
+  <data name="cbGeneralShowLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbGeneralShowLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 105</value>
+  </data>
+  <data name="cbGeneralShowLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 30</value>
+  </data>
+  <data name="label71.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt, style=Bold</value>
+  </data>
+  <data name="label71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 15</value>
+  </data>
+  <data name="label71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 29</value>
+  </data>
+  <data name="lbBrowse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="lbBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 45</value>
+  </data>
+  <data name="lbBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 26</value>
+  </data>
+  <data name="txtGeneralOutputDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="lbSampleDim1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="lbSampleDim1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 75</value>
+  </data>
+  <data name="lbSampleDim1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 26</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 45</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="cbPlotGridLines.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbPlotGridLines.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 135</value>
+  </data>
+  <data name="cbPlotGridLines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 30</value>
+  </data>
+  <data name="txtGeneralMaxRcFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 76</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logoTool1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="logoTool1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 270</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logoTool1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label200.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label200.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label200.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 134</value>
+  </data>
+  <data name="label200.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 26</value>
+  </data>
+  <data name="llColorPreview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="llColorPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 226</value>
+  </data>
+  <data name="llColorPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 26</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt, style=Bold</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 15</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 29</value>
+  </data>
+  <data name="txtColorsGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 225</value>
+  </data>
+  <data name="txtColorsTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 195</value>
+  </data>
+  <data name="txtColorsScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 165</value>
+  </data>
+  <data name="label102.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label102.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label102.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label102.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 251</value>
+  </data>
+  <data name="label102.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 26</value>
+  </data>
+  <data name="label100.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label100.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 104</value>
+  </data>
+  <data name="label100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 26</value>
+  </data>
+  <data name="txtColorsLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 135</value>
+  </data>
+  <data name="txtColorsDiagram2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 255</value>
+  </data>
+  <data name="txtColorsDiagram2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="txtColorsDiagram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 105</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 226</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 26</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 195</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 26</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>418, 164</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 26</value>
+  </data>
+  <data name="txtColorsBackground.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 75</value>
+  </data>
+  <data name="txtColorsPageSpace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 45</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 45</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 75</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 26</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt, style=Bold</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 15</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 29</value>
+  </data>
+  <data name="cbPrintTestsResults.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbPrintTestsResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 135</value>
+  </data>
+  <data name="cbPrintTestsResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 30</value>
+  </data>
+  <data name="cbPrintTestsSpec.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbPrintTestsSpec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 105</value>
+  </data>
+  <data name="cbPrintTestsSpec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 30</value>
+  </data>
+  <data name="cbPrintPlot.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbPrintPlot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 75</value>
+  </data>
+  <data name="cbPrintPlot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 30</value>
+  </data>
+  <data name="cbPrintLogo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Nazanin, 13pt</value>
+  </data>
+  <data name="cbPrintLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 45</value>
+  </data>
+  <data name="cbPrintLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 30</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>622, 308</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>حداکثر تعداد سمپل برای سایزبندی خودکار:</value>
+  </data>
+</root>
